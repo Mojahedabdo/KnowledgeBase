@@ -2335,19 +2335,23 @@ Regulární výrazy můžete použít také k porovnání parametrů dotazu a/ne
 
 **Uvození speciálních znaků**
 
-Nezapomeňte v regulárních výrazech uvodit speciální znaky jako `,`, `/` a `$`. Pro tento účel použijte znak `\`. Např. uvozená čárka by měla vypadat takto: `\,`.
+Special characters should be URL-encoded in a rule to correctly match the URL text.
+
+For example, to remove `?$param=true`, you should use the `$removeparam=%24param` rule.
 
 :::note
 
-Pravidla typu regexp se zaměřují na název i hodnotu parametru. Aby se minimalizovala možnost chyb, je bezpečnější začínat každý regexp znakem `/^`, pokud se nezaměřujete výslovně na hodnoty parametrů.
+Spaces and commas should also be URL-encoded, otherwise the rule won't match the URL. However, `.`, `-`, `_`, and `~` should be used as they are, since they are not marked as reserved characters in URL encoding.
 
 :::
 
-Pokusíme se automaticky detekovat a ignorovat neuvozený znak `$` pomocí jednoduchého pravidla — nejedná se o oddělovač možností, pokud jsou všechny tři hodnoty pravdivé:
+Remember to escape special characters like `.` in the regular expressions. Use the `\` character to do this. For example, an escaped dot should look like this: `\.`.
 
-1. Vypadá to jako `$/`
-1. Nalevo od něj je další znak lomítka `/`
-1. Nalevo od tohoto znaku lomítka je další znak dolaru bez uvození `$`
+:::note
+
+Regexp-type rules apply to both the name and value of the parameter. To minimize errors, it is safer to start each regexp with `/^`, unless you are specifically targeting parameter values.
+
+:::
 
 **Odebrat všechny parametry dotazu**
 
@@ -2361,6 +2365,12 @@ Pro použití inverze použijte `~`:
 
 - `$removeparam=~param` — odstraní všechny parametry dotazu s názvem odlišným od `param`.
 - `$removeparam=~/regexp/` — odstraní všechny parametry dotazu, které neodpovídají regulárnímu výrazu `regexp`.
+
+:::note
+
+If `~` does not appear at the beginning of the rule, it is treated as a symbol in the text.
+
+:::
 
 **Negace `$removeparam`**
 

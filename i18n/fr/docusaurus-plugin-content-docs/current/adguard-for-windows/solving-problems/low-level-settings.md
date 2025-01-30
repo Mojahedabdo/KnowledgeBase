@@ -5,7 +5,7 @@ sidebar_position: 7
 
 :::info
 
-Cet article parle de AdGuard pour Windows, un bloqueur de contenus multifonctionnel qui protège votre appareil au niveau du système. To see how it works, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+Cet article parle de AdGuard pour Windows, un bloqueur de contenus multifonctionnel qui protège votre appareil au niveau du système. Pour voir comment cela fonctionne, [téléchargez l'application AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
@@ -31,7 +31,7 @@ If enabled, AdGuard will block TCP Fast Open in the Edge browser. To apply setti
 
 ### Use Encrypted Client Hello
 
-Every encrypted Internet connection has an unencrypted part. This is the very first packet which contains the name of the server you are connecting to. Encrypted Client Hello technology is supposed to solve this issue and encrypt that last bit of unencrypted information. To benefit from it, enable the *Use Encrypted Client Hello* option. It uses a local DNS proxy to look for the ECH configuration for the domain. If it is found, Client Hello packet will be encrypted.
+Every encrypted Internet connection has an unencrypted part. This is the very first packet which contains the name of the server you are connecting to. La technologie Encrypted Client Hello est censée résoudre ce problème et chiffrer ce dernier morceau d'information non chiffrée. To benefit from it, enable the *Use Encrypted Client Hello* option. It uses a local DNS proxy to look for the ECH configuration for the domain. If it is found, Client Hello packet will be encrypted.
 
 ### Check websites' certificate transparency
 
@@ -55,7 +55,7 @@ If you want AdGuard not to filter any specific application, specify the full pat
 
 ### Enable AdGuard pop-up notifications
 
-Enable this feature to see AdGuard pop-up notifications. They do not appear too often and contain only important information. You can also use the tray menu to recall the last pop-up notification.
+Enable this feature to see AdGuard pop-up notifications. Ils n'apparaissent pas trop souvent et contiennent uniquement des informations importantes. You can also use the tray menu to recall the last pop-up notification.
 
 ### Automatically intercept filter subscription URLs
 
@@ -73,7 +73,7 @@ Otherwise, AdGuard will filter all the traffic on the fly, without redirection. 
 
 ### Open main window at system start-up
 
-Enable this option to make the main AdGuard window open after the system is loaded. Note that it doesn't affect whether the actual filtering service is launched or not, this setting is located in *Settings → General Settings*.
+Enable this option to make the main AdGuard window open after the system is loaded. Notez que cela n'affecte pas le lancement ou non du service de filtrage réel, ce paramètre se situe dans *Paramètres → Mode général*.
 
 ### Enable filtering at system start-up
 
@@ -95,7 +95,7 @@ If you don't want AdGuard to filter particular subnets, enable this feature and 
 
 ### Enable HAR writing
 
-This option should be enabled **only for debugging purposes**. Ticking the checkbox will make AdGuard create a file in the HAR 1.2 format containing information about all filtered HTTP requests. This file can be analyzed with the Fiddler app. Note that it may slow down your web browsing significantly.
+This option should be enabled **only for debugging purposes**. Cocher la case à cocher fera en sorte qu'AdGuard crée un fichier au format HAR 1.2 contenant des informations sur toutes les requêtes HTTP filtrées. This file can be analyzed with the Fiddler app. Veuillez noter que cela peut ralentir votre navigation sur le web de manière significative.
 
 ### Add an extra space to the plain HTTP request
 
@@ -217,20 +217,20 @@ Here you can specify an alternate DNS server to which a DNS request will be rero
 
 If enabled, AdGuard strips Encrypted Client Hello parameters from responses.
 
-### List of custom fallback servers
+### Liste des serveurs de secours personnalisés
 
-If you want AdGuard to use custom fallback servers, list them in this section, one per line.
+Si vous souhaitez qu'AdGuard utilise des serveurs de secours personnalisés, listez-les dans cette section, un par ligne.
 
-### List of custom bootstrap addresses
+### Liste des adresses d'amorçage personnalisées
 
-A bootstrap is an intermediate DNS server used to get the IP address of the secure DNS server you chose earlier in *DNS protection*. Such a "middle ground" is needed when using protocols that denote the server address by letters (such as DNS-over-TLS, for example). In this case, the bootstrap acts as a translator, transforming the letters into numbers your system can understand.
+Un amorçage est un serveur DNS intermédiaire utilisé pour obtenir l'adresse IP du serveur DNS sécuritaire que vous avez choisi précédemment dans *Protection DNS*. Un "terme moyen" est nécessaire lors de l'utilisation de protocoles qui désignent l'adresse du serveur par des lettres (comme DNS-over-TLS, par exemple). Dans ce cas, l'amorçage agit comme un traducteur, transformant les lettres en chiffres que votre système peut comprendre.
 
-By default, the system DNS resolver is used, and the initial bootstrap request is made through port 53. If this does not suit you, list here the IP addresses of the DNS servers that will be used to determine the address of the encrypted DNS server in the top-to-bottom order. The specified IP addresses will be applied in the order listed. If you specify invalid addresses, or no addresses at all, the system IPs will be used.
+Par défaut, le résolveur DNS du système est utilisé, et la requête d'amorçage initiale est effectuée via le port 53. Si cela ne vous convient pas, saisissez ici les adresses IP des serveurs DNS qui seront utilisées pour déterminer l'adresse du serveur DNS crypté dans l'ordre de haut en bas. Les adresses IP spécifiées seront appliquées dans l’ordre indiqué. Si vous spécifiez des adresses invalide, ou aucune adresse du tout, les IP du système seront utilisées.
 
-### DNS exclusions
+### Exclusions DNS
 
-All DNS requests to domains listed here will be redirected to the system default DNS server instead of the DNS server specified in the app’s settings. Also, DNS blocking rules will not be applied to such requests.
+Toutes les Requêtes DNS vers les domaines énumérés ici seront redirigées vers le serveur DNS Par défaut du système au lieu du serveur DNS spécifié dans les paramètres de l'application. De plus, les règles de blocage DNS ne seront pas appliquées à de telles requêtes.
 
-### Exclude specified Wi-Fi networks names (SSIDs) from the DNS filtering
+### Exclusion des noms de réseaux Wi-Fi (SSID) spécifiés du filtrage DNS
 
-DNS protection will not include Wi-Fi networks listed in this section. Specify Wi-Fi networks names (SSIDs) one per line. This can be useful if a particular Wi-Fi network is already protected by AdGuard Home or another DNS protection system. In this case, it is superfluous to filter DNS requests again.
+La protection DNS n'inclura pas les réseaux Wi-Fi répertoriés dans cette section. Spécifiez les noms de réseaux Wi-Fi (SSID) un par ligne. Cela peut être utile si un réseau Wi-Fi particulier est déjà protégé par AdGuard Home ou un autre système de protection DNS. Dans ce cas, il est inutile de filtrer à nouveau les requêtes DNS.

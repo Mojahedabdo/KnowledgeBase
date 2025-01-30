@@ -7,9 +7,9 @@ Tato stránka popisuje funkce a podrobnosti centrální správy zásad a předvo
 
 ## 1. Stažení MSI {#msi-download}
 
-Stáhněte [AdGuard MSI x86](https://cdn.adtidy.org/distr/windows/AdGuard_x86.msi)
+Download the [AdGuard MSI x86](https://static.adguard.com/windows/setup86.msi)
 
-Stáhněte [AdGuard MSI x64](https://cdn.adtidy.org/distr/windows/AdGuard_x64.msi)
+Download the [AdGuard MSI x64](https://static.adguard.com/windows/setup64.msi)
 
 ## 2. Konfigurace nastavení pro vaši síť {#settings-configuring}
 

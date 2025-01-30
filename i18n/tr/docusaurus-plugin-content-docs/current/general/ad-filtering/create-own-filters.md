@@ -2335,19 +2335,23 @@ You can also use regular expressions to match query parameters and/or their valu
 
 **Escaping special characters**
 
-Do not forget to escape special characters like `,`, `/` and `$` in the regular expressions. Use `\` character for that purpose. For example, an escaped comma should look like this: `\,`.
+URL metnini doğru şekilde eşleştirmek için özel karakterler bir kuralda URL olarak kodlanmalıdır.
+
+Örneğin, `?$param=true` kuralını kaldırmak için `$removeparam=%24parama` kuralını kullanmalısınız.
 
 :::not
 
-Regexp-type rules target both name and value of the parameter. To minimize mistakes, it is safer to start every regexp with `/^` unless you specifically target parameter values.
+Boşluklar ve virgüller de URL ile kodlanmalıdır, aksi takdirde kural URL ile eşleşmez. Ancak, `.`, `-`, `_` ve `~` URL kodlamasında ayrılmış karakterler olarak işaretlenmedikleri için oldukları gibi kullanılmalıdır.
 
 :::
 
-We will try to detect and ignore unescaped `$` automatically using a simple rule of thumb — it is not an options delimiter if all three are true:
+Remember to escape special characters like `.` in the regular expressions. Bunu yapmak için `\` karakterini kullanın. Örneğin, kaçan bir nokta şu şekilde görünmelidir: `\.`.
 
-1. It looks like `$/`
-1. There is another slash character `/` to the left of it
-1. There is another unescaped dollar sign `$` to the left of that slash character
+:::not
+
+Regexp-type rules apply to both the name and value of the parameter. To minimize errors, it is safer to start each regexp with `/^`, unless you are specifically targeting parameter values.
+
+:::
 
 **Remove all query parameters**
 
@@ -2361,6 +2365,12 @@ Use `~` to apply inversion:
 
 - `$removeparam=~param` — removes all query parameters with the name different from `param`.
 - `$removeparam=~/regexp/` — removes all query parameters that do not match the `regexp` regular expression.
+
+:::not
+
+Eğer `~` kuralın başında yer almıyorsa, metin içinde bir sembol olarak değerlendirilir.
+
+:::
 
 **Negating `$removeparam`**
 

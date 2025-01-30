@@ -2335,19 +2335,23 @@ AdGuard использует тот же синтаксис правил фил�
 
 **Экранирование специальных символов**
 
-Не забывайте экранировать специальные символы, такие как `,`, `/` и `$` в регулярных выражениях. Используйте для этого символ `\`. Например, экранированная запятая должна выглядеть так: `\,`.
+Special characters should be URL-encoded in a rule to correctly match the URL text.
+
+For example, to remove `?$param=true`, you should use the `$removeparam=%24param` rule.
 
 :::note
 
-Правила с регулярными выражениями относятся как к названию, так и к значению параметра. Чтобы свести к минимуму ошибки, рекомендуем начинать регулярное выражение с `/^`, если только вы не хотите специально работать со значениями параметров.
+Spaces and commas should also be URL-encoded, otherwise the rule won't match the URL. However, `.`, `-`, `_`, and `~` should be used as they are, since they are not marked as reserved characters in URL encoding.
 
 :::
 
-Мы стараемся обнаруживать и игнорировать неэкранированные символы `$` автоматически. По умолчанию не считаем символ разделителем, если верны три условия:
+Remember to escape special characters like `.` in the regular expressions. Use the `\` character to do this. For example, an escaped dot should look like this: `\.`.
 
-1. Есть сочетание `$/`
-1. Слева от символа есть ещё один слеш `/`
-1. Слева от этого слеша есть ещё один неэкранированный символ `$`
+:::note
+
+Regexp-type rules apply to both the name and value of the parameter. To minimize errors, it is safer to start each regexp with `/^`, unless you are specifically targeting parameter values.
+
+:::
 
 **Удалите все параметры запроса**
 
@@ -2361,6 +2365,12 @@ AdGuard использует тот же синтаксис правил фил�
 
 - `$removeparam=~param` удаляет все параметры запроса, кроме `param`.
 - `$removeparam=~/regexp/` удаляет все параметры запроса, которые не совпадают с заданным регулярным выражением `regexp`.
+
+:::note
+
+If `~` does not appear at the beginning of the rule, it is treated as a symbol in the text.
+
+:::
 
 **Исключение правил с `$removeparam`**
 
@@ -3109,9 +3119,9 @@ Rules with extended CSS selectors are not supported by AdGuard Content Blocker.
 
 Regardless of the CSS pseudo-classes you are using in the rule, you can use special markers to force applying these rules by ExtendedCss. It is recommended to use these markers for all extended CSS cosmetic rules so that it was easier to find them.
 
-The syntax for extended CSS rules:
+Синтаксис расширенных CSS-правил:
 
-- `#?#` — for element hiding, `#@?#` — for exceptions
+- `#?#` — для скрытия элемента, `#@?#` — для исключений
 - `#$?#` — for CSS rules, `#@$?#` — for exceptions
 
 We **strongly recommend** using these markers any time when you use an extended CSS selector.
@@ -3151,7 +3161,7 @@ Rules with the `:has()` pseudo-class must use the [native implementation of `:ha
 
 :::
 
-**Compatibility with other pseudo-classes**
+**Совместимость с другими псевдоклассами**
 
 Synonyms `:-abp-has()` is supported by ExtendedCss for better compatibility.
 
@@ -3254,7 +3264,7 @@ The `:contains()` pseudo-class uses the `textContent` element property for match
 
 :::
 
-**Compatibility with other pseudo-classes**
+**Совместимость с другими псевдоклассами**
 
 Synonyms `:-abp-contains()` and `:has-text()` are supported for better compatibility.
 
@@ -3830,7 +3840,7 @@ This is the most frequently used special attribute. It limits selection with tho
 
 You must use `""` to escape `"`, for instance: `$$script[tag-content="alert(""this is ad"")"]`
 
-For example, take a look at this HTML code:
+Например, рассмотрим такой HTML-код:
 
 ```html
 <script type="text/javascript">
@@ -3882,7 +3892,7 @@ This special attribute may become unsupported in the future. Prefer using the `:
 
 Specifies the maximum length for content of HTML element. If this parameter is set and the content length exceeds the value, a rule does not apply to the element.
 
-**Default value**
+**Значение по умолчанию**
 
 If this parameter is not specified, the `max-length` is considered to be 8192.
 
@@ -3940,7 +3950,7 @@ The `min-length` special attribute must not appear in a selector to the left of 
 :contains(/reg(ular)?ex(pression)?/)
 ```
 
-:::note Compatibility
+:::note Совместимость
 
 `:-abp-contains()` and `:has-text()` are synonyms for `:contains()`.
 
@@ -4368,7 +4378,7 @@ Filter URL: `https://example.org/path/filter.txt`
 
 Filter maintainers can use conditions to supply different rules depending on the ad blocker type. A conditional directive beginning with an `!#if` directive must explicitly be terminated with an `!#endif` directive. Conditions support all basic logical operators.
 
-There are two possible scenarios:
+Есть два возможных сценария:
 
 1. When an ad blocker encounters an `!#if` directive and no `!#else` directive, it will compile the code between `!#if` and `!#endif` directives only if the specified condition is true.
 
