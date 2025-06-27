@@ -1,65 +1,29 @@
-# Website
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=16a085,ffd700,e74c3c&height=180&section=header&text=مجاهد%20عبده&fontSize=40&fontColor=fff" alt="header" />
+</p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  <b><span style="color:#16a085;font-size:22px;">مطور شغوف بالتعلم والتطوير المستمر</span></b><br>
+  <span style="color:#ffd700;">لا أركز على مجال واحد فقط، بل أسعى دائمًا لتحسين وتطوير قدراتي في البرمجة والتقنية.</span><br>
+  <span style="color:#e74c3c;">أؤمن أن توسيع دائرة المهارات هو الطريق الأمثل للنمو المهني والشخصي.</span>
+</p>
 
-`master` branch is published automatically to https://kb-adg.pages.dev/.
+<p align="center">
+  <img src="https://img.shields.io/badge/تعلم-مستمر-16a085?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/مشاريع-مفتوحة%20المصدر-ffd700?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/تعاون-مجتمعي-e74c3c?style=for-the-badge&logo=github" />
+</p>
 
-## How to contribute
+---
 
-You can help by contributing to the Knowledge Base, all details are described [in this article](https://adguard.com/kb/miscellaneous/contribute/updating-knowledge-base/).
+## 🙋‍♂️ عني
 
-## How to develop
+- 💡 <span style="color:#16a085;">دائم البحث عن فرص جديدة للتعلم والمشاركة في المشاريع التقنية.</span>
+- 🚀 <span style="color:#ffd700;">أسعى لاكتساب خبرات متنوعة والتعاون مع مطورين من مختلف الخلفيات.</span>
+- 🌍 <span style="color:#e74c3c;">أرحب بأي فرصة للتعلم أو المشاركة في مشاريع جديدة!</span>
 
-### Prepare
+---
 
-First of all, you need to install the following:
-
-- [git](https://github.com/git-guides/install-git)
-- [pnpm](https://pnpm.io/installation)
-
-Second, clone this repo to your local computer:
-
-- `git clone git@github.com:AdguardTeam/KnowledgeBase.git`
-
-Alternatively, you can use the [Github app](https://desktop.github.com/) to do that.
-
-Then you should open Terminal on your computer, navigate to the directory where you cloned this repo and run this command to install the local dependencies:
-
-- `pnpm install`
-
-### Lint markdown
-
-This command lints the markdown and outputs any errors to the console:
-
-- `pnpm lint:md`
-
-Some of errors can be fixed automatically:
-
-- `pnpm lint:md --fix`
-
-VSCode users can install the [markdownlint extension][vscode-markdownlint] to see the errors in the editor.
-
-### Run it locally
-
-- `pnpm start`
-
-This command [lints markdown syntax](#lint-markdown),
-and if there is no markdownlint errors starts a local development server and opens up a browser window.
-Most changes are reflected live without having to restart the server.
-
-## How to build
-
-- `pnpm build`
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## How to translate
-
-Localizations are not pushed to the repo and prepared on-the-fly (`i18n` folder is added to `.gitignore`).
-
-Here's how you can debug translations locally.
-
-1. Download translations: `CROWDIN_PERSONAL_TOKEN="YOURTOKEN" pnpm run crowdin download`
-2. Run Docusaurus with the language of your choice: `pnpm run start -- --locale de`
-
-[vscode-markdownlint]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=e74c3c,ffd700,16a085&height=120&section=footer"/>
+</p>
