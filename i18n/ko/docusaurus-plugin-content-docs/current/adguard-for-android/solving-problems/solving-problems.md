@@ -9,14 +9,13 @@ This article is about AdGuard for Android, a multifunctional ad blocker that pro
 
 :::
 
-Here are some problems you may encounter and workarounds, guides, and instructions you may need.
+다음은 발생할 수 있는 몇 가지 문제와 해결 방법, 그리고 필요한 지침입니다.
 
 - [Battery and traffic consumption issues](/adguard-for-android/solving-problems/battery.md)
 - [How to collect debug logs](/adguard-for-android/solving-problems/log.md)
 - [How to automate AdGuard for Android](/adguard-for-android/solving-problems/tasker.md)
 - [How to get system logs](/adguard-for-android/solving-problems/logcat.md)
 - [How to generate HAR files](/adguard-for-android/solving-problems/har.md)
-- [Low-level settings guide](/adguard-for-android/solving-problems/low-level-settings.md)
 - [How to block ads in the YouTube app](adguard-for-android/solving-problems/youtube-ads.md)
 - [How to set up outbound proxy](/adguard-for-android/solving-problems/outbound-proxy.md)
 - [How to protect AdGuard from being disabled by the system](/adguard-for-android/solving-problems/background-work.md)

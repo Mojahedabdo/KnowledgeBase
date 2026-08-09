@@ -55,6 +55,24 @@ This script removes Google's tracking feature from the links in Google search re
 
 Its source code is [available on GitHub](https://github.com/Rob--W/dont-track-me-google). This userscript can be downloaded from [GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) and installed in any AdGuard CoreLibs-based app.
 
+#### SponsorBlock
+
+SponsorBlock skips sponsored segments in YouTube videos. It saves time by jumping straight to the main content and removes interruptions from ads and self-promotions.
+
+:::info
+
+This userscript runs exclusively on our desktop applications, AdGuard for Windows and AdGuard for Mac.
+
+:::
+
+To try it out:
+
+1. Go to [https://mchangrh.github.io/sb.js/](https://mchangrh.github.io/sb.js/).
+2. Click **Generate link**.
+3. Copy the link that appears.
+4. Open AdGuard and go to **Extensions → Add extension → Import from file or URL**.
+5. Paste the copied link and confirm.
+
 #### tinyShield
 
 A userscript for people visiting Korean websites and some international websites. The tinyShield userscript blocks Ad-Shield ads and anti-adblocks. This userscript can be installed in AdGuard CoreLibs-based apps, Violentmonkey, Tampermonkey, and [quoid/userscripts](https://github.com/quoid/userscripts). Learn more about tinyShield and how to install it on [GitHub](https://github.com/List-KR/tinyShield).
@@ -93,51 +111,38 @@ If you are developing your own userscript and want to test how it works with AdG
 
 #### Compatibility
 
-#### Metadata block
+##### Metadata block
 
-#### Supported properties
+###### Supported properties
 
-```text
-@name
-@namespace
-@description
-@version
-@match
-@include
-@exclude
-@grant
-@connect
-@require
-@resource
-@downloadURL
-@updateURL
-@supportURL
-@homepageURL
-@homepage
-@website
-@source
-@run-at
-@noframes
-@icon
-@iconURL
-@defaulticon
-@icon64
-@icon64URL
-```
+- [`@name`](https://wiki.greasespot.net/Metadata_Block#@name)
+- [`@namespace`](https://wiki.greasespot.net/Metadata_Block#@namespace)
+- [`@description`](https://wiki.greasespot.net/Metadata_Block#@description)
+- [`@version`](https://wiki.greasespot.net/Metadata_Block#@version)
+- [`@match`](https://wiki.greasespot.net/Metadata_Block#@match)
+- [`@include`](https://wiki.greasespot.net/Metadata_Block#@include)
+- [`@exclude`](https://wiki.greasespot.net/Metadata_Block#@exclude)
+- [`@grant`](https://wiki.greasespot.net/Metadata_Block#@grant)
+- [`@connect`](https://www.tampermonkey.net/documentation.php#meta:connect)
+- [`@require`](https://wiki.greasespot.net/Metadata_Block#@require)
+- [`@resource`](https://wiki.greasespot.net/Metadata_Block#@resource)
+- [`@downloadURL`](https://www.tampermonkey.net/documentation.php#meta:downloadURL)
+- [`@updateURL`](https://www.tampermonkey.net/documentation.php#meta:updateURL)
+- [`@homepage`, `@homepageURL`, `@source`, `@website`](https://www.tampermonkey.net/documentation.php#meta:homepage)
+- [`@run-at`](https://wiki.greasespot.net/Metadata_Block#@run-at)
+- [`@noframes`](https://wiki.greasespot.net/Metadata_Block#@noframes)
+- [`@icon`, `@iconURL`, `@defaulticon`](https://www.tampermonkey.net/documentation.php#meta:icon)
+- [`@icon64`, `@icon64URL`](https://www.tampermonkey.net/documentation.php#meta:icon64)
 
-#### Unsupported properties
+###### Unsupported properties
 
 These properties will be simply ignored by AdGuard.
 
-```text
-@unwrap
-```
+- [`@unwrap`](https://www.tampermonkey.net/documentation.php#meta:unwrap)
 
-#### Supported GM functions
+##### Supported GM functions
 
 AdGuard supports both old GM\_ functions and new GM4 API that use GM object.
-
-#### Values
 
 :::note
 
@@ -145,24 +150,24 @@ All listed old Greasemonkey functions are deprecated but still supported.
 
 :::
 
-```text
-GM.info / GM_info
-GM.setValue / GM_setValue
-GM.getValue / GM_getValue
-GM.listValues / GM_listValues
-GM.deleteValue / GM_deleteValue
-GM.getResourceUrl / GM_getResourceURL
-GM.setClipboard / GM_setClipboard
-GM.xmlHttpRequest / GM_xmlhttpRequest
-GM.openInTab / GM_openInTab
-GM.notification
-unsafeWindow
-GM_getResourceText
-GM_addStyle
-GM_log
-```
+- [`GM.info`, `GM_info`](https://wiki.greasespot.net/GM.info)
+- [`GM.setValue`, `GM_setValue`](https://wiki.greasespot.net/GM.setValue)
+- [`GM.getValue`, `GM_getValue`](https://wiki.greasespot.net/GM.getValue)
+- [`GM.listValues`, `GM_listValues`](https://wiki.greasespot.net/GM.listValues)
+- [`GM.deleteValue`, `GM_deleteValue`](https://wiki.greasespot.net/GM.deleteValue)
+- [`GM.getResourceUrl`, `GM_getResourceURL`](https://wiki.greasespot.net/GM.getResourceUrl)
+- [`GM.setClipboard`, `GM_setClipboard`](https://wiki.greasespot.net/GM.setClipboard)
+- [`GM.xmlHttpRequest`, `GM_xmlhttpRequest`](https://wiki.greasespot.net/GM.xmlHttpRequest)
+- [`GM.openInTab`, `GM_openInTab`](https://wiki.greasespot.net/GM.openInTab)
+- [`GM.notification`](https://wiki.greasespot.net/GM.notification)
+- [`unsafeWindow`](https://wiki.greasespot.net/UnsafeWindow)
+- [`GM_getResourceText`](https://www.tampermonkey.net/documentation.php#api:GM_getResourceText)
+- [`GM_addStyle`](https://www.tampermonkey.net/documentation.php#api:GM_addStyle)
+- [`GM_log`](https://www.tampermonkey.net/documentation.php#api:GM_log)
+- [`GM.addElement`, `GM_addElement`](https://www.tampermonkey.net/documentation.php#api:GM_addElement)
+- [`window.onurlchange`](https://www.tampermonkey.net/documentation.php#api:window.onurlchange)
 
-[Here](https://wiki.greasespot.net/GM.info) you can find more information about Greasemonkey API.
+You can find more information about Greasemonkey API in [its manual](https://wiki.greasespot.net/Greasemonkey_Manual:API).
 
 #### Example
 
@@ -196,11 +201,218 @@ GM_log
 // @grant           GM_info
 // @grant           GM_openInTab
 // @grant           GM_registerMenuCommand
-// @run-at document-start
+// @grant           GM_addElement
+// @grant           window.onurlchange
+// @run-at          document-start
 // ==/UserScript==
 !function(){(
     console.log("I am loaded!");
 )}();
+```
+
+#### Trusted Types API
+
+AdGuard provides an instance of the `PolicyApi` class that allows you to manage Trusted Types in your userscripts.
+
+You can access the instance of this class by using the `ADG_policyApi` variable in your userscript.
+
+##### Properties
+
+- `name: string` — a name of the policy (Default is `"AGPolicy"`).
+- `isSupported: boolean` — a flag indicating whether or not the Trusted Types API is supported by the current browser.
+
+##### Polyfilled methods
+
+- [`ADG_policyApi.createHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createHTML). If not supported, returns `input: string`.
+- [`ADG_policyApi.createScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScript). If not supported, returns `input: string`.
+- [`ADG_policyApi.createScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScriptURL). If not supported, returns `input: string`.
+- [`ADG_policyApi.getAttributeType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType). If not supported, returns `null`.
+- [`ADG_policyApi.getPropertyType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType). If not supported, returns `null`.
+- [`ADG_policyApi.isHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isHTML). If not supported, returns `false`.
+- [`ADG_policyApi.isScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScript). If not supported, returns `false`.
+- [`ADG_policyApi.isScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScriptURL). If not supported, returns `false`.
+
+##### Additional Types
+
+```typescript
+/**
+ * Enum representation of the return values of the `getAttributeType` and
+ * `getPropertyType` methods of the native Trusted Types API.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType}
+ */
+enum TrustedType {
+    HTML = 'TrustedHTML',
+    Script = 'TrustedScript',
+    ScriptURL = 'TrustedScriptURL',
+}
+
+// You can access it like that inside of userscript
+ADG_TrustedType.HTML // "TrustedHTML"
+
+/**
+ * Isomorphic trusted value type. If a browser supports the Trusted Types API, it will be one of the enum Trusted Types
+ * (`TrustedHTML`, `TrustedScript` or `TrustedScriptURL`); otherwise, it will be regular `string`.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScript}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScriptURL}
+ */
+type TrustedValue = string | TrustedHTML | TrustedScript | TrustedScriptURL;
+```
+
+##### Additional methods
+
+```typescript
+/**
+ * Creates a Trusted Type depending on `type`:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param type          Trusted Type.
+ * @param value         Value from which a Trusted Type is created.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Created value.
+ */
+function create(
+    type: TrustedType,
+    value: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+
+// Example: Creates TrustedHTML
+const trustedHTML = ADG_policyApi.create(ADG_TrustedType.HTML, '<div></div>');
+
+/**
+ * Converts `value` of `attribute` into one of the Trusted Types:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param tagName       Name of an HTML tag.
+ * @param attribute     Attribute.
+ * @param value         Value of an attribute to be converted.
+ * @param elementNS     Element namespace. If empty, defaults to the HTML namespace.
+ * @param attrNS        Attribute namespace. If empty, defaults to null.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Converted value.
+ */
+function convertAttributeToTrusted(
+    tagName: string,
+    attribute: string,
+    value: string,
+    elementNS?: string,
+    attrNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Example: Converts to TrustedScriptURL
+const trustedScriptURL = ADG_policyApi.convertAttributeToTrusted("script", "src", 'SOME_URL');
+scriptElement.setAttribute("src", trustedScriptURL);
+
+/**
+ * Converts `value` of `property` into one of the Trusted Types:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param tagName       Name of an HTML tag.
+ * @param property      Property.
+ * @param value         Value of a property to be converted.
+ * @param elementNS     Element namespace. If empty, defaults to the HTML namespace.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Converted value.
+ */
+function convertPropertyToTrusted(
+    tagName: string,
+    property: string,
+    value: string,
+    elementNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Example: Converts to TrustedHTML
+divElement.innerHTML = ADG_policyApi.convertPropertyToTrusted("div", "innerHTML", "<div></div>");
+```
+
+#### Matching SPA sites
+
+:::info Compatibility
+
+This section only applies to AdGuard for Windows, AdGuard for Mac, AdGuard for Android, and AdGuard for Linux with [CoreLibs] v1.19 or later.
+
+:::
+
+Many modern websites, such as YouTube, utilize [Single Page Application (SPA)](https://en.wikipedia.org/wiki/Single-page_application) capabilities. Unlike traditional web applications, the page does not reload when navigating between pages. Instead, the content is updated dynamically using JavaScript, allowing for a smoother user experience.
+
+On such websites, a userscript is invoked only once when the `@match` or `@include` directives are matched (unless `@exclude` is matched). Due to the nature of SPAs, the userscript cannot be re-invoked on subsequent page changes because the global JavaScript context remains the same. To address this issue, userscripts can use the `@grant window.onurlchange` directive.
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @grant window.onurlchange
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onurlchange
+window.onurlchange = (event) => {
+    console.log('URL changed to:', event.url);
+};
+
+// via window.addEventListener('urlchange')
+window.addEventListener('urlchange', (event) => {
+    console.log('URL changed to:', event.url);
+});
+```
+
+This will allow userscripts to listen for URL changes and handle them accordingly.
+
+:::note
+
+The `urlchange` event is only triggered for full URL changes, such as a change in the path or query, but not for fragment (hash) changes.
+Examples:
+
+- Navigation from `https://example.com/page1` to `https://example.com/page2` will trigger the event.
+- Navigation from `https://example.com/page1?query=1` to `https://example.com/page1?query=2` will trigger the event.
+- Navigation from `https://example.com/page1#section1` to `https://example.com/page1#section2` will **NOT** trigger the event.
+
+:::
+
+:::note
+
+The `window.onurlchange` and `window.addEventListener('urlchange', ...)` APIs are non-standard. To use them, you must explicitly grant them in your userscript with `@grant window.onurlchange`.
+
+:::
+
+If a website uses hash routing, userscripts can use the native DOM [`hashchange` event](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event):
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onhashchange
+window.onhashchange = (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+};
+
+// via window.addEventListener('hashchange')
+window.addEventListener('hashchange', (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+});
 ```
 
 ## Userstyles
@@ -211,11 +423,11 @@ AdGuard has the option to upload or create your own userstyles. This is an advan
 
 :::info Supported apps
 
-Currently, two AdGuard apps allow you to create and manage userstyles: AdGuard for Windows (v7.19 or later) and AdGuard for Mac (v2.16 or later). We also plan to implement this new feature in AdGuard v4.8 for Android in the nearest future.
+Currently, two AdGuard apps allow you to create and manage userstyles: AdGuard for Windows (v7.19 or later) and AdGuard for Mac (v2.16 or later). We also plan to implement this new feature in AdGuard for Android v4.8 in the nearest future.
 
 :::
 
-This is an experimental feature, so if you encounter any problems while adding or creating a userstyle, please contact our support team at <support@adguard.com>.
+This is an experimental feature, so if you encounter any problems while adding or creating a userstyle, please contact our support team at [support@adguard.com](mailto:support@adguard.com).
 
 ### How to set up a userstyle in AdGuard
 
@@ -291,3 +503,5 @@ We don’t support userstyles that contain `@var` or `@advanced` in the metadata
     }
 }
 ```
+
+[CoreLibs]: https://github.com/AdguardTeam/CoreLibs

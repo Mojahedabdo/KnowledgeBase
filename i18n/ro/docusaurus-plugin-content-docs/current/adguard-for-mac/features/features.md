@@ -9,56 +9,38 @@ Acest articol se referă la AdGuard pentru macOS, un blocant de reclame multifun
 
 :::
 
-## Fereastra principală
+- [Fereastra principală](/adguard-for-mac/features/main.md)
 
-Din fereastra principală, puteți comuta protecția, vizualiza statistici despre reclamele, trackerele și amenințările blocate și accesa setările, actualizările, suportul și gestionarea licențelor.
+  Main screen with statistics on blocked ads and trackers and access to main settings
 
-[Fereastra principală](/adguard-for-mac/features/main.md)
+- [General](/adguard-for-mac/features/general.md)
 
-## General
+  Basic settings to block search ads and website self-promotional ads, enable language-specific filters, and manage _Allowlist_
 
-Here you can configure basic settings such as _Do not block search ads and website self-promoting ads_, _Activate language-specific filters automatically_, _Launch AdGuard at login_, _Hide menu bar icon_, and _Allowlist_.
+- [Filtre](/adguard-for-mac/features/filters.md)
 
-[General](/adguard-for-mac/features/general.md)
+  Filters and user rules to fine-tune ad blocking
 
-## Filtre
+- [DNS](/adguard-for-mac/features/dns.md)
 
-Here you learn how you can customize your ad blocking by enabling different filter lists, including language-specific filters, third-party filters, and user rules.
+  DNS servers and DNS filters that let you block ads, trackers, and dangerous websites
 
-[Filtre](/adguard-for-mac/features/filters.md)
+- [Stealth Mode](/adguard-for-mac/features/stealth.md)
 
-## DNS
+  Settings to block cookies, UTM tags, and online analytics that collect user information
 
-Aici puteți găsi setările de protecție DNS: furnizorii disponibili, filtrele, funcțiile listei de blocări și ale listei permise.
+- [Securitate](/adguard-for-mac/features/security.md)
 
-[DNS](/adguard-for-mac/features/dns.md)
+  A setting that blocks access to malicious and phishing websites and protects you from online threats
 
-## Modul Incognito
+- [Asistent Browser](/adguard-for-mac/features/browser-assistant.md)
 
-[Mod invizibil](/adguard-for-mac/features/stealth.md)
+  An extension that complements the desktop app and allows you to manage filtering from your browser
 
-Information on how to set up advanced protection by deleting cookies, UTM tags, online counters, and analytics systems, and not allowing websites to collect your IP address, device and browser parameters, search queries, and personal information.
+- [Extensii](/adguard-for-mac/features/extensions.md)
 
-## Securitate
+  A feature that allows you to extend the functionality of websites by adding userscripts and userstyles
 
-Include setări pentru a vă proteja de phishing și malware. De asemenea, puteți ajuta AdGuard să actualizeze baza sa de date cu amenințări cunoscute, acceptând să trimiteți informații anonime legate de securitate.
+- [Rețea](/adguard-for-mac/features/network.md)
 
-[Securitate](/adguard-for-mac/features/security.md)
-
-## Asistent Browser
-
-Informații despre cum să gestionați protecția AdGuard direct din browser.
-
-[Asistent Browser](/adguard-for-mac/features/browser-assistant.md)
-
-## Extensii
-
-Aici veți învăța cum să utilizați AdGuard ca un manager de scripturi utilizator pentru a extinde funcționalitatea site-urilor. Puteți adăuga propriile scripturi, precum și gestiona scripturile existente.
-
-[Extensii](/adguard-for-mac/features/extensions.md)
-
-## Rețea
-
-Acest articol descrie opțiuni suplimentare legate de rețea și setările proxy, unde puteți specifica ce server proxy ar trebui să folosească AdGuard pentru a actualiza filtrele, a descărca versiuni noi și așa mai departe.
-
-[Rețea](/adguard-for-mac/features/network.md)
+  Additional network-related options and proxy settings

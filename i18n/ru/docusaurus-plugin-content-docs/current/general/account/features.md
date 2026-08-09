@@ -1,38 +1,37 @@
 ---
-title: What can be done in the AdGuard account
+title: Что есть в личном кабинете AdGuard
 sidebar_position: 2
 ---
 
-В личном кабинете вы можете управлять своими лицензиями, привязанными к ним устройствами, личными данными, электронной почтой и паролем, просматривать покупки и обращаться в поддержку.
+В личном кабинете вы можете управлять своими лицензиями, привязанными устройствами, личными данными, электронной почтой и паролем, просматривать покупки и обращаться в поддержку.
 
-## Управление настройками личного кабинета
+## Настройки личного кабинета
 
-In the *Settings* section of your AdGuard account, you can update or reset your password, change your email address, enable one-time code login or [two-factor authentication](../2fa), view the data stored about you by AdGuard, and select the language of your account and notifications.
+В разделе *Настройки* вы можете обновить пароль и адрес почты, включить [двухфакторную аутентификацию](../2fa), просмотреть, какие именно данные хранит AdGuard, и выбрать язык.
 
 В этом разделе вы также можете управлять настройками электронной почты:
 
-- Receive AdGuard newsletter
-- Receive transactional emails
-- Send read receipts to AdGuard
-- Opt-out preferences
+- Получать рассылку AdGuard
+- Получать письма о покупках и изменениях настроек
+- Отправлять уведомления о прочтении в AdGuard
+- Настроить рассылку
 
-## Управление лицензиями
+## Лицензии
 
-В разделе *Лицензии* вы можете управлять своими лицензиями и привязанными к ним устройствами.
+В разделе *Лицензии* можно управлять лицензиями и подключёнными устройствами.
 
-[Лицензия AdGuard](../../license/what-is) может быть:
+[Лицензию AdGuard](../../license/what-is) можно:
 
-- привязанной и непривязанной,
-- расширенной,
-- улучшенной,
-- отменённой. Вы также можете обновить свои платёжные реквизиты.
+- привязать и отвязать,
+- продлить,
+- улучшить,
 
-Устройства, привязанные к вашим лицензиям Блокировщика рекламы AdGuard, можно отменить или переименовать. To unbind unused devices, click the number of bound devices next to *Devices*, then select the right arrow → *Remove*.
+Вы можете дать имена устройствам, привязанным к лицензиям Блокировщика AdGuard. Чтобы отвязать неиспользуемые устройства, нажмите на число рядом с *Устройствами*, затем на стрелку и *Удалить*.
 
-## Просмотр покупок
+## Покупки
 
-The *Purchases* section displays all the licenses that you have ever purchased using the email account you registered your AdGuard account with. Вы также найдете там информацию о дате покупки, номере заказа, способе оплаты и стоимости покупки.
+В разделе *Покупки* отображаются все лицензии, которые вы купили, используя почту, с которой зарегистрирован ваш аккаунт AdGuard. Там же будет информация о дате покупки, номере заказа, способе оплаты и стоимости покупки.
 
-## Activity
+## Активность
 
-The *Activity* tab allows you to monitor login activity for your AdGuard account. It displays the email address used, location, and login date. You can also filter records by product: *All products*, *AdGuard Ad Blocker*, *AdGuard VPN*, *AdGuard DNS*.
+Во вкладке *Активность* можно отследить историю входов в личный кабинет AdGuard. Здесь отображаются почта, место и дата входа в кабинет. Можно отфильтровать записи по продукту: *Все продукты*, *Блокировщик AdGuard*, *AdGuard VPN*, *AdGuard DNS*.

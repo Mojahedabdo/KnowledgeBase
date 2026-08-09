@@ -38,7 +38,7 @@ Just send an email to our translators team at [translate@adguard.com](mailto:tra
 > Hi AdGuard team!
 >
 > I’ve translated more than 5,000 words in AdGuard for Android in (*your language*) — you can find my stats attached.
-I would like to request an AdGuard VPN license and an Ad Blocker license for that.
+As a reward, I’d like to request an AdGuard VPN license and an Ad Blocker license
 My email is (*your email address*).
 My Crowdin username is (*your username*).
 
@@ -58,6 +58,6 @@ Please note that proofreaders do not receive extra licenses or benefits beyond h
 
 ## Gifts for active contributors
 
-To the best contributors, every year we send gifts with the AdGuard merch and give a shout out on our [blog](https://adguard.com/en/blog/best-contributors-2023.html).
+To the best contributors, every year we send gifts with the AdGuard merch and give a shout out on our [blog](https://adguard.com/en/blog/best-contributors-2024.html).
 
 ![AdGuard merch *border](https://cdn.adguard.com/public/Adguard/Blog/presents.png)

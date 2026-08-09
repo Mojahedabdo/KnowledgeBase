@@ -1,5 +1,5 @@
 ---
-title: Özellikler
+title: Features
 sidebar_position: 1
 ---
 
@@ -9,56 +9,38 @@ Bu makale, cihazınızı sistem düzeyinde koruyan çok işlevli bir reklam enge
 
 :::
 
-## Ana pencere
+- [Main window](/adguard-for-mac/features/main.md)
 
-From the main window, you can toggle protection, view statistics on blocked ads, trackers, and threats, and access settings, updates, support, and license management.
+  Main screen with statistics on blocked ads and trackers and access to main settings
 
-[Main window](/adguard-for-mac/features/main.md)
+- [General](/adguard-for-mac/features/general.md)
 
-## Genel
+  Basic settings to block search ads and website self-promotional ads, enable language-specific filters, and manage _Allowlist_
 
-Here you can configure basic settings such as _Do not block search ads and website self-promoting ads_, _Activate language-specific filters automatically_, _Launch AdGuard at login_, _Hide menu bar icon_, and _Allowlist_.
+- [Filters](/adguard-for-mac/features/filters.md)
 
-[General](/adguard-for-mac/features/general.md)
+  Filters and user rules to fine-tune ad blocking
 
-## Filtreler
+- [DNS](/adguard-for-mac/features/dns.md)
 
-Here you learn how you can customize your ad blocking by enabling different filter lists, including language-specific filters, third-party filters, and user rules.
+  DNS servers and DNS filters that let you block ads, trackers, and dangerous websites
 
-[Filters](/adguard-for-mac/features/filters.md)
+- [Stealth Mode](/adguard-for-mac/features/stealth.md)
 
-## DNS
+  Kullanıcı bilgilerini toplayan çerezleri, UTM etiketlerini ve çevrimiçi analizleri engelleme ayarları
 
-Here you can find the DNS protection settings: available providers, filters, Blocklist and Allowlist functions.
+- [Security](/adguard-for-mac/features/security.md)
 
-[DNS](/adguard-for-mac/features/dns.md)
+  Kötü amaçlı ve kimlik avı yapan sitelere erişimi engelleyen ve sizi çevrimiçi tehditlerden koruyan bir ayar
 
-## Gizlilik Modu
+- [Browser Assistant](/adguard-for-mac/features/browser-assistant.md)
 
-[Stealth Mode](/adguard-for-mac/features/stealth.md)
+  An extension that complements the desktop app and allows you to manage filtering from your browser
 
-Information on how to set up advanced protection by deleting cookies, UTM tags, online counters, and analytics systems, and not allowing websites to collect your IP address, device and browser parameters, search queries, and personal information.
+- [Uzantılar](/adguard-for-mac/features/extensions.md)
 
-## Güvenlik
+  Kullanıcı betikleri ve kullanıcı stilleri ekleyerek sitelerin işlevselliğini genişletmenize olanak tanıyan bir özellik
 
-It includes settings to protect you from phishing and malware. You can also help AdGuard update its database of known threats by agreeing to send anonymous security-related information.
+- [Ağ](/adguard-for-mac/features/network.md)
 
-[Security](/adguard-for-mac/features/security.md)
-
-## Tarayıcı Asistanı
-
-Information on how to manage AdGuard protection directly from the browser.
-
-[Browser Assistant](/adguard-for-mac/features/browser-assistant.md)
-
-## Uzantılar
-
-Burada, sitelerin işlevselliğini artırmak için AdGuard'ı bir kullanıcı betiği yöneticisi olarak nasıl kullanacağınızı öğreneceksiniz. Kendi betiklerinizi ekleyebileceğiniz gibi mevcut olanları da yönetebilirsiniz.
-
-[Uzantılar](/adguard-for-mac/features/extensions.md)
-
-## Ağ
-
-This article describes additional network-related options and proxy settings where you can specify which proxy server AdGuard should use to update filters, download new versions, and so on.
-
-[Ağ](/adguard-for-mac/features/network.md)
+  Additional network-related options and proxy settings

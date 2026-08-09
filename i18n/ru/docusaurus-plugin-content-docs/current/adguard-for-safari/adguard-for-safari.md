@@ -9,26 +9,18 @@ sidebar_position: 2
 
 :::
 
-## Функции
+- [Функции](/archive/adguard-for-safari/features/features.md)
 
-Здесь описаны основные функции и настройки, доступные в AdGuard для Safari.
+  Main features and settings available in AdGuard for Safari
 
-[Функции](/adguard-for-safari/features/features.md)
+- [Установка](/archive/adguard-for-safari/installation.md)
 
-## Установка
+  Установка, удаление и системные требования для AdGuard для Safari
 
-Здесь вы найдёте системные требования, а также инструкции по установке и удалению AdGuard для Safari.
+- [Расширения Safari](/archive/adguard-for-safari/extensions.md)
 
-[Установка](/adguard-for-safari/installation.md)
+  Расширения, которые расширяют функциональность веб-браузера Safari
 
-## Расширения Safari
+- [Решение проблем](/archive/adguard-for-safari/solving-problems/solving-problems.md)
 
-Здесь вы найдёте информацию о расширениях в AdGuard для Safari: как они работают, чем отличаются и как их установить.
-
-[Расширения Safari](/adguard-for-safari/extensions.md)
-
-## Решение проблем
-
-Этот раздел включает в себя статьи, посвящённые известным проблемам и возможным решениям.
-
-[Решение проблем](/adguard-for-safari/solving-problems/solving-problems.md)
+  Известные проблемы и возможные решения

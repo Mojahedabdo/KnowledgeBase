@@ -5,24 +5,18 @@ sidebar_position: 1
 
 :::info
 
-この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for Mac」についてです。 実際どのように機能するのかを確認するには、[AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
+この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for Mac」についてです。 実際どのように機能するのかを確認するには、 [AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
 
 :::
 
-## Features
+- [機能](/adguard-for-mac/features/features.md)
 
-Here are outlined the main features and settings available in AdGuard for Mac.
+  Main features and settings available in AdGuard for Mac
 
-[Features](/adguard-for-mac/features/features.md)
+- [インストール方法](/adguard-for-mac/installation.md)
 
-## インストール/アンインストール
+  動作環境と、AdGuard for Mac のインストールおよびアンインストール方法の手順について説明しております：
 
-Here, you’ll find the system requirements along with instructions on how to install and uninstall AdGuard for Mac.
+- [問題解決](/adguard-for-mac/solving-problems/solving-problems.md)
 
-[Installation](/adguard-for-mac/installation.md)
-
-### 問題解決
-
-This section includes various articles addressing known issues and possible solutions.
-
-[Solving problems](/adguard-for-mac/solving-problems/solving-problems.md)
+  既知の問題と考えられる解決策を説明する記事がまとめられています：

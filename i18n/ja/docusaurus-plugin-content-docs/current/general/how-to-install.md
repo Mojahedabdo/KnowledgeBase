@@ -1,6 +1,6 @@
 ---
 title: AdGuard のインストール方法
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 インストールしたいAdGuardアプリ・ブラウザ拡張機能に応じて、以下のリンクから関連記事をご覧ください。
@@ -15,6 +15,6 @@ sidebar_position: 9
 
 [AdGuard ブラウザ拡張機能](/adguard-browser-extension/installation)
 
-[AdGuard for Safari](/adguard-for-safari/installation)
+[AdGuard for Safari](/archive/adguard-for-safari/installation)
 
 [AdGuard コンテンツブロッカー](/adguard-content-blocker/installation)

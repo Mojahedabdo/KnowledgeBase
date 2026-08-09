@@ -1,6 +1,6 @@
 ---
 title: Cum să configurați proxy-ul de ieșire
-sidebar_position: 8
+sidebar_position: 7
 ---
 
 :::info
@@ -141,7 +141,7 @@ Trebuie să ștergeți aplicația Shadowsocks din filtrare înainte de a configu
 
 *Aici presupunem că sunteți deja client Clash și l-ați instalat pe dispozitivul dvs.*
 
-1. Deschideți Clash și mergeți la **Setări** → **Rețea** → **Direcționați traficul sistemului** și activați comutatorul. Aceasta va seta Clash în modul proxy.
+1. Open Clash and go to **Settings** → **Network** → **Route System Traffic** and toggle the switch on. Aceasta va seta Clash în modul proxy.
 
 1. Deschideți AdGuard și mergeți la **Gestionarea aplicațiilor**. Alegeți **Clash pentru Android** și dezactivați **Direcționați traficul prin AdGuard**. Aceasta va elimina buclele de trafic.
 
@@ -154,6 +154,28 @@ Trebuie să ștergeți aplicația Shadowsocks din filtrare înainte de a configu
     | Tip proxy   | *SOCKS5*    |
     | Gazdă proxy | *127.0.0.1* |
     | Port proxy  | *7891*      |
+
+### How to use AdGuard with WG Tunnel
+
+*The proxy mode was added in version 4.0. We presume that you already have WG Tunnel installed on your device and have added the WireGuard configuration.*
+
+1. Open WG Tunnel and go to **Settings** (the cog wheel at the bottom) → **App Mode** → **Proxy (experimental)**. This will set WG Tunnel to proxy mode.
+
+1. Deschideți AdGuard și mergeți la **Gestionarea aplicațiilor**. Choose **WG Tunnel** and disable **Route traffic through AdGuard**. Aceasta va elimina buclele de trafic.
+
+1. Apoi mergeți la **Setări** → **Filtrare** → **Rețea** → **Proxy** → **Server proxy**.
+
+1. Apăsați **Adăugați server proxy** și completați câmpurile:
+
+    | Câmp        | Valoare     |
+    | ----------- | ----------- |
+    | Tip proxy   | *SOCKS5*    |
+    | Gazdă proxy | *127.0.0.1* |
+    | Port proxy  | *25344*     |
+
+1. Apăsați **Salvați și selectați**.
+
+1. Enable the main proxy switch and AdGuard protection to route your device’s traffic through the proxy.
 
 ## Limitări
 

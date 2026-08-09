@@ -9,7 +9,7 @@ This article is about AdGuard for Android, a multifunctional ad blocker that pro
 
 :::
 
-:::not
+:::note
 
 HAR dosyaları [AdGuard Gizlilik Politikasına](https://adguard.com/en/privacy.html) uygun olarak işlenir.
 
@@ -17,7 +17,7 @@ HAR dosyaları [AdGuard Gizlilik Politikasına](https://adguard.com/en/privacy.h
 
 ## HAR dosyaları nedir?
 
-The HAR (HTTP ARchive) format is a JSON-formatted archive file for logging of a web browser's interaction with a site. The specifications of HAR format define archival data for HTTP transactions that a browser uses to export detailed information about the web pages it loads. More detailed description of HAR file format and its specification you can find at [softwareishard.com](http://www.softwareishard.com/blog/har-12-spec/) website.
+The HAR (HTTP ARchive) format is a JSON-formatted archive file for logging of a web browser's interaction with a site. The specifications of HAR format define archival data for HTTP transactions that a browser uses to export detailed information about the web pages it loads. More detailed description of HAR file format and its specification you can find at [softwareishard.com](https://www.softwareishard.com/blog/har-12-spec/) website.
 
 ## HAR dosyaları nasıl oluşturulur
 
@@ -33,7 +33,7 @@ Sometimes we need to analyze it to block specific ads that are difficult to repr
 
 **Send the generated file with the logs to the AdGuard support service.**
 
-:::not
+:::note
 
 Our support team will process your ticket much faster if you specify the HelpDesk ticket number or the GitHub issue number in your message.
 

@@ -1,5 +1,5 @@
 ---
-title: Защита от трекинга
+title: Защита от трекинга (ранее Антитрекинг)
 sidebar_position: 3
 ---
 
@@ -9,14 +9,24 @@ sidebar_position: 3
 
 :::
 
-_Антитрекинг_ защищает личные данные от онлайн-трекеров и мошенников.
+Цель _Защиты от трекинга_ — защитить ваши конфиденциальные личные данные от онлайн-трекеров и мошенников. Существуют небольшие различия в функциях защиты от трекинга между браузерами на базе Chromium, которые поддерживают MV3, и не-Chromium браузерами, которые поддерживают MV2.
 
-![Антитрекинг \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_stealth_mode.png)
+_Tracking protection_ in Chromium-based browsers
+![Tracking protection in Chromium-based browsers \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv3.png)
 
-В режиме Антитрекинга вы можете запретить сайту видеть поисковые запросы, которые вы использовали, чтобы найти его в интернете, автоматически удалять сторонние и собственные куки-файлы сайта и т. д. Всем этим особенностям посвящена [отдельная статья](/general/stealth-mode).
+_Tracking protection_ in non-Chromium browsers
+![Tracking protection in non-Chromium browsers \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv2.png)
+
+_Tracking protection_ features prevent websites from seeing the search query you used to find them on the Internet, automatically delete third-party and website cookies, and more. A [separate article](/general/stealth-mode) is devoted to all these features.
 
 :::note
 
-Некоторые опции _Антитрекинга_, доступные в полноценных приложениях, отсутствуют в браузерных расширениях из-за технических ограничений.
+Browser extensions are limited to a specific browser and are subject to its technical restrictions. Therefore, they cannot offer all the tracking protection features available in full-fledged ad-blocking apps.
+
+:::
+
+:::caution
+
+In AdGuard Browser Extension, the _Block WebRTC_ option works globally — it either blocks or allows WebRTC for all websites. It cannot be controlled on a per-site basis. Exception rules like `@@||example.com^$stealth=webrtc` have no effect in the browser extension because the `webrtc` option is not among the [supported `$stealth` modifier options](/general/ad-filtering/create-own-filters#stealth-modifier). If you need per-site WebRTC control, use the full-fledged AdGuard app for Windows, Mac, or Android.
 
 :::

@@ -3,6 +3,16 @@ title: Politique des filtres d'AdGuard
 sidebar_position: 6
 ---
 
+:::note Avis de non-responsabilité
+
+Veuillez lire cette politique sur les filtres attentivement avant d'activer un filtre.
+
+L’utilisation du Bloqueur d’annonces AdGuard, de AdGuard DNS et de leurs filtres peut influencer le fonctionnement des sites et services tiers. Il vous incombe de consulter et de respecter les politiques et conditions de tous les sites web ou services que vous utilisez.
+
+Avant d'activer les filtres fournis par des tiers, vous acceptez de consulter leurs conditions d'utilisation et de prendre une décision éclairée quant à leur utilisation. AdGuard n'est pas responsable du fonctionnement des filtres tiers ou de leurs conditions, et leur présence dans les produits AdGuard ne constitue pas une recommandation d'utilisation.
+
+:::
+
 Chez AdGuard, nous suivons depuis longtemps certains principes dans l'élaboration de nos filtres. Ces principes, ainsi que les descriptions des filtres, sont décrits ci-dessous dans le cadre de notre politique de filtrage.
 
 ## Critères communs
@@ -26,7 +36,7 @@ Exigences de qualité pour les règles de filtrage :
 
 Un **filtre** (ou une **liste de filtres**) est un ensemble de règles de filtrage conçues pour filtrer le contenu et bloquer des divers types de publicités et d'autres types de contenu à l'aide de bloqueurs de publicités. Ces filtres fonctionnent généralement au niveau du navigateur web, des programmes ou du serveur DNS.
 
-**Anti-adblock** est une technologie utilisée par des sites web ou des applications destinées à détecter le blocage publicitaire et à réagir de différentes manières : suivi, réinjecter des publicités, encourager à désactiver le bloqueur de publicité (appelé "mur anti-bloqueur de publicité"). Les anti-ablocks peuvent être de types différents :
+**Anti-blocage de publicités** est une technologie utilisée par des sites web ou des applications destinée à détecter le blocage de publicités et à y réagir de manières différentes : en piquant, réinjectant des publicités, encourageant à désactiver le bloqueur de pubs (les « murs de blocage publicitaire »). Les anti-ablocks peuvent être de types différents :
 
 - Anti-adblock qui bloque le contenu du site web sans proposer d'alternative : pour continuer à utiliser le site, l'utilisateur doit y désactiver le bloqueur de publicité
 - "Mur anti-adblock" avec des options alternatives proposées, telles que l'achat d'un abonnement pour continuer à utiliser le bloqueur de publicité
@@ -41,14 +51,12 @@ Les filtres de blocage publicitaire d'AdGuard sont les suivants :
 - Filtre de base AdGuard
 - Filtre de publicités mobiles AdGuard
 - Filtres régionaux divisés par principe linguistique : chinois, néerlandais, français, allemand, japonais, russe, espagnol/portugais, turc et ukrainien
-- AdGuard Quick Fixes filter
 
 ### L'objectif de ces filtres
 
 - **Le filtre de base** est conçu pour bloquer les publicités sur les sites web en anglais et ceux pour lesquels il n'existe pas de filtre séparé. Il contient également des règles générales de filtrage qui s'appliquent à tous les sites web quelle que soit la langue
 - Le **Filtre de publicités mobiles** bloque les publicités sur les versions mobiles des sites web et dans les applications mobiles. Il n'y a pas de segmentation basée sur la langue
 - Les **Filtres régionaux** suivent la même politique que le **Filtre de base**, mais sont limités aux sites web dans certaines langues
-- **Quick Fixes filter** used to quickly resolve critical content filtering issues on popular websites without updating the MV3 extension.
 
 L'objectif des filtres de blocage des publicités est de bloquer tous les types de publicité sur les sites web, les applications et certains appareils qui peuvent charger des publicités depuis Internet :
 
@@ -64,24 +72,25 @@ L'objectif des filtres de blocage des publicités est de bloquer tous les types 
 - Annonces interstitielles — annonces en plein écran sur les appareils mobiles qui couvrent l'interface de l'app ou du navigateur web
 - Les restes d'annonces qui occupent de grands espaces ou se détachent de l'arrière-plan et attirent l'attention des visiteurs (à l'exception de celles qui sont à peine discernables ou qui passent inaperçues)
 - Publicité anti-adblock — annonce alternative affichée sur le site web après le blocage de l'annonce principale
-- Bait elements that are used by multiple known adblock detection scripts to detect an ad blocker presence for different goals including changing the way ads are shown, fingerprinting, etc.
+- Éléments d'appât utilisés par plusieurs scripts de détection de bloqueurs de publicités connus pour détecter la présence d'un bloqueur de publicités à des fins différentes, notamment la modification de la manière dont les publicités sont affichées, le fingerprinting, etc.
 - La propre publicité du site, si elle a été bloquée par les règles générales de filtrage (voir *Limitations et exceptions*)
 - Scripts anti-adblock qui empêchent l'utilisation du site (voir *Limitations et exceptions*)
-- Advertising injected by malware, if detailed information about its loading method or steps for reproduction is provided
+- Publicité injectée par un logiciel malveillant, si des informations détaillées sur sa méthode de chargement ou les étapes de reproduction sont fournies
 - Minage indésirable — des scripts qui minent de la crypto-monnaie sans le consentement de l’utilisateur
 
 ### Limitations et exceptions
 
 - La publicité du site ne doit pas être bloquée intentionnellement. Toutefois, elle ne doit pas être débloquée si le blocage est provoqué par des règles générales de filtrage
-- Les mesures d'accès au contenu telles que les paywalls ne sont pas bloquées
+- Les mesures d'accès au contenu telles que les paywalls, ou murs anti-adblock, ne sont pas bloquées par les filtres de blocage d'annonces. Toutefois, elles peuvent être bloquées par les filtres de protection contre le suivi si leur fonctionnement entraîne une violation de la vie privée de l'utilisateur.
 - Les murs anti-adblock seront bloqués dans les cas suivants :
     - Ils insistent de manière agressive sur la désactivation ou la suppression du bloqueur de publicité ou empêchent effectivement l'utilisation du site web
     - Ils présentent des descriptions incorrectes et trompeuses des conséquences possibles de l'utilisation des bloqueurs de publicités
     - Ils exposent les visiteurs au risque de publicité malveillante, si les publicités débloquées proviennent de sources douteuses
+    - Ils violent ou portent atteinte à la vie privée des utilisateurs
 - Nous ne bloquons pas les messages de détection des bloqueurs de publicités qui satisfont à au moins un des critères suivants :
     - Ils permettent l'utilisation du site Internet et ne superposent pas une quantité importante de contenu
     - Ils offrent une alternative à la désactivation d'un bloqueur de publicité étant donné que cette alternative ne met pas la vie privée ou la sécurité des utilisateurs en danger
-    - Ils permettent à l'utilisateur d'accéder au contenu du site web ou offrent un échange de valeur réalisable qui ne met pas en péril la vie privée ou la sécurité de l'utilisateur
+    - Ils permettent à l’utilisateur d’accéder au contenu du site Web
     - Certaines règles héritées peuvent continuer à bloquer les messages qui répondent à un ou plusieurs de ces critères. Si elles sont identifiées, ces règles seront traitées conformément à cette politique
 - Les pools de minage ne sont pas bloqués s'ils sont publics et s'ils ne sont pas utilisés uniquement à des fins malveillantes
 
@@ -102,6 +111,7 @@ L'objectif des filtres de blocage des publicités est de bloquer tous les types 
 Les filtres de protection contre le suivi d'AdGuard comprennent :
 
 - Filtre AdGuard de protection contre le suivi
+- Filtre de protection contre le suivi des e-mails AdGuard
 - Filtre AdGuard du suivi des URL
 
 ### L'objectif de ces filtres
@@ -116,10 +126,12 @@ Qu'est-ce qu'il bloque :
 - Cookies de suivi
 - Pixels de suivi
 - API de suivi des navigateurs
-- Detection of the ad blocker for tracking purposes
+- Détection du bloqueur de publicité à des fins de suivi
 - Fonctionnalité Privacy Sandbox dans Google Chrome et ses dérivés utilisés pour le suivi (Google Topics API, Protected Audience API)
 
 Le **Filtre de suivi des URL** est conçu pour supprimer les paramètres de suivi des adresses web
+
+Le **filtre de protection contre le suivi des e-mails** bloque les pixels de suivi intégrés dans les e-mails afin d'empêcher les expéditeurs de surveiller quand vous ouvrez les messages.
 
 ### Limitations et exceptions
 
@@ -157,13 +169,11 @@ Pour une meilleure personnalisation, les filtres anti-nuisances sont divisés se
 
 #### Filtre AdGuard Cookie Notices
 
-Ce filtre est conçu pour bloquer à la fois les avis de cookies et les demandes des plateformes de gestion des cookies (CMP). Des méthodes différentes peuvent être appliquées aux avis de cookies et aux CMP. Dans la plupart des cas, il suffit de masquer ou de bloquer les scripts correspondants. Toutefois, lorsque les fonctionnalités du site et l'affichage de contenus tiers nécessitent le consentement des cookies, les méthodes suivantes sont appliquées :
+Ce filtre est conçu pour bloquer à la fois les avis de cookies et les demandes des plateformes de gestion des cookies (CMP). Selon la manière dont un site web met en œuvre son mécanisme de consentement, des méthodes différentes peuvent être appliquées.
 
-- Les scriptlets sont utilisés pour contourner la demande de consentement (presque impossible à appliquer sur les sites avec des restrictions sur le chargement de contenu tiers jusqu'à ce qu'une décision soit prise)
-- L'installation d'un cookie ou d'une clé dans le stockage local du site de telle sorte que le script considère que l'utilisateur a fait un choix
-- Simulation de l'action de l'utilisateur à l'aide d'une règle qui clique sur un bouton spécifié et interrompt son exécution 10 secondes après le chargement. Il existe deux possibilités :
-    - Rejeter (sauf pour les cookies fonctionnels — en fonction du système CMP) — l'option préférée, car il y a moins de risque de charger des outils d'analyse supplémentaires
-    - Accepter — cette option est utilisée en dernier recours si d'autres méthodes échouent. Dans ce cas, le site est également vérifié pour l'utilisation d'outils analytiques, qui sont ensuite bloqués par le **Filtre AdGuard de protection contre le suivi**
+Dans la plupart des cas, il suffit de masquer ou de bloquer les scripts correspondants. Cependant, lorsqu'un site web nécessite un choix concernant les cookies pour que certaines fonctionnalités ou contenus tiers fonctionnent, le filtre gère automatiquement la demande en utilisant des méthodes alternatives.
+
+Dans la mesure du possible, les cookies non essentiels sont refusés par défaut. Si cela n'est pas techniquement possible et qu'un consentement est nécessaire pour que le site fonctionne correctement, celui-ci fait l'objet d'une analyse supplémentaire visant à détecter les technologies d'analyse et de suivi, qui sont ensuite bloquées par le ** filtre de Protection conre le suivi d'AdGuard**.
 
 **Limitations et exceptions**
 
@@ -186,7 +196,7 @@ Il s'agit d'un filtre qui bloque diverses fenêtres pop-up sur les pages web qui
 
 #### Filtre AdGuard Mobile App Banners
 
-This is a filter that blocks banners and popups that encourage visitors to install mobile apps.
+C'est un filtre qui bloque les bannières et les popups qui encouragent les visiteurs à installer des applications mobiles.
 
 **Limitations et exceptions**
 
@@ -208,9 +218,9 @@ Il s'agit d'un filtre qui bloque des widgets différents qui ne sont pas essenti
 
 Ce filtre ne bloque pas :
 
-- Widgets liés au contenu de la page, tels que les sections de commentaires, les flux de chat en direct, à l'exception des chats non modérés sur des sites avec des flux non officiels, qui sont souvent remplis de spam et de contenus similaires
-- Widgets pour l'autopromotion et les activités promotionnelles spécifiques au site
-- Widgets de don, sauf dans les cas où ils occupent une partie importante de la page et se détachent nettement du contenu. La décision de blocage est prise par les développeurs de filtres
+- Les widgets liés au contenu de la page, tels que les sections de commentaires, les flux de chat en direct, à l'exception des chats non modérés sur des sites web avec des flux non officiels, qui sont souvent remplis de spam et de contenus similaires
+- Les widgets pour l'autopromotion et les activités promotionnelles spécifiques au site
+- Les widgets de don, sauf dans les cas où ils occupent une partie importante de la page et se détachent nettement du contenu. La décision de blocage est prise par les développeurs de filtres
 
 #### Filtre Autres nuisances
 
@@ -220,7 +230,7 @@ Ce filtre est conçu pour bloquer les éléments agaçants qui ne sont pas inclu
 - Bloquer les éléments gênants qui ne sont pas inclus dans les autres catégories
 - Débloquer les actions sur la page, telles que l'ouverture du menu contextuel, la sélection et la copie de texte, si elles sont bloquées
 - Accélérer les temporisateurs lors du chargement de fichiers à partir de sites web, si la vérification n'est pas contrôlée par le serveur ou si elle n'est pas entravée
-- Appliquer toutes sortes de règles qui peuvent être utiles aux développeurs de filtres. Par exemple, blocage de la détection du débogueur web
+- Appliquer toutes sortes de règles qui peuvent être utiles aux développeurs de filtres. Par exemple, celles de blocage de la détection du débogueur web
 
 **Limitations et exceptions**
 
@@ -232,7 +242,7 @@ Ce filtre peut contenir des règles qui ne conviennent pas à tous les utilisate
 
 Les Filtres AdGuard pour médias sociaux comprennent :
 
-- Filtre AdGuard pour médias sociaux
+- Le filtre AdGuard pour médias sociaux
 
 ### L'objectif de ces filtres
 
@@ -240,13 +250,13 @@ Ce filtre bloque les widgets de médias sociaux sur les sites web de tiers, tels
 
 ### Limitations et exceptions
 
-Les widgets qui font partie de la fonctionnalité ou du contenu du site web, tels que les commentaires, les messages intégrés, les sondages, ainsi que les widgets de connexion aux médias sociaux, ne sont pas bloqués. Les liens vers les pages de médias sociaux du site web ne sont pas non plus bloqués.
+Les widgets qui font partie de la fonctionnalité ou du contenu du site web, tels que les commentaires, les messages intégrés, les sondages, ainsi que les widgets de connexion aux médias sociaux, ne sont pas bloqués. Les liens vers les pages de médias sociaux du site web ne sont pas bloqués non plus.
 
 ## Autres filtres
 
 Ce groupe contient des filtres qui ne sont pas indispensables pour bloquer les publicités.
 
-### Terminologie
+### La terminologie
 
 **La publicité contextuelle** est un type de publicité sur Internet dans lequel la publicité est affichée en fonction du contenu, du public sélectionné, de l'emplacement, de l'heure ou d'un autre contexte des pages Internet.
 
@@ -268,8 +278,8 @@ Pour plus de détails sur ces types de publicité, consultez l'article sur [les 
 
 Ce filtre débloque :
 
-- Publicité contextuelle dans les résultats de recherche lors de l'utilisation de moteurs de recherche (tels que Google, Bing, Yandex, DuckDuckGo)
-- Auto-promotion des sites web
+- La publicité contextuelle dans les résultats de recherche lors de l'utilisation de moteurs de recherche (tels que Google, Bing, Yandex, DuckDuckGo)
+- L'auto-promotion des sites web
 
 **Limitations et exceptions**
 
@@ -293,3 +303,34 @@ Ce filtre est destiné à tester et à déboguer les règles susceptibles de per
 
 - Les règles ne doivent pas intentionnellement enfreindre la fonctionnalité des sites web
 - Les règles ne doivent pas débloquer les publicités ni enfreindre la Politique
+
+## How to dispute a blocking rule
+
+AdGuard filter lists are maintained not only by the AdGuard team but also by community contributors. If you believe a blocking rule violates the principles described in this filter policy, you can dispute it by opening an issue on GitHub.
+
+Before submitting a dispute, please make sure you have read this policy carefully. When reviewing your report, filter maintainers will evaluate whether the rule complies with the criteria described above, so your explanation should refer to this policy whenever possible.
+
+### How to submit a dispute
+
+You can submit a dispute by using [our report tool](https://reports.adguard.com/new_issue.html). See the step-by-step guide in our [dedicated article](https://adguard.com/kb/guides/report-website/).
+
+Alternatively, you can report it via GitHub:
+
+1. Go to the [AdGuard Filters GitHub repository](https://github.com/AdguardTeam/AdguardFilters/issues) and create a new issue.
+2. Select the **Report an issue using AdGuard** issue template.
+3. Fill out the template with as much detail as possible.
+
+Your report should include:
+
+- The URL of the affected website.
+- A clear description of what is being blocked.
+- The blocking rule, if you know which one is responsible.
+- Steps to reproduce the issue.
+- Screenshots or other evidence that illustrate the problem, if applicable.
+- A detailed explanation of **why you believe the rule does not comply with this filter policy**. Whenever possible, refer to the relevant section or principle of the policy that you believe the rule violates.
+
+### What makes a good dispute?
+
+Simply stating that you disagree with a blocking rule is usually not enough. To help maintainers evaluate your report, explain why the rule conflicts with the blocking policy rather than why you personally would prefer different behavior.
+
+For example, if you believe a rule blocks content that should not be blocked under this policy, describe which policy criterion applies and how the rule fails to meet it. The more specific and well-supported your report is, the easier it will be for maintainers to review your request and determine whether the rule should be changed.

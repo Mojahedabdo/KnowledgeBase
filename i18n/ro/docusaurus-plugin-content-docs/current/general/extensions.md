@@ -39,7 +39,7 @@ Această versiune a Asistentului este veche și nu are sens să o folosiți pe s
 
 :::
 
-#### Dezactivare AMP
+#### Disable AMP
 
 Un script care este preinstalat numai în AdGuard pentru Android. Acesta dezactivează AMP (Pagini Mobile Accelerate) pe pagina de rezultate ale căutării Google. Aflați mai multe despre acest userscript și cum să-l instalați pe [GitHub](https://github.com/AdguardTeam/DisableAMP).
 
@@ -54,6 +54,24 @@ These userscripts are not developed by AdGuard, and therefore we can't give a 10
 Acest script elimină caracteristica de urmărire a Google din linkurile din rezultatele căutării Google. Aceasta accelerează încărcarea rezultatelor căutării și permite să apăsați cu butonul drept al mouse-ului sau să atingeți pentru a copia URL-ul link-ului.
 
 Codul său sursă este [disponibil pe GitHub](https://github.com/Rob--W/dont-track-me-google). Acest userscript poate fi descărcat de pe [GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) și instalat în orice aplicație bazată pe AdGuard CoreLibs.
+
+#### SponsorBlock
+
+SponsorBlock skips sponsored segments in YouTube videos. It saves time by jumping straight to the main content and removes interruptions from ads and self-promotions.
+
+:::info
+
+This userscript runs exclusively on our desktop applications, AdGuard for Windows and AdGuard for Mac.
+
+:::
+
+To try it out:
+
+1. Go to [https://mchangrh.github.io/sb.js/](https://mchangrh.github.io/sb.js/).
+2. Click **Generate link**.
+3. Copy the link that appears.
+4. Open AdGuard and go to **Extensions → Add extension → Import from file or URL**.
+5. Paste the copied link and confirm.
 
 #### tinyShield
 
@@ -93,51 +111,38 @@ If you are developing your own userscript and want to test how it works with AdG
 
 #### Compatibilitate
 
-#### Metadata block
+##### Metadata block
 
-#### Proprietăți suportate
+###### Proprietăți suportate
 
-```text
-@name
-@namespace
-@description
-@version
-@match
-@include
-@exclude
-@grant
-@connect
-@require
-@resource
-@downloadURL
-@updateURL
-@supportURL
-@homepageURL
-@homepage
-@website
-@source
-@run-at
-@noframes
-@icon
-@iconURL
-@defaulticon
-@icon64
-@icon64URL
-```
+- [`@name`](https://wiki.greasespot.net/Metadata_Block#@name)
+- [`@namespace`](https://wiki.greasespot.net/Metadata_Block#@namespace)
+- [`@description`](https://wiki.greasespot.net/Metadata_Block#@description)
+- [`@version`](https://wiki.greasespot.net/Metadata_Block#@version)
+- [`@match`](https://wiki.greasespot.net/Metadata_Block#@match)
+- [`@include`](https://wiki.greasespot.net/Metadata_Block#@include)
+- [`@exclude`](https://wiki.greasespot.net/Metadata_Block#@exclude)
+- [`@grant`](https://wiki.greasespot.net/Metadata_Block#@grant)
+- [`@connect`](https://www.tampermonkey.net/documentation.php#meta:connect)
+- [`@require`](https://wiki.greasespot.net/Metadata_Block#@require)
+- [`@resource`](https://wiki.greasespot.net/Metadata_Block#@resource)
+- [`@downloadURL`](https://www.tampermonkey.net/documentation.php#meta:downloadURL)
+- [`@updateURL`](https://www.tampermonkey.net/documentation.php#meta:updateURL)
+- [`@homepage`, `@homepageURL`, `@source`, `@website`](https://www.tampermonkey.net/documentation.php#meta:homepage)
+- [`@run-at`](https://wiki.greasespot.net/Metadata_Block#@run-at)
+- [`@noframes`](https://wiki.greasespot.net/Metadata_Block#@noframes)
+- [`@icon`, `@iconURL`, `@defaulticon`](https://www.tampermonkey.net/documentation.php#meta:icon)
+- [`@icon64`, `@icon64URL`](https://www.tampermonkey.net/documentation.php#meta:icon64)
 
-#### Proprietăți nesuportate
+###### Proprietăți nesuportate
 
 Aceste proprietăți vor fi pur și simplu ignorate de AdGuard.
 
-```text
-@unwrap
-```
+- [`@unwrap`](https://www.tampermonkey.net/documentation.php#meta:unwrap)
 
-#### Funcții GM suportate
+##### Funcții GM suportate
 
 AdGuard suportă atât vechile funcții GM\_, cât și noul API GM4 care utilizează obiectul GM.
-
-#### Valori
 
 :::note
 
@@ -145,33 +150,33 @@ Toate funcțiile vechi listate Greasemonkey sunt depreciate, dar încă sunt sup
 
 :::
 
-```text
-GM.info / GM_info
-GM.setValue / GM_setValue
-GM.getValue / GM_getValue
-GM.listValues / GM_listValues
-GM.deleteValue / GM_deleteValue
-GM.getResourceUrl / GM_getResourceURL
-GM.setClipboard / GM_setClipboard
-GM.xmlHttpRequest / GM_xmlhttpRequest
-GM.openInTab / GM_openInTab
-GM.notification
-unsafeWindow
-GM_getResourceText
-GM_addStyle
-GM_log
-```
+- [`GM.info`, `GM_info`](https://wiki.greasespot.net/GM.info)
+- [`GM.setValue`, `GM_setValue`](https://wiki.greasespot.net/GM.setValue)
+- [`GM.getValue`, `GM_getValue`](https://wiki.greasespot.net/GM.getValue)
+- [`GM.listValues`, `GM_listValues`](https://wiki.greasespot.net/GM.listValues)
+- [`GM.deleteValue`, `GM_deleteValue`](https://wiki.greasespot.net/GM.deleteValue)
+- [`GM.getResourceUrl`, `GM_getResourceURL`](https://wiki.greasespot.net/GM.getResourceUrl)
+- [`GM.setClipboard`, `GM_setClipboard`](https://wiki.greasespot.net/GM.setClipboard)
+- [`GM.xmlHttpRequest`, `GM_xmlhttpRequest`](https://wiki.greasespot.net/GM.xmlHttpRequest)
+- [`GM.openInTab`, `GM_openInTab`](https://wiki.greasespot.net/GM.openInTab)
+- [`GM.notification`](https://wiki.greasespot.net/GM.notification)
+- [`unsafeWindow`](https://wiki.greasespot.net/UnsafeWindow)
+- [`GM_getResourceText`](https://www.tampermonkey.net/documentation.php#api:GM_getResourceText)
+- [`GM_addStyle`](https://www.tampermonkey.net/documentation.php#api:GM_addStyle)
+- [`GM_log`](https://www.tampermonkey.net/documentation.php#api:GM_log)
+- [`GM.addElement`, `GM_addElement`](https://www.tampermonkey.net/documentation.php#api:GM_addElement)
+- [`window.onurlchange`](https://www.tampermonkey.net/documentation.php#api:window.onurlchange)
 
-[Aici](https://wiki.greasespot.net/GM.info) puteți găsi mai multe informații despre API-ul Greasemonkey.
+You can find more information about Greasemonkey API in [its manual](https://wiki.greasespot.net/Greasemonkey_Manual:API).
 
 #### Exemplu
 
 ```javascript
 // ==UserScript==
-// @name            Nume afișat utilizatorului atunci când localizarea este în engleză sau necunoscută
-// @name:ru         Nume afișat utilizatorului atunci când localizarea este în rusă
-// @description     Descriere afișată utilizatorului atunci când localizarea este în engleză sau necunoscută
-// @description:ru  Descriere afișată utilizatorului atunci când localizarea este în rusă
+// @name            Name as shown to the user when locale is english or unknown
+// @name:ru         Name as shown to the user when locale is russian
+// @description     Description as shown to the user when locale is english or unknown
+// @description:ru  Description as shown to the user when locale is russian
 // @icon            https://myhomepage.com/myuserscript.png
 // @version         1.0.0.0
 // @downloadURL     https://dl.myhomepage.org/myuserscript.user.js
@@ -196,30 +201,237 @@ GM_log
 // @grant           GM_info
 // @grant           GM_openInTab
 // @grant           GM_registerMenuCommand
-// @run-at document-start
+// @grant           GM_addElement
+// @grant           window.onurlchange
+// @run-at          document-start
 // ==/UserScript==
 !function(){(
-    console.log("Sunt încărcat!");
+    console.log("I am loaded!");
 )}();
 ```
 
-## Stiluri de utilizator
+#### Trusted Types API
 
-Userstyles allow users to change the appearance of popular websites.
+AdGuard provides an instance of the `PolicyApi` class that allows you to manage Trusted Types in your userscripts.
 
-AdGuard are opțiunea de a încărca sau crea propriile stiluri de utilizator. Aceasta este o caracteristică avansată, așa că va trebui să aveți cunoștințe despre HTML și CSS.
+You can access the instance of this class by using the `ADG_policyApi` variable in your userscript.
 
-:::info Aplicații suportate
+##### Properties
 
-În prezent, două aplicații AdGuard vă permit să creați și să gestionați stiluri de utilizator: AdGuard pentru Windows (v7.19 sau mai recent) și AdGuard pentru Mac (v2.16 sau mai recent). De asemenea, planificăm să implementăm această nouă caracteristică în AdGuard v4.8 pentru Android în viitorul apropiat.
+- `name: string` — a name of the policy (Default is `"AGPolicy"`).
+- `isSupported: boolean` — a flag indicating whether or not the Trusted Types API is supported by the current browser.
+
+##### Polyfilled methods
+
+- [`ADG_policyApi.createHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createHTML). If not supported, returns `input: string`.
+- [`ADG_policyApi.createScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScript). If not supported, returns `input: string`.
+- [`ADG_policyApi.createScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScriptURL). If not supported, returns `input: string`.
+- [`ADG_policyApi.getAttributeType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType). If not supported, returns `null`.
+- [`ADG_policyApi.getPropertyType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType). If not supported, returns `null`.
+- [`ADG_policyApi.isHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isHTML). If not supported, returns `false`.
+- [`ADG_policyApi.isScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScript). If not supported, returns `false`.
+- [`ADG_policyApi.isScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScriptURL). If not supported, returns `false`.
+
+##### Additional Types
+
+```typescript
+/**
+ * Enum representation of the return values of the `getAttributeType` and
+ * `getPropertyType` methods of the native Trusted Types API.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType}
+ */
+enum TrustedType {
+    HTML = 'TrustedHTML',
+    Script = 'TrustedScript',
+    ScriptURL = 'TrustedScriptURL',
+}
+
+// You can access it like that inside of userscript
+ADG_TrustedType.HTML // "TrustedHTML"
+
+/**
+ * Isomorphic trusted value type. If a browser supports the Trusted Types API, it will be one of the enum Trusted Types
+ * (`TrustedHTML`, `TrustedScript` or `TrustedScriptURL`); otherwise, it will be regular `string`.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScript}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScriptURL}
+ */
+type TrustedValue = string | TrustedHTML | TrustedScript | TrustedScriptURL;
+```
+
+##### Additional methods
+
+```typescript
+/**
+ * Creates a Trusted Type depending on `type`:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param type          Trusted Type.
+ * @param value         Value from which a Trusted Type is created.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Created value.
+ */
+function create(
+    type: TrustedType,
+    value: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+
+// Example: Creates TrustedHTML
+const trustedHTML = ADG_policyApi.create(ADG_TrustedType.HTML, '<div></div>');
+
+/**
+ * Converts `value` of `attribute` into one of the Trusted Types:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param tagName       Name of an HTML tag.
+ * @param attribute     Attribute.
+ * @param value         Value of an attribute to be converted.
+ * @param elementNS     Element namespace. If empty, defaults to the HTML namespace.
+ * @param attrNS        Attribute namespace. If empty, defaults to null.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Converted value.
+ */
+function convertAttributeToTrusted(
+    tagName: string,
+    attribute: string,
+    value: string,
+    elementNS?: string,
+    attrNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Example: Converts to TrustedScriptURL
+const trustedScriptURL = ADG_policyApi.convertAttributeToTrusted("script", "src", 'SOME_URL');
+scriptElement.setAttribute("src", trustedScriptURL);
+
+/**
+ * Converts `value` of `property` into one of the Trusted Types:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param tagName       Name of an HTML tag.
+ * @param property      Property.
+ * @param value         Value of a property to be converted.
+ * @param elementNS     Element namespace. If empty, defaults to the HTML namespace.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Converted value.
+ */
+function convertPropertyToTrusted(
+    tagName: string,
+    property: string,
+    value: string,
+    elementNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Example: Converts to TrustedHTML
+divElement.innerHTML = ADG_policyApi.convertPropertyToTrusted("div", "innerHTML", "<div></div>");
+```
+
+#### Matching SPA sites
+
+:::info Compatibilitate
+
+This section only applies to AdGuard for Windows, AdGuard for Mac, AdGuard for Android, and AdGuard for Linux with [CoreLibs] v1.19 or later.
 
 :::
 
-Aceasta este o caracteristică experimentală, așa că, dacă întâlniți probleme la adăugarea sau crearea unui stil de utilizator, vă rugăm să contactați echipa noastră de asistență la <support@adguard.com>.
+Many modern websites, such as YouTube, utilize [Single Page Application (SPA)](https://en.wikipedia.org/wiki/Single-page_application) capabilities. Unlike traditional web applications, the page does not reload when navigating between pages. Instead, the content is updated dynamically using JavaScript, allowing for a smoother user experience.
 
-### Cum să configurați un stil de utilizator în AdGuard
+On such websites, a userscript is invoked only once when the `@match` or `@include` directives are matched (unless `@exclude` is matched). Due to the nature of SPAs, the userscript cannot be re-invoked on subsequent page changes because the global JavaScript context remains the same. To address this issue, userscripts can use the `@grant window.onurlchange` directive.
 
-Puteți descărca stiluri de utilizator de pe diferite site-uri. Unul dintre cele mai populare site-uri de stiluri de utilizator este [https://userstyles.world/](https://userstyles.world/explore), pe care îl vom folosi ca exemplu pentru următoarele instrucțiuni despre cum să configurați stilul de utilizator în AdGuard.
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @grant window.onurlchange
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onurlchange
+window.onurlchange = (event) => {
+    console.log('URL changed to:', event.url);
+};
+
+// via window.addEventListener('urlchange')
+window.addEventListener('urlchange', (event) => {
+    console.log('URL changed to:', event.url);
+});
+```
+
+This will allow userscripts to listen for URL changes and handle them accordingly.
+
+:::note
+
+The `urlchange` event is only triggered for full URL changes, such as a change in the path or query, but not for fragment (hash) changes.
+Examples:
+
+- Navigation from `https://example.com/page1` to `https://example.com/page2` will trigger the event.
+- Navigation from `https://example.com/page1?query=1` to `https://example.com/page1?query=2` will trigger the event.
+- Navigation from `https://example.com/page1#section1` to `https://example.com/page1#section2` will **NOT** trigger the event.
+
+:::
+
+:::note
+
+The `window.onurlchange` and `window.addEventListener('urlchange', ...)` APIs are non-standard. To use them, you must explicitly grant them in your userscript with `@grant window.onurlchange`.
+
+:::
+
+If a website uses hash routing, userscripts can use the native DOM [`hashchange` event](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event):
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onhashchange
+window.onhashchange = (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+};
+
+// via window.addEventListener('hashchange')
+window.addEventListener('hashchange', (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+});
+```
+
+## Userstyles
+
+Userstyles allow users to change the appearance of popular websites.
+
+AdGuard has the option to upload or create your own userstyles. This is an advanced feature, so you will need some knowledge of HTML and CSS.
+
+:::info Aplicații suportate
+
+Currently, two AdGuard apps allow you to create and manage userstyles: AdGuard for Windows (v7.19 or later) and AdGuard for Mac (v2.16 or later). We also plan to implement this new feature in AdGuard for Android v4.8 in the nearest future.
+
+:::
+
+This is an experimental feature, so if you encounter any problems while adding or creating a userstyle, please contact our support team at [support@adguard.com](mailto:support@adguard.com).
+
+### How to set up a userstyle in AdGuard
+
+You can download userstyles from various websites. One of the most popular userstyle websites is [https://userstyles.world/](https://userstyles.world/explore), which we will use as an example for the following instructions on how to set up the userstyle in AdGuard.
 
 1. Follow the link above and choose the userstyle you like
 
@@ -291,3 +503,5 @@ We don’t support userstyles that contain `@var` or `@advanced` in the metadata
     }
 }
 ```
+
+[CoreLibs]: https://github.com/AdguardTeam/CoreLibs

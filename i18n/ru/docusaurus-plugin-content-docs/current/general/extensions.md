@@ -5,7 +5,7 @@ sidebar_position: 6
 
 ## Пользовательские скрипты
 
-Пользовательские скрипты (мы также называем их «‎расширениями»‎) — это мини-программы, написанные на языке JavaScript. Они модифицируют или расширяют функциональность одного или нескольких сайтов. Многие пользователи AdGuard уже наверняка знакомы с такими расширениями, как Помощник AdGuard, Блокировщик всплывающей рекламы и AdGuard Extra.
+Пользовательские скрипты (мы также называем их «‎расширениями»‎) — это мини-программы, написанные на языке JavaScript. Они модифицируют или расширяют функциональность одного или нескольких сайтов. Многие пользователи AdGuard уже наверняка знакомы с такими расширениями, как Помощник AdGuard, Блокировщик всплывающих окон и AdGuard Extra.
 
 :::note Поддерживаемые приложения
 
@@ -55,13 +55,31 @@ AdGuard может значительно расширять функциона�
 
 Его исходный код [доступен на GitHub](https://github.com/Rob--W/dont-track-me-google). Этот пользовательский скрипт можно скачать [с сайта GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) и установить с помощью любого приложения AdGuard на основе CoreLibs (AdGuard для Windows, AdGuard для Mac и AdGuard для Android).
 
+#### SponsorBlock
+
+SponsorBlock пропускает спонсорские сегменты в видеороликах YouTube. Он экономит время, сразу переходя к основному содержимому, и удаляет прерывания от рекламы и саморекламы.
+
+:::info
+
+Этот юзерскрипт работает исключительно в наших десктопных приложениях — AdGuard для Windows и AdGuard для Mac.
+
+:::
+
+Чтобы попробовать:
+
+1. Перейдите по ссылке [https://mchangrh.github.io/sb.js/](https://mchangrh.github.io/sb.js/).
+2. Нажмите **Сгенерировать ссылку**.
+3. Скопируйте появившуюся ссылку.
+4. Откройте AdGuard и перейдите в **Расширения → Добавить расширение → Импорт из файла или URL**.
+5. Вставьте скопированную ссылку и подтвердите.
+
 #### tinyShield
 
 Пользовательский скрипт для тех, кто посещает корейские и некоторые международные сайты. Скрипт блокирует рекламу Ad-Shield и программы, обходящие блокировщики рекламы. Этот пользовательский скрипт можно установить с помощью приложений AdGuard на основе CoreLibs, а также с помощью Violentmonkey, Tampermonkey и [quoid/userscripts](https://github.com/quoid/userscripts). [На GitHub](https://github.com/List-KR/tinyShield) есть подробности об этом пользовательском скрипте и о том, как его установить.
 
 ### Где взять больше пользовательских скриптов{#more-userscripts}
 
-По большей части пользовательские скрипты создаются любителями, поэтому, устанавливая тот или иной скрипт, нужно быть очень осторожными. Любой скрипт из неизвестного источника несёт в себе потенциальный риск. Тем не менее, существует огромное количество интересных скриптов, которые, если установить их аккуратно и ответственно, могут действительно сделать использование некоторых сайтов более удобным.
+По большей части пользовательские скрипты создаются любителями, поэтому, устанавливая тот или иной скрипт, нужно быть очень осторожными. Любой скрипт из неизвестного источника несёт в себе потенциальный риск. Тем не менее, существует огромное количество интересных скриптов, которые, если установить их аккуратно и ответственно, могут сделать сайты удобнее.
 
 Здесь мы опишем несколько популярных каталогов пользовательских скриптов.
 
@@ -93,51 +111,38 @@ AdGuard может значительно расширять функциона�
 
 #### Совместимость
 
-#### Блок метаданных
+##### Блок метаданных
 
-#### Поддерживаемые свойства
+###### Поддерживаемые свойства
 
-```text
-@name
-@namespace
-@description
-@version
-@match
-@include
-@exclude
-@grant
-@connect
-@require
-@resource
-@downloadURL
-@updateURL
-@supportURL
-@homepageURL
-@homepage
-@website
-@source
-@run-at
-@noframes
-@icon
-@iconURL
-@defaulticon
-@icon64
-@icon64URL
-```
+- [`@name`](https://wiki.greasespot.net/Metadata_Block#@name)
+- [`@namespace`](https://wiki.greasespot.net/Metadata_Block#@namespace)
+- [`@description`](https://wiki.greasespot.net/Metadata_Block#@description)
+- [`@version`](https://wiki.greasespot.net/Metadata_Block#@version)
+- [`@match`](https://wiki.greasespot.net/Metadata_Block#@match)
+- [`@include`](https://wiki.greasespot.net/Metadata_Block#@include)
+- [`@exclude`](https://wiki.greasespot.net/Metadata_Block#@exclude)
+- [`@grant`](https://wiki.greasespot.net/Metadata_Block#@grant)
+- [`@connect`](https://www.tampermonkey.net/documentation.php#meta:connect)
+- [`@require`](https://wiki.greasespot.net/Metadata_Block#@require)
+- [`@resource`](https://wiki.greasespot.net/Metadata_Block#@resource)
+- [`@downloadURL`](https://www.tampermonkey.net/documentation.php#meta:downloadURL)
+- [`@updateURL`](https://www.tampermonkey.net/documentation.php#meta:updateURL)
+- [`@homepage`, `@homepageURL`, `@source`, `@website`](https://www.tampermonkey.net/documentation.php#meta:homepage)
+- [`@run-at`](https://wiki.greasespot.net/Metadata_Block#@run-at)
+- [`@noframes`](https://wiki.greasespot.net/Metadata_Block#@noframes)
+- [`@icon`, `@iconURL`, `@defaulticon`](https://www.tampermonkey.net/documentation.php#meta:icon)
+- [`@icon64`, `@icon64URL`](https://www.tampermonkey.net/documentation.php#meta:icon64)
 
-#### Неподдерживаемые свойства
+###### Неподдерживаемые свойства
 
 AdGuard проигнорирует эти свойства.
 
-```text
-@unwrap
-```
+- [`@unwrap`](https://www.tampermonkey.net/documentation.php#meta:unwrap)
 
-#### Поддерживаемые функции GM
+##### Поддерживаемые функции GM
 
 AdGuard поддерживает как старые функции GM\_, так и новый GM4 API, использующий объект GM.
-
-#### Значения
 
 :::note
 
@@ -145,62 +150,268 @@ AdGuard поддерживает как старые функции GM\_, так
 
 :::
 
-```text
-GM.info / GM_info
-GM.setValue / GM_setValue
-GM.getValue / GM_getValue
-GM.listValues / GM_listValues
-GM.deleteValue / GM_deleteValue
-GM.getResourceUrl / GM_getResourceURL
-GM.setClipboard / GM_setClipboard
-GM.xmlHttpRequest / GM_xmlhttpRequest
-GM.openInTab / GM_openInTab
-GM.notification
-unsafeWindow
-GM_getResourceText
-GM_addStyle
-GM_log
-```
+- [`GM.info`, `GM_info`](https://wiki.greasespot.net/GM.info)
+- [`GM.setValue`, `GM_setValue`](https://wiki.greasespot.net/GM.setValue)
+- [`GM.getValue`, `GM_getValue`](https://wiki.greasespot.net/GM.getValue)
+- [`GM.listValues`, `GM_listValues`](https://wiki.greasespot.net/GM.listValues)
+- [`GM.deleteValue`, `GM_deleteValue`](https://wiki.greasespot.net/GM.deleteValue)
+- [`GM.getResourceUrl`, `GM_getResourceURL`](https://wiki.greasespot.net/GM.getResourceUrl)
+- [`GM.setClipboard`, `GM_setClipboard`](https://wiki.greasespot.net/GM.setClipboard)
+- [`GM.xmlHttpRequest`, `GM_xmlhttpRequest`](https://wiki.greasespot.net/GM.xmlHttpRequest)
+- [`GM.openInTab`, `GM_openInTab`](https://wiki.greasespot.net/GM.openInTab)
+- [`GM.notification`](https://wiki.greasespot.net/GM.notification)
+- [`unsafeWindow`](https://wiki.greasespot.net/UnsafeWindow)
+- [`GM_getResourceText`](https://www.tampermonkey.net/documentation.php#api:GM_getResourceText)
+- [`GM_addStyle`](https://www.tampermonkey.net/documentation.php#api:GM_addStyle)
+- [`GM_log`](https://www.tampermonkey.net/documentation.php#api:GM_log)
+- [`GM.addElement`, `GM_addElement`](https://www.tampermonkey.net/documentation.php#api:GM_addElement)
+- [`window.onurlchange`](https://www.tampermonkey.net/documentation.php#api:window.onurlchange)
 
-[Здесь](https://wiki.greasespot.net/GM.info) вы можете найти больше информации о Greasemonkey API.
+Подробную информацию об API Greasemonkey можно найти в [руководстве](https://wiki.greasespot.net/Greasemonkey_Manual:API).
 
 #### Пример
 
 ```javascript
 // ==UserScript==
-// @name Имя, которое показывается пользователю, если локаль английская или неизвестна
-// @name:ru Имя, которое показывается пользователю, если локаль русская
-// @description Описание, которое показывается пользователю, если локаль английская или неизвестна
-// @description:ru Описание, которое показывается пользователю, если локаль русская
-// @icon https://myhomepage.com/myuserscript.png
-// @version 1.0.0.0
-// @downloadURL https://dl.myhomepage.org/myuserscript.user.js
-// @updateURL https://dl.myhomepage.org/myuserscript.meta.js
-// @homepageURL https://myhomepage. com/myuserscript
-// @include *
-// @exclude *://website.com/*
-// @resource https://myhomepage.com/myuserscript.css
-// @require https://myhomepage. com/mylibrary.js
-// @grant свойство: настройки
-// @grant GM_getValue
-// @grant GM_setValue
-// @grant GM_deleteValue
-// @grant GM_listValues
-// @grant GM_getResourceText
-// @grant GM_getResourceURL
-// @grant GM_addStyle
-// @grant GM_log
-// @grant GM_setClipboard
-// @grant GM_xmlhttpRequest
-// @grant unsafeWindow
-// @grant GM_info
-// @grant GM_openInTab
-// @grant GM_registerMenuCommand
-// @run-at document-start
+// @name            Name as shown to the user when locale is english or unknown
+// @name:ru         Name as shown to the user when locale is russian
+// @description     Description as shown to the user when locale is english or unknown
+// @description:ru  Description as shown to the user when locale is russian
+// @icon            https://myhomepage.com/myuserscript.png
+// @version         1.0.0.0
+// @downloadURL     https://dl.myhomepage.org/myuserscript.user.js
+// @updateURL       https://dl.myhomepage.org/myuserscript.meta.js
+// @homepageURL     https://myhomepage.com/myuserscript
+// @include         *
+// @exclude         *://website.com/*
+// @resource        https://myhomepage.com/myuserscript.css
+// @require         https://myhomepage.com/mylibrary.js
+// @grant           property:settings
+// @grant           GM_getValue
+// @grant           GM_setValue
+// @grant           GM_deleteValue
+// @grant           GM_listValues
+// @grant           GM_getResourceText
+// @grant           GM_getResourceURL
+// @grant           GM_addStyle
+// @grant           GM_log
+// @grant           GM_setClipboard
+// @grant           GM_xmlhttpRequest
+// @grant           unsafeWindow
+// @grant           GM_info
+// @grant           GM_openInTab
+// @grant           GM_registerMenuCommand
+// @grant           GM_addElement
+// @run-at          document-start
 // ==/UserScript==
-! function(){(
+!function(){(
     console.log("I am loaded!");
 )}();
+```
+
+#### Trusted Types API
+
+AdGuard предоставляет экземпляр класса `PolicyApi`, который позволяет управлять Trusted Types в ваших пользовательских скриптах.
+
+Вы можете получить доступ к экземпляру этого класса, используя переменную `ADG_policyApi` в пользовательском скрипте.
+
+##### Свойства
+
+- `name: string` — название политики (по умолчанию `AGPolicy`).
+- `isSupported: boolean` — флаг, указывающий, поддерживается ли API Trusted Types текущим браузером.
+
+##### Методы с полифилом
+
+- [`ADG_policyApi.createHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createHTML). Если не поддерживается, возвращает `input: string`.
+- [`ADG_policyApi.createScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScript). Если не поддерживается, возвращает `input: string`.
+- [`ADG_policyApi.createScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScriptURL). Если не поддерживается, возвращает `input: string`.
+- [`ADG_policyApi.getAttributeType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType). Если не поддерживается, возвращает `null`.
+- [`ADG_policyApi.getPropertyType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType). Если не поддерживается, возвращает `null`.
+- [`ADG_policyApi.isHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isHTML). Если не поддерживается, возвращает `false`.
+- [`ADG_policyApi.isScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScript). Если не поддерживается, возвращает `false`.
+- [`ADG_policyApi.isScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScriptURL). Если не поддерживается, возвращает `false`.
+
+##### Дополнительные типы
+
+```typescript
+/**
+ * Перечисление, представляющее возвращаемые значения методов `getAttributeType` и
+ * `getPropertyType` нативного API Trusted Types.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType}
+ */
+enum TrustedType {
+    HTML = 'TrustedHTML',
+    Script = 'TrustedScript',
+    ScriptURL = 'TrustedScriptURL',
+}
+
+// Вы можете получить доступ к нему следующим образом внутри пользовательского скрипта
+ADG_TrustedType.HTML // "TrustedHTML"
+
+/**
+ * Изоморфный тип доверенного значения. Если браузер поддерживает API Trusted Types, это будет один из перечисленных Trusted Types
+ * (`TrustedHTML`, `TrustedScript` или `TrustedScriptURL`); в противном случае это будет обычная строка `string`.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScript}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScriptURL}
+ */
+type TrustedValue = string | TrustedHTML | TrustedScript | TrustedScriptURL;
+```
+
+##### Дополнительные методы
+
+```typescript
+/**
+ * Создаёт доверенный тип в зависимости от `type`:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - или возвращает `value`, если ни один из них не подходит.
+ *
+ * @param type          Доверенный тип.
+ * @param value         Значение, из которого создаётся доверенный тип.
+ * @param createArgs    Дополнительные аргументы, передаваемые в функцию, представленную `TrustedTypePolicy`.
+ * @returns             Созданное значение.
+ */
+function create(
+    type: TrustedType,
+    value: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+
+// Пример: Создаёт TrustedHTML
+const trustedHTML = ADG_policyApi.create(ADG_TrustedType.HTML, '<div></div>');
+
+/**
+ * Конвертирует `value` атрибута `attribute` в один из доверенных типов:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - или возвращает `value`, если ни один из них не подходит.
+ *
+ * @param tagName       Имя HTML-тега.
+ * @param attribute     Атрибут.
+ * @param value         Значение атрибута для конвертирования.
+ * @param elementNS     Пространство имён элемента. Если не указано, по умолчанию используется пространство имён HTML.
+ * @param attrNS        Пространство имён атрибута. Если не указано, по умолчанию null.
+ * @param createArgs    Дополнительные аргументы, передаваемые в функцию, представленную `TrustedTypePolicy`.
+ * @returns             Конвертированное значение.
+ */
+function convertAttributeToTrusted(
+    tagName: string,
+    attribute: string,
+    value: string,
+    elementNS?: string,
+    attrNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Пример: Конвертирует в TrustedScriptURL
+const trustedScriptURL = ADG_policyApi.convertAttributeToTrusted("script", "src", 'SOME_URL');
+scriptElement.setAttribute("src", trustedScriptURL);
+
+/**
+ * Конвертирует `value` свойства `property` в один из доверенных типов:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - или возвращает `value`, если ни один из них не подходит.
+ *
+ * @param tagName       Имя HTML-тега.
+ * @param property      Свойство.
+ * @param value         Значение свойства для конвертирования.
+ * @param elementNS     Пространство имён элемента. Если не указано, по умолчанию используется пространство имён HTML.
+ * @param createArgs    Дополнительные аргументы, передаваемые в функцию, представленную `TrustedTypePolicy`.
+ * @returns             Конвертированное значение.
+ */
+function convertPropertyToTrusted(
+    tagName: string,
+    property: string,
+    value: string,
+    elementNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Пример: Конвертирует в TrustedHTML
+divElement.innerHTML = ADG_policyApi.convertPropertyToTrusted("div", "innerHTML", "<div></div>");
+```
+
+#### Взаимодействие со SPA-сайтами
+
+:::info Совместимость
+
+Этот раздел относится только к AdGuard для Windows, AdGuard для Mac, AdGuard для Android и AdGuard для Linux с [CoreLibs] версии 1.19 или более поздней.
+
+:::
+
+Многие современные сайты, такие как YouTube, используют возможности [одностраничных приложений (Single Page Application, SPA)](https://en.wikipedia.org/wiki/Single-page_application). В отличие от традиционных веб-приложений, такая страница не перезагружается при переходе между страницами. Вместо этого содержимое обновляется динамически с помощью JavaScript, что обеспечивает более плавное взаимодействие с пользователем.
+
+На подобных сайтах пользовательскитй скрипт запускается только один раз, когда директивы `@match` или `@include` совпадают (если только не совпала директива `@exclude`). Из-за особенностей одностраничных приложений (SPA) скрипт не может быть повторно вызван при последующих изменениях страницы, так как глобальный контекст JavaScript остаётся неизменным. Чтобы решить эту проблему, пользовательские скрипты могут использовать директиву `@grant window.onurlchange`.
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @grant window.onurlchange
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onurlchange
+window.onurlchange = (event) => {
+    console.log('URL changed to:', event.url);
+};
+
+// via window.addEventListener('urlchange')
+window.addEventListener('urlchange', (event) => {
+    console.log('URL changed to:', event.url);
+});
+```
+
+Это позволит пользовательским скриптам отслеживать изменения URL и соответствующим образом их обрабатывать.
+
+:::note
+
+Событие `urlchange` срабатывает только при полном изменении URL, например, при изменении пути или запроса, но не при изменении фрагмента (хеша).
+Примеры:
+
+- Переход с `https://example.com/page1` на `https://example.com/page2` вызовет событие.
+- Переход с `https://example.com/page1?query=1` на `https://example.com/page1?query=2` вызовет событие.
+- Переход с `https://example.com/page1#section1` на `https://example.com/page1#section2` **НЕ** вызовет событие.
+
+:::
+
+:::note
+
+API `window.onurlchange` и `window.addEventListener(\'urlchange\', ...)` являются нестандартными. Чтобы использовать их, вы должны явно предоставить разрешение в вашем польщовательском скрипте с помощью `@grant window.onurlchange`.
+
+:::
+
+Если сайт использует хеш-маршрутизацию, пользовательские скрипты могут использовать нативное DOM-событие [`hashchange`](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event):
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onhashchange
+window.onhashchange = (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+};
+
+// via window.addEventListener('hashchange')
+window.addEventListener('hashchange', (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+});
 ```
 
 ## Пользовательские стили
@@ -211,11 +422,11 @@ GM_log
 
 :::info Поддерживаемые приложения
 
-Сейчас создавать и управлять пользовательскими стилями можно в двух приложениях AdGuard: AdGuard для Windows (версии 7.19 или выше) и AdGuard для Mac (версии 2.16 или выше). Мы также планируем добавить эту функцию в AdGuard 4.8 для Android.
+Сейчас создавать и управлять пользовательскими стилями можно в двух приложениях AdGuard: AdGuard для Windows (версии 7.19 или выше) и AdGuard для Mac (версии 2.16 или выше). Мы также планируем добавить эту функцию в AdGuard 4.8 для Android в ближайшем будущем.
 
 :::
 
-Это экспериментальная функция. Поэтому, если вы столкнётесь с проблемами при добавлении или создании пользовательского стиля, пожалуйста, напишите нашей команде поддержки на почту <support@adguard.com>.
+This is an experimental feature, so if you encounter any problems while adding or creating a userstyle, please contact our support team at [support@adguard.com](mailto:support@adguard.com).
 
 ### Как настроить пользовательский стиль в AdGuard
 
@@ -291,3 +502,5 @@ GM_log
     }
 }
 ```
+
+[CoreLibs]: https://github.com/AdguardTeam/CoreLibs

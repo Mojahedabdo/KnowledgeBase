@@ -9,56 +9,38 @@ Dieser Artikel behandelt AdGuard für iOS, einem multifunktionalen Werbeblocker,
 
 :::
 
-## Safari-Schutz
+- [Safari-Schutz](/adguard-for-ios/features/safari-protection.md)
 
-Informationen zur Konfiguration von Werbeblockern und Datenschutz in Safari mithilfe von Inhaltsblockern, Filtern und Benutzerregeln.
+  Verfügbare Funktionen und Einstellungen im Tab _Safari-Schutz_: _Filter_, _Benutzerregeln_ und _Zulassungsliste_
 
-[Safari-Schutz](/adguard-for-ios/features/safari-protection.md)
+- [DNS-Schutz](/adguard-for-ios/features/dns-protection/)
 
-## DNS-Schutz
+  DNS-Server und DNS-Filter, mit denen Sie Werbung, Tracker und gefährliche Websites blockieren können
 
-Dieser Abschnitt beschreibt, wie Sie mit AdGuard für iOS sichere DNS-Server konfigurieren und Werbung, Tracker und bösartige Inhalte sperren können.
+- [Erweiterter Schutz](/adguard-for-ios/features/advanced-protection.md)
 
-[DNS-Schutz](/adguard-for-ios/features/dns-protection/)
+  Eine Funktion, die es AdGuard ermöglicht, erweiterte Filterregeln und Scriptlets anzuwenden, um komplexe Anzeigen zu verarbeiten
 
-## Erweiterter Schutz
+- [Aktivität und Statistiken](/adguard-for-ios/features/activity.md)
 
-Dieser Artikel beschreibt die Verwendung von CSS-Regeln, CSS-Selektoren und Scriptlets für komplexe Werbeanzeigen, wie z. B. YouTube- Werbung.
+  Statistiken mit detaillierten Aktivitätsberichten, mit denen Sie blockierte Anzeigen, Tracker und DNS-Abfragen überwachen können
 
-[Erweiterter Schutz](/adguard-for-ios/features/advanced-protection.md)
+- [Assistent](/adguard-for-ios/features/assistant.md)
 
-## Aktivität und Statistiken
+  Ein Tool, mit dem Sie die Filterung in Safari direkt vom Browser aus verwalten können, ohne die AdGuard-Oberfläche zu öffnen
 
-Dieser Artikel beschreibt den Tab „Aktivität“ mit detaillierten Aktivitätsberichten, mit denen Sie gesperrte Werbung, Tracker und DNS-Anfragen überwachen können.
+- [Low-Level-Einstellungen](/adguard-for-ios/features/low-level-settings.md)
 
-[Aktivität und Statistiken](/adguard-for-ios/features/activity.md)
+  Einstellungen, mit denen Sie die App-Leistung optimieren und den DNS-Schutz anpassen können
 
-## Assistent
+- [Weitere Funktionen](/adguard-for-ios/features/other-features.md)
 
-Ein Werkzeug, mit dem Sie das Filtern in Safari direkt vom Browser aus verwalten können, ohne zurück zur App wechseln zu müssen.
+  Allgemeine Einstellungen: Design, Zurücksetzen von Einstellungen und Statistiken, Auto-Updates, Invertieren der Zulassungsliste und erweiterter Modus.
 
-[Assistent](/adguard-for-ios/features/assistant.md)
+- [Kompatibilität mit AdGuard VPN](/adguard-for-ios/features/compatibility-with-adguard-vpn.md)
 
-## Low-Level-Einstellungen
+  Integrierter Modus, der die gleichzeitige Ausführung von AdGuard Werbeblocker und AdGuard VPN trotz Systembeschränkungen ermöglicht
 
-Low-Level-Einstellungen ermöglichen die Feinabstimmung der App-Leistung, die Anpassung der Werbeblockierung und die Anpassung des DNS-Schutzes für mehr Kontrolle über Ihre Privatsphäre und Sicherheit.
+- [Kostenlose vs. Vollversion](/adguard-for-ios/features/free-vs-full.md)
 
-[Low-Level-Einstellungen](/adguard-for-ios/features/low-level-settings.md)
-
-## Weitere Funktionen
-
-Der Artikel beschreibt zusätzliche Funktionen, darunter Widgets, automatisches Aktualisieren und Zurücksetzen von Statistiken, sowie die Kontaktaufnahme mit dem Support.
-
-[Weitere Funktionen](/adguard-for-ios/features/other-features.md)
-
-## Kompatibilität mit AdGuard VPN
-
-Informationen zur Integration der App mit VPN-Diensten, so dass Sie AdGuard und AdGuard VPN gleichzeitig ausführen können, ohne dass es zu Konflikten kommt, und so Werbeblocker und Datenschutz zusammen mit der VPN-Funktionalität gewährleisten.
-
-[Kompatibilität mit AdGuard VPN](/adguard-for-ios/features/compatibility-with-adguard-vpn.md)
-
-## Kostenlose Version vs. Vollversion
-
-Vergleich der Funktionen zwischen der kostenlosen und der kostenpflichtigen Version.
-
-[Kostenlose vs. Vollversion](/adguard-for-ios/features/free-vs-full.md)
+  Vergleich der Funktionen zwischen der kostenlosen und der kostenpflichtigen Version.

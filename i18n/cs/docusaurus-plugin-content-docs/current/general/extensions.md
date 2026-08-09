@@ -55,6 +55,24 @@ Tento skript odstraní z odkazů ve výsledcích vyhledávání Google funkci sl
 
 Jeho zdrojový kód je [k dispozici na GitHubu](https://github.com/Rob--W/dont-track-me-google). Tento uživatelský skript lze stáhnout ze stránek [GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) a nainstalovat do libovolné aplikace založené na AdGuard CoreLibs.
 
+#### SponsorBlock
+
+SponsorBlock přeskakuje sponzorované segmenty ve videích na YouTube. Šetří čas tím, že přechází přímo k hlavnímu obsahu a odstraňuje přerušení způsobená reklamami a vlastní propagací.
+
+:::info
+
+Tento uživatelský skript běží výhradně v našich desktopových aplikacích AdGuard pro Windows a AdGuard pro Mac.
+
+:::
+
+Vyzkoušejte to:
+
+1. Přejděte na [https://mchangrh.github.io/sb.js/](https://mchangrh.github.io/sb.js/).
+2. Klikněte na **Generovat odkaz**.
+3. Zkopírujte zobrazený odkaz.
+4. Otevřete AdGuard a přejděte do **Rozšíření → Přidat rozšíření → Importovat ze souboru nebo URL**.
+5. Vložte zkopírovaný odkaz a potvrďte.
+
 #### tinyShield
 
 Uživatelský skript pro lidi, kteří navštěvují korejské a některé mezinárodní webové stránky. Uživatelský skript tinyShield blokuje Ad-Shield a anti-adblock. Tento uživatelský skript lze nainstalovat v AdGuard CoreLibs, Violentmonkey, Tampermonkey a [quoid/userscripts](https://github.com/quoid/userscripts). Více informací o skriptu microShield a jeho instalaci najdete na [GitHubu](https://github.com/List-KR/tinyShield).
@@ -93,51 +111,38 @@ Pokud vyvíjíte vlastní uživatelský skript a chcete si vyzkoušet, jak fungu
 
 #### Kompatibilita
 
-#### Blokování metadat
+##### Blokování metadat
 
-#### Podporované vlastnosti
+###### Podporované vlastnosti
 
-```text
-@name
-@namespace
-@description
-@version
-@match
-@include
-@exclude
-@grant
-@connect
-@require
-@resource
-@downloadURL
-@updateURL
-@supportURL
-@homepageURL
-@homepage
-@website
-@source
-@run-at
-@noframes
-@icon
-@iconURL
-@defaulticon
-@icon64
-@icon64URL
-```
+- [`@name`](https://wiki.greasespot.net/Metadata_Block#@name)
+- [`@namespace`](https://wiki.greasespot.net/Metadata_Block#@namespace)
+- [`@description`](https://wiki.greasespot.net/Metadata_Block#@description)
+- [`@version`](https://wiki.greasespot.net/Metadata_Block#@version)
+- [`@match`](https://wiki.greasespot.net/Metadata_Block#@match)
+- [`@include`](https://wiki.greasespot.net/Metadata_Block#@include)
+- [`@exclude`](https://wiki.greasespot.net/Metadata_Block#@exclude)
+- [`@grant`](https://wiki.greasespot.net/Metadata_Block#@grant)
+- [`@connect`](https://www.tampermonkey.net/documentation.php#meta:connect)
+- [`@require`](https://wiki.greasespot.net/Metadata_Block#@require)
+- [`@resource`](https://wiki.greasespot.net/Metadata_Block#@resource)
+- [`@downloadURL`](https://www.tampermonkey.net/documentation.php#meta:downloadURL)
+- [`@updateURL`](https://www.tampermonkey.net/documentation.php#meta:updateURL)
+- [`@homepage`, `@homepageURL`, `@source`, `@website`](https://www.tampermonkey.net/documentation.php#meta:homepage)
+- [`@run-at`](https://wiki.greasespot.net/Metadata_Block#@run-at)
+- [`@noframes`](https://wiki.greasespot.net/Metadata_Block#@noframes)
+- [`@icon`, `@iconURL`, `@defaulticon`](https://www.tampermonkey.net/documentation.php#meta:icon)
+- [`@icon64`, `@icon64URL`](https://www.tampermonkey.net/documentation.php#meta:icon64)
 
-#### Nepodporované vlastnosti
+###### Nepodporované vlastnosti
 
 Tyto vlastnosti bude AdGuard jednoduše ignorovat.
 
-```text
-@unwrap
-```
+- [`@unwrap`](https://www.tampermonkey.net/documentation.php#meta:unwrap)
 
-#### Podporované funkce GM
+##### Podporované funkce GM
 
 AdGuard podporuje jak staré funkce GM\_, tak nové rozhraní GM4 API, které používá objekt GM.
-
-#### Hodnoty
 
 :::note
 
@@ -145,24 +150,24 @@ Všechny uvedené staré funkce Greasemonkey jsou zastaralé, ale stále podporo
 
 :::
 
-```text
-GM.info / GM_info
-GM.setValue / GM_setValue
-GM.getValue / GM_getValue
-GM.listValues / GM_listValues
-GM.deleteValue / GM_deleteValue
-GM.getResourceUrl / GM_getResourceURL
-GM.setClipboard / GM_setClipboard
-GM.xmlHttpRequest / GM_xmlhttpRequest
-GM.openInTab / GM_openInTab
-GM.notification
-unsafeWindow
-GM_getResourceText
-GM_addStyle
-GM_log
-```
+- [`GM.info`, `GM_info`](https://wiki.greasespot.net/GM.info)
+- [`GM.setValue`, `GM_setValue`](https://wiki.greasespot.net/GM.setValue)
+- [`GM.getValue`, `GM_getValue`](https://wiki.greasespot.net/GM.getValue)
+- [`GM.listValues`, `GM_listValues`](https://wiki.greasespot.net/GM.listValues)
+- [`GM.deleteValue`, `GM_deleteValue`](https://wiki.greasespot.net/GM.deleteValue)
+- [`GM.getResourceUrl`, `GM_getResourceURL`](https://wiki.greasespot.net/GM.getResourceUrl)
+- [`GM.setClipboard`, `GM_setClipboard`](https://wiki.greasespot.net/GM.setClipboard)
+- [`GM.xmlHttpRequest`, `GM_xmlhttpRequest`](https://wiki.greasespot.net/GM.xmlHttpRequest)
+- [`GM.openInTab`, `GM_openInTab`](https://wiki.greasespot.net/GM.openInTab)
+- [`GM.notification`](https://wiki.greasespot.net/GM.notification)
+- [`unsafeWindow`](https://wiki.greasespot.net/UnsafeWindow)
+- [`GM_getResourceText`](https://www.tampermonkey.net/documentation.php#api:GM_getResourceText)
+- [`GM_addStyle`](https://www.tampermonkey.net/documentation.php#api:GM_addStyle)
+- [`GM_log`](https://www.tampermonkey.net/documentation.php#api:GM_log)
+- [`GM.addElement`, `GM_addElement`](https://www.tampermonkey.net/documentation.php#api:GM_addElement)
+- [`window.onurlchange`](https://www.tampermonkey.net/documentation.php#api:window.onurlchange)
 
-[Zde](https://wiki.greasespot.net/GM.info) najdete další informace o rozhraní Greasemonkey API.
+Další informace o Greasemonkey API najdete v [jeho příručce](https://wiki.greasespot.net/Greasemonkey_Manual:API).
 
 #### Příklad
 
@@ -196,11 +201,218 @@ GM_log
 // @grant           GM_info
 // @grant           GM_openInTab
 // @grant           GM_registerMenuCommand
-// @run-at document-start
+// @grant           GM_addElement
+// @grant           window.onurlchange
+// @run-at          document-start
 // ==/UserScript==
 !function(){(
     console.log("I am loaded!");
 )}();
+```
+
+#### Důvěryhodné typy API
+
+AdGuard poskytuje instanci třídu `PolicyApi`, která umožňuje spravovat důvěryhodné typy v uživatelských skriptech.
+
+K instanci této třídy můžete přistupovat pomocí proměnné `ADG_policyApi` v uživatelském skriptu.
+
+##### Vlastnosti
+
+- `name: string` — název zásady (výchozí je `"AGPolicy"`).
+- `isSupported: boolean` — příznak určující, zda je rozhraní API důvěryhodných typů podporováno aktuálním prohlížečem.
+
+##### Metody s vícenásobným plněním
+
+- [`ADG_policyApi.createHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createHTML). Pokud není podporováno, vrací `input: string`.
+- [`ADG_policyApi.createScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScript). Pokud není podporováno, vrací `input: string`.
+- [`ADG_policyApi.createScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScriptURL). Pokud není podporováno, vrací `input: string`.
+- [`ADG_policyApi.getAttributeType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType). Pokud není podporováno, vrací `null`.
+- [`ADG_policyApi.getPropertyType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType). Pokud není podporováno, vrací `null`.
+- [`ADG_policyApi.isHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isHTML). Pokud není podporováno, vrací `false`.
+- [`ADG_policyApi.isScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScript). Pokud není podporováno, vrací `false`.
+- [`ADG_policyApi.isScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScriptURL). Pokud není podporováno, vrací `false`.
+
+##### Další typy
+
+```typescript
+/**
+ * Enum representation of the return values of the `getAttributeType` and
+ * `getPropertyType` methods of the native Trusted Types API.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType}
+ */
+enum TrustedType {
+    HTML = 'TrustedHTML',
+    Script = 'TrustedScript',
+    ScriptURL = 'TrustedScriptURL',
+}
+
+// You can access it like that inside of userscript
+ADG_TrustedType.HTML // "TrustedHTML"
+
+/**
+ * Isomorphic trusted value type. If a browser supports the Trusted Types API, it will be one of the enum Trusted Types
+ * (`TrustedHTML`, `TrustedScript` or `TrustedScriptURL`); otherwise, it will be regular `string`.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScript}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScriptURL}
+ */
+type TrustedValue = string | TrustedHTML | TrustedScript | TrustedScriptURL;
+```
+
+##### Další metody
+
+```typescript
+/**
+ * Creates a Trusted Type depending on `type`:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param type          Trusted Type.
+ * @param value         Value from which a Trusted Type is created.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Created value.
+ */
+function create(
+    type: TrustedType,
+    value: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+
+// Example: Creates TrustedHTML
+const trustedHTML = ADG_policyApi.create(ADG_TrustedType.HTML, '<div></div>');
+
+/**
+ * Converts `value` of `attribute` into one of the Trusted Types:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param tagName       Name of an HTML tag.
+ * @param attribute     Attribute.
+ * @param value         Value of an attribute to be converted.
+ * @param elementNS     Element namespace. If empty, defaults to the HTML namespace.
+ * @param attrNS        Attribute namespace. If empty, defaults to null.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Converted value.
+ */
+function convertAttributeToTrusted(
+    tagName: string,
+    attribute: string,
+    value: string,
+    elementNS?: string,
+    attrNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Example: Converts to TrustedScriptURL
+const trustedScriptURL = ADG_policyApi.convertAttributeToTrusted("script", "src", 'SOME_URL');
+scriptElement.setAttribute("src", trustedScriptURL);
+
+/**
+ * Converts `value` of `property` into one of the Trusted Types:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - or returns `value` if none of them is applicable.
+ *
+ * @param tagName       Name of an HTML tag.
+ * @param property      Property.
+ * @param value         Value of a property to be converted.
+ * @param elementNS     Element namespace. If empty, defaults to the HTML namespace.
+ * @param createArgs    Additional arguments to be passed to the function represented by `TrustedTypePolicy`.
+ * @returns             Converted value.
+ */
+function convertPropertyToTrusted(
+    tagName: string,
+    property: string,
+    value: string,
+    elementNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Example: Converts to TrustedHTML
+divElement.innerHTML = ADG_policyApi.convertPropertyToTrusted("div", "innerHTML", "<div></div>");
+```
+
+#### Shodné stránky SPA
+
+:::info Kompatibilita
+
+Tato část platí pouze pro AdGuard pro Windows, AdGuard pro Mac, AdGuard pro Android a Adguardem pro Linux s [CoreLibs] v1.19 nebo novější.
+
+:::
+
+Mnoho moderních webových stránek, například YouTube, využívá možnosti [Single Page Application (SPA)](https://en.wikipedia.org/wiki/Single-page_application). Na rozdíl od tradičních webových aplikací se stránka při přecházení mezi stránkami znovu nenačítá. Místo toho se obsah aktualizuje dynamicky pomocí JavaScriptu, což umožňuje plynulejší uživatelské prostředí.
+
+Na takových webových stránkách je uživatelský skript vyvolán pouze jednou, když jsou splněny direktivy `@match` nebo `@include` (pokud není splněna direktiva `@exclude`). Vzhledem k povaze SPA nelze uživatelský skript znovu vyvolat při následných změnách stránky, protože globální kontext JavaScriptu zůstává stejný. Pro řešení tohoto problému mohou uživatelské skripty použít direktivu `@grant window.onurlchange`.
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @grant window.onurlchange
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onurlchange
+window.onurlchange = (event) => {
+    console.log('URL changed to:', event.url);
+};
+
+// via window.addEventListener('urlchange')
+window.addEventListener('urlchange', (event) => {
+    console.log('URL changed to:', event.url);
+});
+```
+
+To umožní uživatelským skriptům naslouchat změnám adresy URL a podle toho je zpracovávat.
+
+:::note
+
+Událost `urlchange` se spouští pouze při úplných změnách adresy URL, například při změně cesty nebo dotazu, nikoli však při změnách fragmentů (hash).
+Příklady:
+
+- Navigace z `https://example.com/page1` na `https://example.com/page2` vyvolá událost.
+- Navigace z `https://example.com/page1?query=1` na `https://example.com/page1?query=2` vyvolá událost.
+- Navigace z `https://example.com/page1#section1` na `https://example.com/page1#section2` NEVYVOLÁ událost.
+
+:::
+
+:::note
+
+API `window.onurlchange` a `window.addEventListener('urlchange', ...)` jsou nestandardní. Chcete-li je použít, musíte je explicitně přidělit ve svém uživatelském skriptu pomocí příkazu `@grant window.onurlchange`.
+
+:::
+
+Pokud webová stránka používá směrování hash, mohou uživatelské skripty používat nativní událost DOM [`hashchange`](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event):
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onhashchange
+window.onhashchange = (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+};
+
+// via window.addEventListener('hashchange')
+window.addEventListener('hashchange', (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+});
 ```
 
 ## Uživatelské styly
@@ -211,11 +423,11 @@ AdGuard má možnost nahrát nebo vytvořit vlastní uživatelské styly. Jedná
 
 :::info Podporované aplikace
 
-V současné době umožňují vytvářet a spravovat uživatelské styly dvě aplikace AdGuard: AdGuard pro Windows (verze 7.19 nebo novější) a AdGuard pro macOS (verze 2.16 nebo novější). Tuto novou funkci plánujeme v nejbližší době implementovat také do AdGuardu v4.8 pro Android.
+V současné době umožňují vytvářet a spravovat uživatelské styly dvě aplikace AdGuard: AdGuard pro Windows (verze 7.19 nebo novější) a AdGuard pro macOS (verze 2.16 nebo novější). Tuto novou funkci plánujeme v nejbližší době implementovat také do AdGuardu pro Android v4.8.
 
 :::
 
-Jedná se o experimentální funkci, takže pokud se při přidávání nebo vytváření uživatelského stylu setkáte s jakýmikoli problémy, kontaktujte prosím náš tým podpory na <support@adguard.com>.
+Jedná se o experimentální funkci, takže pokud se při přidávání nebo vytváření uživatelského stylu setkáte s jakýmikoli problémy, kontaktujte prosím náš tým podpory na [support@adguard.com](mailto:support@adguard.com).
 
 ### Jak nastavit uživatelský styl v AdGuardu
 
@@ -252,7 +464,7 @@ Nepodporujeme uživatelské styly, které v metadatech obsahují `@var` nebo `@a
    ==/UserStyle== */
    ```
 
-4. Část CSS zapište až za metadata. AdGuard podporuje porovnávání názvů domén webových stránek (`@-moz-document domain(...), ...`). Např:
+4. Část CSS zapište až za metadata. AdGuard podporuje porovnávání názvů domén webových stránek (`@-moz-document domain(…), …`). Např:
 
    ```CSS
    body {
@@ -291,3 +503,5 @@ Nepodporujeme uživatelské styly, které v metadatech obsahují `@var` nebo `@a
     }
 }
 ```
+
+[CoreLibs]: https://github.com/AdguardTeam/CoreLibs

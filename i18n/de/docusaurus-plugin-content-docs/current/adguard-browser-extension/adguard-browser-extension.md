@@ -9,50 +9,34 @@ In diesem Artikel geht es um die AdGuard Browsereweiterung, die nur Ihren Browse
 
 :::
 
-## Funktionen
+- [Funktionen](/adguard-browser-extension/features)
 
-Im Folgenden werden die wichtigsten Funktionen und Einstellungen der AdGuard Browsererweiterung beschrieben.
+  Die wichtigsten Funktionen und Einstellungen der AdGuard Browsererweiterung
 
-[Funktionen](/adguard-browser-extension/features)
+- [Verfügbarkeit](/adguard-browser-extension/availability)
 
-## Verfügbarkeit
+  Unterstützte Browser und Plattformen, auf denen die Erweiterung installiert werden kann
 
-In diesem Artikel erfahren Sie mehr über die unterstützten Browser und Plattformen, auf denen die Erweiterung installiert werden kann.
+- [Installation](/adguard-browser-extension/installation)
 
-[Verfügbarkeit](/adguard-browser-extension/availability)
+  Installation und Entfernung
 
-## Installation
+- [Kompatibilität mit der eigenständigen App](/adguard-browser-extension/compatibility)
 
-Der Artikel erklärt, wie Sie die AdGuard Browsererweiterung auf verschiedenen unterstützten Browsern installieren.
+  Kompatibilität der AdGuard Browsererweiterung mit den AdGuard-Desktop-Apps
 
-[Installation](/adguard-browser-extension/installation)
+- [AdGuard Browsererweiterung für Chrome MV3](/adguard-browser-extension/mv3-version/)
 
-## Kompatibilität mit der eigenständigen App
+  Eine separate AdGuard Browsererweiterung, die mit der Manifest V3-API kompatibel ist
 
-Der Artikel erklärt die Kompatibilität der AdGuard Browsererweiterung mit den AdGuard Desktop-Anwendungen.
+- [Browser-geschützte Seiten](/adguard-browser-extension/protected-pages)
 
-[Kompatibilität mit der eigenständigen App](adguard-browser-extension/compatibility)
+  Eingeschränkte Domains, deren Inhalt nicht mit Werbeblocker-Erweiterungen geändert werden kann
 
-## AdGuard Browsererweiterung für Chrome MV3
+- [Probleme lösen](/adguard-browser-extension/solving-problems)
 
-In diesem Artikel wird die AdGuard-Browsererweiterung für Chrome besprochen, die mit der Manifest V3-API kompatibel ist, und wie sie sich von der auf Manifest V2 basierenden Browsererweiterung unterscheidet.
+  Bekannte Probleme und mögliche Lösungen
 
-[AdGuard Browsererweiterung für Chrome MV3](/adguard-browser-extension/mv3-version/)
+- [Kompatibilität mit der eigenständigen App](/adguard-browser-extension/comparison-standalone)
 
-## Browser-geschützte Webseiten
-
-Der Artikel beschreibt, wie die AdGuard-Browsererweiterung geschützte Seiten verwaltet und das Sperren von Werbung auf bestimmten sensiblen Websites einschränkt, um die ordnungsgemäße Funktionalität sicherzustellen.
-
-[Browser-geschützte Seiten](/adguard-browser-extension/protected-pages)
-
-## Probleme lösen
-
-Dieser Abschnitt enthält Anleitungen zu bekannten Problemen und möglichen Lösungen.
-
-[Probleme lösen](/adguard-browser-extension/solving-problems)
-
-## Vergleich mit eigenständigen Anwendungen
-
-Der Artikel hebt die Unterschiede zwischen den AdGuard-Erweiterungen und den Desktop-Anwendungen in Bezug auf Funktionalität, Abdeckung und Merkmale hervor.
-
-[Kompatibilität mit der eigenständigen App](/adguard-browser-extension/comparison-standalone)
+  Die Unterschiede in der Funktionalität und den Merkmalen zwischen den AdGuard-Erweiterungen und den Desktop-Apps

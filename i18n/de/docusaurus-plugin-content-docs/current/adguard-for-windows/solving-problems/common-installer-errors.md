@@ -27,7 +27,7 @@ Es handelt sich um zwei verschiedene Fehler mit sehr ähnlichen Lösungen. Wie d
 
 - Deinstallieren Sie einige Programme oder löschen Sie unnötige Dateien von dem Laufwerk, auf dem Sie AdGuard installieren möchten.
 
-- Laden Sie [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), eine kostenlose Software von Malwarebytes, herunter, installieren Sie sie und führen Sie sie aus. Es befreit Ihr System unter anderem von allen Arten zusätzlicher „verbliebener“ Dateien, die nach der fehlerhaften Deinstallation von Programmen usw. noch vorhanden sind. Das wird helfen, etwas Speicherplatz freizugeben.
+- Laden Sie [AdwCleaner](https://www.bleepingcomputer.com/download/adwcleaner/), eine kostenlose Software von Malwarebytes, herunter, installieren Sie sie und führen Sie sie aus. Es befreit Ihr System unter anderem von allen Arten zusätzlicher „verbliebener“ Dateien, die nach der fehlerhaften Deinstallation von Programmen usw. noch vorhanden sind. Das wird helfen, etwas Speicherplatz freizugeben.
 
 - Starten Sie Ihren Computer neu. Manchmal können temporäre Dateien eine beträchtliche Menge an Speicherplatz beanspruchen, und ein Neustart Ihres PCs ist die zuverlässigste Methode, sie loszuwerden.
 
@@ -35,9 +35,13 @@ Es handelt sich um zwei verschiedene Fehler mit sehr ähnlichen Lösungen. Wie d
 
 Man könnte sagen, dass dies eine besondere Unterkategorie des Fehlers 1603 ist. Die möglichen Lösungen sind ähnlich:
 
-- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Das erfordert etwas Arbeit.
+- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Es erfordert einige Schritte.
 
-    1) Drücken Sie *Win ⊞ + R* und geben Sie **services.msc** ein. 2) Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*. 3) Drücken Sie *Start* unter *Dienststatus* und drücken Sie *OK*. Wenn der Dienststatus **Wird ausgeführt** lautet, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten*klicken. 4) Drücken Sie *Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Eingabetaste*. 5) Drücken Sie erneut *Win + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Eingabetaste*
+    - Drücken Sie *Win + R* und geben Sie **services.msc** ein.
+    - Suchen Sie in der Liste *Windows Installer* und doppelklicken Sie darauf.
+    - Klicken Sie die Schaltfläche *Starten* unter *Dienststatus* und klicken Sie anschließend auf *OK*. Sollte der Dienststatus **Wird ausgeführt** sein, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten* klicken.
+    - Drücken Sie *⊞ Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Eingabetaste*.
+    - Drücken Sie erneut *Win + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Eingabetaste*
 
 - Starten Sie den PC neu und beginnen Sie die Installation von vorne. Manchmal reicht dies aus, um das Problem zu beheben.
 
@@ -61,13 +65,25 @@ Der Fehler klingt erschreckender als er tatsächlich ist. In Wirklichkeit handel
 
 - Deinstallieren Sie AdGuard mit unserem speziellen [Deinstallationstool](../../installation#advanced) und wiederholen Sie dann die Installation.
 
-- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Das erfordert etwas Arbeit.
+- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Es erfordert einige Schritte.
 
-    1) Drücken Sie *Win + R* und geben Sie ***services.msc*** ein. 2) Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*. 3) Drücken Sie *Start* unter *Dienststatus* und drücken Sie *OK*. Wenn der Dienststatus **Wird ausgeführt** lautet, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten*klicken. 4) Drücken Sie *Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Eingabetaste*. 5) Drücken Sie erneut *Win + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Eingabetaste*
+    - Drücken Sie *Win + R* und geben Sie ***services.msc*** ein.
+    - Suchen Sie in der Liste *Windows Installer* und doppelklicken Sie darauf.
+    - Klicken Sie die Schaltfläche *Starten* unter *Dienststatus* und klicken Sie anschließend auf *OK*. Sollte der Dienststatus **Wird ausgeführt** sein, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten* klicken.
+    - Drücken Sie *⊞ Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Eingabetaste*.
+    - Drücken Sie erneut *Win + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Eingabetaste*
 
-- Verschaffen Sie sich für die Installation volle Berechtigungen auf dem Laufwerk. Es ist möglich, dass der Fehler 1603 auftritt, weil Sie nicht die vollen Berechtigungen für den Speicherort der Datei haben. Es ist auch nicht so einfach wie einige der anderen Lösungen:
+- Verschaffen Sie sich für die Installation volle Berechtigungen auf dem Laufwerk. Es ist möglich, dass der Fehler 1603 auftritt, weil Sie nicht die vollen Berechtigungen für den Dateispeicherort besitzen. Es ist leider auch nicht so einfach wie einige der anderen Lösungen:
 
-    1) Öffnen Sie den *Datei-Explorer*, klicken Sie mit der rechten Maustaste auf das Laufwerk, das den Installationsort enthält, und wählen Sie *Eigenschaften*. 2) Öffnen Sie den Tab *Sicherheit* und klicken Sie auf *Bearbeiten*. 3) Klicken Sie einmal auf *SYSTEM* und vergewissern Sie sich, dass das Kontrollkästchen *Zulassen* für jedes Element in *Berechtigungen für SYSTEM* aktiviert ist (falls es aktiviert werden kann). Führen Sie die gleiche Prüfung für *Administratoren* durch. 4) Klicken Sie auf *OK*, um zum Dialogfeld *Eigenschaften* zurückzukehren. Klicken Sie dann auf *Erweitert*. 5) Klicken Sie auf *Berechtigungen ändern*. 6) Im Tab *Berechtigungen* doppelklicken Sie auf *Administratoren*. 7) Wählen Sie *Dieser Ordner, Unterordner und Dateien* für das Feld *Anwenden auf* und markieren Sie alle verfügbaren *Grundlegende Berechtigungen*. Danach drücken Sie *OK*. 8) Führen Sie den gleichen Vorgang (ab Punkt 7) für *SYSTEM* durch. 9) Klicken Sie auf *OK* bis zum Ende. Versuchen Sie, AdGuard erneut zu installieren.
+    - Öffnen Sie den *Datei-Explorer*, klicken Sie mit der rechten Maustaste auf das Laufwerk, das den Installationsort enthält, und wählen Sie *Eigenschaften*.
+    - Öffnen Sie den Tab *Sicherheit* und klicken Sie auf *Bearbeiten*.
+    - Klicken Sie auf *SYSTEM* und vergewissern Sie sich, dass das Kästchen *Zulassen* für jeden Eintrag in *Berechtigungen für "SYSTEM"* aktiviert ist (wenn es aktiviert werden kann). Wiederholen Sie dies für *Administratoren*.
+    - Klicken Sie auf *OK*, um zum Dialogfeld *Eigenschaften* zurückzukehren. Klicken Sie dann auf *Erweitert*.
+    - Klicken Sie auf *Berechtigungen ändern*.
+    - Klicken Sie doppelt im Tab *Berechtigungen* auf *Administratoren*.
+    - Wählen Sie *Diesen Ordner, Unterordner und Dateien* für das Feld *Anwenden auf:* und aktivieren Sie alle verfügbaren *Grundlegenden Berechtigungen*. Anschließend klicken Sie auf *OK*.
+    - Wiederholen Sie die oben genannten Schritte (ab Punkt 7) für *SYSTEM*.
+    - Klicken Sie (wenn erforderlich mehrmals) auf *OK*. Versuchen Sie, AdGuard erneut zu installieren.
 
 ### Fehler 1618: Eine andere Installation wird bereits ausgeführt {#error-1618}
 

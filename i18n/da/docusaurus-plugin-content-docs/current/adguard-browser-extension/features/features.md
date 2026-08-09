@@ -1,34 +1,26 @@
 ---
-title: Features
+title: Funktioner
 sidebar_position: 1
 ---
 
 :::info
 
-This article is about the AdGuard Browser Extension, which safeguards only your browser. To protect your entire device, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+Denne artikel omhandler AdGuard Browser Extension, der kun beskytter webbrowseren. For at beskytte hele enheden, [download AdGuard-appen](https://agrd.io/download-kb-adblock)
 
 :::
 
-## Main menu
+- [Hovedmenu](/adguard-browser-extension/features/main-menu.md)
 
-The article explains the main functions on the pop-up, such as enabling or disabling ad blocking, accessing settings, managing filters, and viewing protection statistics.
+  Hoved-pop op'en, hvorfra der kan tilgås indstillinger, filtreringslog og statistikker samt anmeldes problemer
 
-[Main menu](/adguard-browser-extension/features/main-menu.md)
+- [Filtre](/adguard-browser-extension/features/filters.md)
 
-## Filters
+  Filtre og brugerregler til finjustering af adblocking
 
-The article describes how AdGuard Browser Extension allows you to customize ad blocking with different filters and custom user rules.
+- [Sporingsbeskyttelse (Stealth Mode)](/adguard-browser-extension/features/stealth-mode.md)
 
-[Filters](/adguard-browser-extension/features/filters.md)
+  Indstillinger til blokering af cookies, UTM-tags og onlineanalyseværktøjer, som indsamler brugeroplysninger
 
-## Tracking protection (Stealth Mode)
+- [Andre funktioner](/adguard-browser-extension/features/other-features.md)
 
-The article explains how this feature enhances privacy by blocking online trackers, hiding user information, and preventing third-party data collection.
-
-[Tracking protection (Stealth Mode)](/adguard-browser-extension/features/stealth-mode.md)
-
-## Other features and options
-
-The article describes additional features and information, such as update notifications, filtering log, statistics on blocked ads and trackers, links to privacy documents, and the repository.
-
-[Other features and options](/adguard-browser-extension/features/other-features.md)
+  Generel tilstand og yderligere indstillinger, links til fortrolighedsdokumenter og GitHub-repo

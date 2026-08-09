@@ -5,13 +5,13 @@ sidebar_position: 6
 
 :::info
 
-この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for iOS」についてです。 実際どのように機能するのかを確認するには、[AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
+この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for iOS」についてです。 実際どのように機能するのかを確認するには、 [AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
 
 :::
 
-![Low-level settings \*mobile\_border](https://cdn.adtidy.org/public/Adguard/Blog/ios_lowlevel.PNG)
+![Low-level settings \*mobile_border](https://cdn.adtidy.org/public/Adguard/Blog/ios_lowlevel.PNG)
 
-【_ローレベル設定_を開く方法】AdGuardアプリ内の_設定_⚙️ → _一般設定_ → (_高度な設定モード_がオフになっている場合はオンにしてから) _詳細設定_ → _ローレベル設定_
+【_ローレベル設&#x5B9A;_&#x3092;開く方法】AdGuardアプリ内&#x306E;_&#x8A2D;定_⚙️ → _一般設定_ → (_高度な設定モー&#x30C9;_&#x304C;オフになっている場合はオンにしてから) _詳細設定_ → _ローレベル設定_
 
 ※ほとんどの場合、このセクションの設定はそのままにしておくのがベストです。自分のしていることに確信がある場合、またはサポートチームから求められた場合にのみ変更してください。 一部の設定はリスクなしで変更できます。
 

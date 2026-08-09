@@ -9,7 +9,7 @@ Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, kt
 
 :::
 
-:::note
+Zakazuje prohlížeči Google Chrome odesílat informace o verzi a modifikaci s požadavky na domény Google (včetně DoubleClick a Google Analytics).
 
 Údaje a/nebo soubory poskytnuté v protokolech jsou zpracovávány v souladu se [Zásadami ochrany osobních údajů AdGuardu](https://adguard.com/en/privacy.html).
 
@@ -17,7 +17,7 @@ Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, kt
 
 V tomto článku vás provedeme procesem shromažďování záznamů ladění, což je zásadní krok při řešení složitých problémů, které mohou nastat. Záznamy ladění poskytují podrobný náhled do vnitřního fungování AdGuardu pro Android. Pokud vás tým podpory AdGuardu požádá o poskytnutí záznamů ladění, postupujte podle těchto pokynů.
 
-:::note
+Zakazuje prohlížeči Google Chrome odesílat informace o verzi a modifikaci s požadavky na domény Google (včetně DoubleClick a Google Analytics).
 
 AdGuard se zavazuje chránit vaše soukromí. Přísně dodržujeme naše [Zásady ochrany osobních údajů](https://adguard.com/privacy/android.html) a neshromažďujeme žádné soukromé informace o uživatelích. Před odesláním protokolů týmu podpory si soubor prohlédněte, protože může obsahovat další informace, které nechcete sdílet. Pokud takové osobní údaje obsahuje, doporučujeme je nejprve smazat.
 
@@ -35,4 +35,4 @@ Chcete-li shromáždit záznam **ladění** a odeslat nám jej, musíte provést
 Pokud máte zájem sledovat řešení svého problému a navázat dialog s vývojáři, doporučujeme vám po dokončení prvních tří kroků provést následující:
 
 1. Chvíli počkejte, poté se vraťte na obrazovku *Pokročilé* a exportujte záznamy pomocí *Exportovat záznamy a systémové informace*. Poté nahlaste chybu na GitHub podle těchto [pokynů](/guides/report-bugs.md).
-1. Po vytvoření problému na GitHubu odešlete soubor se záznamem na adresu devteam@adguard.com. Uveďte čas chyby a připojte odkaz na problém nebo jeho číslo (zobrazuje se jako #číslo vedle názvu). Soubor se záznamem můžete také nahrát na Disk Google a odeslat jej na adresu devteam@adguard.com. Přidejte odkaz na soubor do svého problému na GitHubu
+1. Po vytvoření problému na GitHubu odešlete soubor se záznamem na adresu [devteam@adguard.com](mailto:devteam@adguard.com). Uveďte čas chyby a připojte odkaz na problém nebo jeho číslo (zobrazuje se jako #číslo vedle názvu). Soubor se záznamem můžete také nahrát na Disk Google a odeslat jej na adresu [devteam@adguard.com](mailto:devteam@adguard.com). Přidejte odkaz na soubor do svého problému na GitHubu

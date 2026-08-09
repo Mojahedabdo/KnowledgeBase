@@ -21,19 +21,19 @@ Vechea extensie beta va fi redenumită în [**AdGuard Ad Blocker MV2**](https://
 
 - **Jurnal de filtrare**
 
-  ![Jurnal de filtrare \*border](https://cdn.adtidy.org/content/blog/mv3/new/log.png)
+  ![Filtering log \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/filtering_log.png)
 
   Din cauza restricțiilor DNR, nu putem arăta exact care regulă a funcționat, dar vom oferi o “regulă presupusă care a fost declanșată” pe baza motorului nostru. Pentru informații precise, va trebui să instalați singur forma “dezgolită” a extensiei în browserul dumneavoastră. Veți găsi instrucțiuni detaliate despre cum să faceți acest lucru într-un [articol separat](/adguard-browser-extension/solving-problems/debug-rules/).
 
 - _Tracking protection_ (formerly known as _Stealth mode_)
 
-  ![Protecția împotriva urmăririi \*border](https://cdn.adtidy.org/content/blog/mv3/new/tracking_screen.png)
+  ![Tracking protection \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv3.png)
 
   There are no _Cookies_ section, along with _Self-destruction of first-party cookies_ and _Self-destruction of third-party cookies_ since we cannot set the TTL of cookies using declarative rules.
 
 - _Protecția împotriva phishingului și malware-ului_ nu mai este disponibilă în setările generale. To protect yourself from malicious websites and scams, enable the appropriate _Security_ filters in the _Filters_ tab.
 
-  ![Securitate \*border](https://cdn.adtidy.org/content/blog/mv3/new/security.png)
+  ![Security \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/security_filters.png)
 
 ## Limitări
 
@@ -55,7 +55,7 @@ Numărul maxim de filtre activate simultan este **50**.
 
 **Regulile dinamice:** o limită strictă de **5.000** reguli este impusă, care include un maxim de 1.000 de reguli regex.
 
-Dacă această limită este depășită, vor fi aplicate doar **5.000 de reguli convertite** în următoarea ordine: mai întâi Allowlist, apoi Reguli utilizator, filtre personalizate și, în final — filtre Quick Fixes.
+If this limit is exceeded, only **5,000 converted rules** will be applied in the following order: first Allowlist, then User rules and finally Custom filters.
 
 > **Reguli convertite** sunt reguli care au fost transformate
 > din \[format DNR] folosind [convertorul declarativ][github-declarative-converter].
@@ -104,8 +104,5 @@ Mai multe detalii despre limitări pot fi găsite pe [GitHub][github-declarative
 Pentru informații suplimentare despre modificatori, vă rugăm să consultați [Baza noastră de cunoștințe](/general/ad-filtering/create-own-filters).
 
 [DNR format]: https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#build-rules
-
-<!-- TODO: update the following urls after the release/v3.1 branch is merged -->
-
-[github-declarative-converter]: https://github.com/AdguardTeam/tsurlfilter/tree/release/v3.1/packages/tsurlfilter/src/rules/declarative-converter
-[github-declarative-converter-examples]: https://github.com/AdguardTeam/tsurlfilter/tree/release/v3.1/packages/tsurlfilter/src/rules/declarative-converter#basic-examples
+[github-declarative-converter]: https://github.com/AdguardTeam/tsurlfilter/tree/master/packages/tsurlfilter/src/rules/declarative-converter#table-of-contents
+[github-declarative-converter-examples]: https://github.com/AdguardTeam/tsurlfilter/tree/master/packages/tsurlfilter/src/rules/declarative-converter#basic-examples

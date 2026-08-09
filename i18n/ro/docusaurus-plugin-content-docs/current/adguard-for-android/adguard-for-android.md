@@ -9,20 +9,14 @@ Acest articol se referă la AdGuard pentru Android, un blocant de reclame multif
 
 :::
 
-## Features
+- [Caracteristici](/adguard-for-android/features/features.md)
 
-Iată principalele caracteristici și setări disponibile în AdGuard pentru Android.
+  Main features and settings available in AdGuard for Android
 
-[Caracteristici](/adguard-for-android/features/features.md)
+- [Instalare](/adguard-for-android/installation.md)
 
-## Instalare
+  Installation, removal, and system requirements for AdGuard for Android
 
-Aici veți găsi cerințele de sistem împreună cu instrucțiuni despre cum să instalați și să dezinstalați AdGuard pentru Android.
+- [Rezolvarea problemelor](/adguard-for-android/solving-problems/solving-problems.md)
 
-[Instalare](/adguard-for-android/installation.md)
-
-## Solving problems
-
-Această secțiune include diverse articole care abordează problemele cunoscute și soluțiile posibile.
-
-[Rezolvarea problemelor](/adguard-for-android/solving-problems/solving-problems.md)
+  Known issues and possible solutions

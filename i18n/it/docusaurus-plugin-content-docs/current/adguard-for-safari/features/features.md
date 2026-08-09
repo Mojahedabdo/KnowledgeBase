@@ -3,32 +3,22 @@ title: Funzionalità
 sidebar_position: 1
 ---
 
-## Generali
+- [Generale](adguard-for-safari/features/general.md)
 
-L'articolo evidenzia le funzionalità di base, tra cui le notifiche, gli intervalli di aggiornamento e il livello di registrazione.
+  Basic features, including notifications, update intervals, and logging level
 
-[Generale](adguard-for-safari/features/general.md)
+- [Filtri](/archive/adguard-for-safari/features/filters.md)
 
-## Filtri
+  Filtri diversi che consentono di personalizzare il blocco delle inserzioni
 
-Questo articolo spiega come AdGuard per Safari consenta di personalizzare il blocco degli annunci abilitando diversi filtri, come filtri specifici per lingua, filtri anti-malware e regole utente.
+- [Bloccatori di contenuti](/archive/adguard-for-safari/features/content-blockers/content-blockers.md)
 
-[Filtri](/adguard-for-safari/features/filters.md)
+  Sei blocchi di contenuti tematici conformi alle restrizioni di Apple
 
-## Bloccatori di contenuti
+- [Regole utente](/archive/adguard-for-safari/features/rules.md)
 
-Questa sezione spiega perché AdGuard per Safari è composto da sei bloccatori di contenuti e come funzionano.
+  Regole di filtraggio personali per ottimizzare il blocco delle inserzioni
 
-[Bloccatori di contenuti](/adguard-for-safari/features/content-blockers/content-blockers.md)
+- [Informazioni](/archive/adguard-for-safari/features/about.md)
 
-## Regole dell'utente
-
-L'articolo è dedicato a come utilizzare AdGuard per Safari per creare e gestire regole di filtraggio personalizzate per personalizzare la tua esperienza di filtraggio degli annunci.
-
-[Regole utente](/adguard-for-safari/features/rules.md)
-
-## Info
-
-Qui troverete link utili ai documenti sulla privacy, al repository GitHub e alla cronologia delle versioni.
-
-[Informazioni](/adguard-for-safari/features/about.md)
+  Una sezione con link a documenti sulla riservatezza, al dispensario di GitHub e alla cronologia delle versioni

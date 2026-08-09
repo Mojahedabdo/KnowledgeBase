@@ -1,6 +1,6 @@
 ---
 title: Einrichten eines ausgehenden Proxys
-sidebar_position: 8
+sidebar_position: 7
 ---
 
 :::info
@@ -141,7 +141,7 @@ Sie sollten die Shadowsocks-App aus der Filterung entfernen, bevor Sie den Proze
 
 *Wir gehen davon aus, dass Sie Clash bereits auf Ihrem Gerät installiert haben.*
 
-1. Öffnen Sie Clash und gehen Sie zu **Einstellungen** → **Netzwerk** → **Systemverkehr leiten** und schalten Sie den Schalter um. Dadurch wird Clash in den Proxy-Modus versetzt.
+1. Open Clash and go to **Settings** → **Network** → **Route System Traffic** and toggle the switch on. Dadurch wird Clash in den Proxy-Modus versetzt.
 
 1. Öffnen Sie AdGuard und wechseln Sie zu **App-Verwaltung**. Wählen Sie **Clash For Android** und deaktivieren Sie **Datenverkehr durch AdGuard leiten**. Dadurch werden Endlosschleifen im Datenverkehr vermieden.
 
@@ -154,6 +154,28 @@ Sie sollten die Shadowsocks-App aus der Filterung entfernen, bevor Sie den Proze
     | Proxy-Typ  | *SOCKS5*    |
     | Proxy-Host | *127.0.0.1* |
     | Proxy-Port | *7891*      |
+
+### How to use AdGuard with WG Tunnel
+
+*The proxy mode was added in version 4.0. We presume that you already have WG Tunnel installed on your device and have added the WireGuard configuration.*
+
+1. Open WG Tunnel and go to **Settings** (the cog wheel at the bottom) → **App Mode** → **Proxy (experimental)**. This will set WG Tunnel to proxy mode.
+
+1. Öffnen Sie AdGuard und wechseln Sie zu **App-Verwaltung**. Choose **WG Tunnel** and disable **Route traffic through AdGuard**. Dadurch werden Endlosschleifen im Datenverkehr vermieden.
+
+1. Gehen Sie zu **Einstellungen** → **Filterung** → **Netzwerk** → **Proxy** → **Proxy-Server**.
+
+1. Tippen Sie auf **Proxy-Server hinzufügen** und füllen Sie die Felder aus:
+
+    | Feld       | Wert        |
+    | ---------- | ----------- |
+    | Proxy-Typ  | *SOCKS5*    |
+    | Proxy-Host | *127.0.0.1* |
+    | Proxy-Port | *25344*     |
+
+1. Tippen Sie auf **Speichern und auswählen**.
+
+1. Enable the main proxy switch and AdGuard protection to route your device’s traffic through the proxy.
 
 ## Beschränkungen
 

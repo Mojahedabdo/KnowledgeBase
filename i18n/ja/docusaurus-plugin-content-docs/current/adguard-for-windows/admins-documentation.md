@@ -7,9 +7,9 @@ sidebar_position: 5
 
 ## 1. MSIをダウンロードする {#msi-download}
 
-[AdGuard MSI x86 をダウンロード](https://cdn.adtidy.org/distr/windows/AdGuard_x86.msi)
+[AdGuard MSI x86 をダウンロード](https://agrd.io/adguard_setup86_msi)
 
-[AdGuard MSI x64 をダウンロード](https://cdn.adtidy.org/distr/windows/AdGuard_x64.msi)
+[AdGuard MSI x64 をダウンロード](https://agrd.io/adguard_setup64_msi)
 
 ## 2. お使いのネットワーク用の設定を構成する {#settings-configuring}
 

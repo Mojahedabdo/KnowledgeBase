@@ -37,7 +37,7 @@ Basta enviar um e-mail para nossa equipe de tradutores em [translate@adguard.com
 
 > Olá, equipe AdGuard!
 > 
-> Eu traduzi mais de 5.000 palavras no AdGuard para Android para o *sua língua* — você pode encontrar minhas estatísticas em anexo. Eu gostaria de solicitar uma licença do AdGuard VPN e uma licença de Bloqueador de anúncios em troca. Meu e-mail é (*Endereço de e-mail*). Meu nome de usuário do Crowdin é (*seu nome de usuário*).
+> Eu traduzi mais de 5.000 palavras no AdGuard para Android para o *sua língua* — você pode encontrar minhas estatísticas em anexo. Como recompensa, eu gostaria de solicitar uma licença do AdGuard VPN e uma licença do bloqueador de anuncios. Meu e-mail é (*seu endereço de e-mail*). Meu nome de usuário do Crowdin é (*seu nome de usuário*).
 
 ## Como verificar seu progresso de tradução
 
@@ -55,6 +55,6 @@ Por favor, note que os revisores não recebem licenças ou benefícios extras al
 
 ## Presentes para colaboradores ativos
 
-Para os melhores colaboradores, todo ano enviamos presentes com os produtos da AdGuard e fazemos uma menção no nosso [blog](https://adguard.com/en/blog/best-contributors-2023.html).
+To the best contributors, every year we send gifts with the AdGuard merch and give a shout out on our [blog](https://adguard.com/en/blog/best-contributors-2024.html).
 
 ![AdGuard merch *border](https://cdn.adguard.com/public/Adguard/Blog/presents.png)

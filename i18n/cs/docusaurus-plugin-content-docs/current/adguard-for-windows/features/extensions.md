@@ -5,13 +5,13 @@ sidebar_position: 3
 
 :::info
 
-Tento článek popisuje AdGuard pro Windows, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro Windows, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
 AdGuard může významně rozšířit funkčnost webových stránek tím, že pracuje jako [správce uživatelských skriptů(/general/extensions.md). Uživatelé AdGuardu mohou přidávat své vlastní skripty a také spravovat stávající.
 
-![Extensions \*mobile\_border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/overview/userscripts.png)
+![Extensions \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/extensions/extensions.png)
 
 **Automatické rozpoznání uživatelských skriptů**
 
@@ -19,7 +19,7 @@ Pokud je tato možnost povolena, AdGuard automaticky definuje dotazy prohlíže�
 
 S AdGuardem jsou nainstalována následující rozšíření:
 
-![Preinstalled userscripts \*mobile\_border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/overview/preinstalled-userscripts.png)
+![Preinstalled userscripts \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/extensions/extensions_enabled.png)
 
 **AdGuard asistent**
 
@@ -33,7 +33,7 @@ AdGuard Extra je v podstatě miniprogram, který změní fungování stránek ta
 
 **AdGuard blokátor vyskakovacích oken**
 
-Toto rozšíření zabraňuje otevírání vyskakovacích oken při prohlížení webových stránek. Některá vyskakovací okna jsou považována za užitečná — mohou obsahovat nastavení pro správu webu nebo další referenční informace zobrazené po kliknutí na odkaz. Proto můžete blokátor v případě potřeby vypnout. Toto rozšíření nefunguje ani na webových stránkách přidaných do seznamu výjimek AdGuardu. Ve výchozím nastavení je vypnuto, ale můžete jej zapnout v nastavení aplikace. Podrobnější informace o tomto rozšíření najdete v naší databázi znalostí.
+Toto rozšíření zabraňuje otevírání vyskakovacích oken při prohlížení webových stránek. Některá vyskakovací okna jsou považována za užitečná — mohou obsahovat nastavení pro správu webu nebo další referenční informace zobrazené po kliknutí na odkaz. Proto můžete blokátor v případě potřeby vypnout. Toto rozšíření nefunguje ani na webových stránkách přidaných do seznamu výjimek AdGuardu. Ve výchozím nastavení je vypnuto, ale můžete jej zapnout v nastavení aplikace.
 
 **Web of Trust**
 

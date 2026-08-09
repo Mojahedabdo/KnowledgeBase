@@ -1,5 +1,5 @@
 ---
-title: Features
+title: 기능
 sidebar_position: 1
 ---
 
@@ -9,56 +9,38 @@ sidebar_position: 1
 
 :::
 
-## Safari 보호
+- [Safari 보호](/adguard-for-ios/features/safari-protection.md)
 
-Information on how to configure ad blocking and privacy in Safari using content blockers, filters, and user rules.
+  Available features and settings in the _Safari protection_ tab: _Filters_, _User rules_, and _Allowlist_
 
-[Safari protection](/adguard-for-ios/features/safari-protection.md)
+- [DNS 보호](/adguard-for-ios/features/dns-protection/)
 
-## DNS protection
+  이 섹션에서는 광고, 추적기 및 위험한 웹사이트를 차단할 수 있는 DNS 서버와 DNS 필터를 찾을 수 있습니다.
 
-This section describes how AdGuard for iOS allows you to configure secure DNS servers and block ads, trackers, and malicious content.
+- [고급 보호](/adguard-for-ios/features/advanced-protection.md)
 
-[DNS protection](/adguard-for-ios/features/dns-protection/)
+  고급 보호는 AdGuard가 고급 필터링 규칙 및 스크립틀릿을 적용하여 복잡한 광고를 처리할 수 있는 기능입니다.
 
-## 고급 보호
+- [활동 및 통계](/adguard-for-ios/features/activity.md)
 
-This article describes how to use CSS rules, CSS selectors, and scriptlets to deal with complex ads, such as YouTube ads.
+  차단된 광고, 추적기 및 DNS 쿼리를 모니터링할 수 있는 자세한 활동 보고서가 포함된 통계를 확인할 수 있습니다.
 
-[Advanced protection](/adguard-for-ios/features/advanced-protection.md)
+- [어시스턴트](/adguard-for-ios/features/assistant.md)
 
-## 활동 및 통계
+  어시스턴트는 AdGuard 인터페이스를 열지 않고도 Safari에서 필터링을 빠르게 관리할 수 있는 도구입니다.
 
-This article describes the Statistics tab with detailed activity reports that allow you to monitor blocked ads, trackers, and DNS queries.
+- [로우 레벨 설정](/adguard-for-ios/features/low-level-settings.md)
 
-[Activity and statistics](/adguard-for-ios/features/activity.md)
+  로우 레벨 설정은 고급 사용자가 앱 성능을 미세 조정하고 DNS 보호를 조정할 수 있는 설정입니다.
 
-## 어시스턴트
+- [다른 기능](/adguard-for-ios/features/other-features.md)
 
-A tool that helps you manage filtering in Safari right from the browser without switching back to the app.
+  General settings: theme, settings and statistics reset, auto-update, inverting the allowlist, and advanced mode.
 
-[Assistant](/adguard-for-ios/features/assistant.md)
+- [AdGuard VPN과의 호환성](/adguard-for-ios/features/compatibility-with-adguard-vpn.md)
 
-## Low-level settings
+  여기에서는 시스템 제한에도 불구하고 AdGuard 차단기와 AdGuard VPN이 동시에 작동할 수 있는 통합 모드에 대해 설명합니다.
 
-Low-level settings allow advanced users to fine-tune app performance, customize ad blocking, and adjust DNS protection for greater control over their privacy and security.
+- [무료 버전과 정식 버전 비교](/adguard-for-ios/features/free-vs-full.md)
 
-[Low-level settings](/adguard-for-ios/features/low-level-settings.md)
-
-## 기타 기능
-
-The article describes additional features, including widgets, auto-updates, and statistics reset, as well as how to contact support.
-
-[Other features](/adguard-for-ios/features/other-features.md)
-
-## AdGuard VPN과의 호환성
-
-Information on how the app integrates with VPN services, allowing you to run both AdGuard and AdGuard VPN at the same time without conflict, ensuring ad blocking and privacy protection along with VPN functionality.
-
-[Compatibility with AdGuard VPN](/adguard-for-ios/features/compatibility-with-adguard-vpn.md)
-
-## 무료 버전과 정식 버전 비교
-
-Comparison of features between the free and paid versions.
-
-[Free vs. full version](/adguard-for-ios/features/free-vs-full.md)
+  무료 버전과 유료 버전의 기능 비교입니다.

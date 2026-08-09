@@ -3,32 +3,22 @@ title: Funktionen
 sidebar_position: 1
 ---
 
-## Allgemein
+- [Allgemein](/adguard-for-mac/features/general.md)
 
-Der Artikel hebt die grundlegenden Funktionen hervor, darunter Benachrichtigungen, Aktualisierungsintervalle und die Protokollierungsstufe.
+  Grundlegende Funktionen, einschließlich Benachrichtigungen, Aktualisierungsintervalle und Protokollierungsstufe
 
-[Allgemein](/adguard-for-mac/features/general.md)
+- [Filter](/archive/adguard-for-safari/features/filters.md)
 
-## Filter
+  Verschiedene Filter, mit denen Sie die Werbeblockierung anpassen können
 
-In diesem Artikel wird gezeigt, wie Sie mit AdGuard für Safari das Sperren von Werbung anpassen können, indem Sie verschiedene Filter aktivieren, z. B. sprachspezifische Filter, Anti-Malware-Filter und Benutzerregeln.
+- [Inhaltsblocker](/archive/adguard-for-safari/features/content-blockers/content-blockers.md)
 
-[Filter](/adguard-for-safari/features/filters.md)
+  Sechs thematische Inhaltsblocker, die den Beschränkungen von Apple entsprechen
 
-## Inhaltsblocker
+- [Benutzerregeln](/archive/adguard-for-safari/features/rules.md)
 
-In diesem Abschnitt wird erklärt, warum AdGuard für Safari aus sechs Inhaltsblockern besteht und wie diese funktionieren.
+  Benutzerdefinierte Filterregeln zur Feinabstimmung der Werbeblockierung
 
-[Inhaltsblocker](/adguard-for-safari/features/content-blockers/content-blockers.md)
+- [Über uns](/archive/adguard-for-safari/features/about.md)
 
-## Benutzerregeln
-
-In diesem Artikel erfahren Sie, wie Sie mit AdGuard für Safari benutzerdefinierte Filterregeln erstellen und verwalten können, um Ihre Werbeblocker-Erfahrung zu personalisieren.
-
-[Benutzerregeln](/adguard-for-safari/features/rules.md)
-
-## Über uns
-
-Hier finden Sie nützliche Links zu Datenschutzdokumenten, zum GitHub-Repository und zum Versionsverlauf.
-
-[Über uns](/adguard-for-safari/features/about.md)
+  Ein Abschnitt mit Links zu Datenschutzdokumenten, dem GitHub-Repository und dem Versionsverlauf

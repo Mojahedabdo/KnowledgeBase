@@ -1,40 +1,30 @@
 ---
-title: Features
+title: Funzioni
 sidebar_position: 1
 ---
 
 :::info
 
-Questo articolo riguarda AdGuard per Windows, un blocco annunci multifunzionale che protegge il tuo dispositivo a livello di sistema. Per vedere come funziona, [scarica l'app di AdGuard](https://agrd.io/download-kb-adblock)
+Questo articolo riguarda AdGuard per Windows, un blocca-inserzioni multifunzionale che protegge il tuo dispositivo a livello di sistema. Per vedere come funziona, [scarica l'app di AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
-## Schermata iniziale
+- [Schermata principale](/adguard-for-windows/features/home-screen/)
 
-This article outlines everything you see when you open the program, including _Settings_, _Support_, _License_, and _About_. You’ll also find statistics on blocked ads and trackers.
+  Nella schermata principale troverai _Impostazioni_, _Assistenza_, _Licenza_ e _Informazioni_, così come le statistiche sulle inserzioni bloccate e sui tracciatori
 
-[Home screen](/adguard-for-windows/features/home-screen/)
+- [Impostazioni](/adguard-for-windows/features/settings/)
 
-## Impostazioni
+  Impostazioni di tema e lingua, personalizzazione del blocco delle inserzioni, Protezione DNS, controlli parentali, gestione delle estensioni e opzioni avanzate per utenti esperti
 
-You can customize the program to suit your needs by blocking only what bothers you, using a trusted DNS server, removing third-party cookies, and more.
+- [Estensioni](/adguard-for-windows/features/extensions/)
 
-[Settings](/adguard-for-windows/features/settings/)
+  Una funzione che consente di estendere le funzionalità dei siti web aggiungendo codici e stili personali
 
-## Estensioni
+- [Rete](/adguard-for-windows/features/network/)
 
-Qui scoprirai come utilizzare AdGuard come gestore di script utente per estendere le funzionalità dei siti web. Puoi aggiungere i tuoi script, nonché gestire quelli esistenti.
+  Opzioni aggiuntive relative alla rete e impostazioni del proxy
 
-[Extensions](/adguard-for-windows/features/extensions/)
+- [Altre funzioni](/adguard-for-windows/features/others/)
 
-## Rete
-
-Questo articolo descrive opzioni aggiuntive relative alla rete e impostazioni del proxy in cui puoi specificare quale server proxy AdGuard dovrebbe utilizzare per aggiornare i filtri, scaricare nuove versioni e così via.
-
-[Network](/adguard-for-windows/features/network/)
-
-## Altre funzionalità
-
-Here you can find information on how to reach support, manage your license, view details about the current version and privacy policy, check for updates, and explore options available in the tray menu.
-
-[Other features](/adguard-for-windows/features/others/)
+  Assistenza, gestione della licenza, opzioni del menu', versione dell'app e aggiornamenti

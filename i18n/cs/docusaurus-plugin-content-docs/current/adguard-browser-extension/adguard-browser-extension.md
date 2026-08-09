@@ -9,50 +9,34 @@ Tento článek je o Rozšíření prohlížeče AdGuard, které chrání pouze v
 
 :::
 
-## Funkce
+- [Funkce](/adguard-browser-extension/features)
 
-Zde jsou popsány hlavní funkce a nastavení dostupné v rozšíření prohlížeče AdGuard.
+  Hlavní funkce a nastavení dostupné v Rozšíření prohlížeče AdGuard
 
-[Funkce](/adguard-browser-extension/features)
+- [Dostupnost](/adguard-browser-extension/availability)
 
-## Dostupnost
+  Podporované prohlížeče a platformy, na které lze rozšíření nainstalovat
 
-V tomto článku se dozvíte o podporovaných prohlížečích a platformách, na které lze rozšíření nainstalovat.
+- [Instalace](/adguard-browser-extension/installation)
 
-[Dostupnost](/adguard-browser-extension/availability)
+  Instalace a odinstalace
 
-## Instalace
+- [Kompatibilita se samostatnou aplikací](/adguard-browser-extension/compatibility)
 
-V článku je vysvětleno, jak nainstalovat Rozšíření prohlížeče AdGuard do různých podporovaných prohlížečů.
+  Kompatibilita Rozšíření prohlížeče AdGuard s desktopovými aplikacemi AdGuard
 
-[Instalace](/adguard-browser-extension/installation)
+- [Rozšíření prohlížeče AdGuard pro Chrome MV3](/adguard-browser-extension/mv3-version/)
 
-## Kompatibilita se samostatnou aplikací
+  Samostatné Rozšíření prohlížeče AdGuard kompatibilní s rozhraním API Manifest V3
 
-Článek vysvětluje kompatibilitu Rozšíření prohlížeče AdGuard s aplikacemi AdGuard pro počítače.
+- [Stránky chráněné prohlížečem](/adguard-browser-extension/protected-pages)
 
-[Kompatibilita se samostatnou aplikací](/adguard-browser-extension/compatibility)
+  Omezené domény, jejichž obsah nelze upravit pomocí rozšíření pro blokování reklam
 
-## Rozšíření prohlížeče AdGuard pro Chrome MV3
+- [Řešení problémů](/adguard-browser-extension/solving-problems)
 
-Tento článek pojednává o rozšíření prohlížeče AdGuard pro Chrome, které je kompatibilní s rozhraním API Manifest V3, a o tom, jak se liší od rozšíření prohlížeče založeného na rozhraní Manifest V2.
+  Známé problémy a možná řešení
 
-[Rozšíření prohlížeče AdGuard pro Chrome MV3](/adguard-browser-extension/mv3-version/)
+- [Porovnání se samostatnými aplikacemi](/adguard-browser-extension/comparison-standalone)
 
-## Stránky chráněné prohlížečem
-
-Článek popisuje, jak Rozšíření prohlížeče AdGuard spravuje chráněné stránky a omezuje blokování reklam na určitých citlivých webových stránkách, aby byla zajištěna správná funkčnost.
-
-[Stránky chráněné prohlížečem](/adguard-browser-extension/protected-pages)
-
-## Řešení problémů
-
-Tato část obsahuje průvodce známými problémy a jejich možnými řešeními.
-
-[Řešení problémů](/adguard-browser-extension/solving-problems)
-
-## Srovnání se samostatnými aplikacemi
-
-Článek upozorňuje na rozdíly ve funkčnosti, pokrytí a vlastnostech mezi rozšířeními AdGuard a aplikacemi pro počítače.
-
-[Porovnání se samostatnými aplikacemi](/adguard-browser-extension/comparison-standalone)
+  Rozdíly ve funkčnosti a funkcích mezi rozšířením AdGuard a desktopovými aplikacemi

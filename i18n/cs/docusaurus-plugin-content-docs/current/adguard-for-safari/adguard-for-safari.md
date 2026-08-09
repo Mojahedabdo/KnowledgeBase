@@ -9,26 +9,18 @@ Tento článek je o AdGuardu pro Safari, který chrání pouze váš prohlíže�
 
 :::
 
-## Funkce
+- [Funkce](/archive/adguard-for-safari/features/features.md)
 
-Zde jsou popsány hlavní funkce a nastavení dostupné v aplikaci AdGuard pro Safari.
+  Hlavní funkce a nastavení dostupné v aplikaci AdGuard pro Safari
 
-[Funkce](/adguard-for-safari/features/features.md)
+- [Instalace](/archive/adguard-for-safari/installation.md)
 
-## Instalace
+  Instalace, odstranění a systémové požadavky AdGuardu pro Safari
 
-Zde najdete systémové požadavky a pokyny k instalaci a odinstalaci aplikace AdGuard pro Safari.
+- [Rozšíření Safari](/archive/adguard-for-safari/extensions.md)
 
-[Instalace](/adguard-for-safari/installation.md)
+  Rozšíření, která přidávají funkce do webového prohlížeče Safari
 
-## Rozšíření Safari
+- [Řešení problémů](/archive/adguard-for-safari/solving-problems/solving-problems.md)
 
-Článek obsahuje přehled rozšíření AdGuard pro Safari, jejich fungování, pokyny k instalaci a klíčové funkce rozšíření.
-
-[Rozšíření Safari](/adguard-for-safari/extensions.md)
-
-## Řešení problémů
-
-Tato sekce obsahuje různé články zabývající se známými problémy a možnými řešeními.
-
-[Řešení problémů](/adguard-for-safari/solving-problems/solving-problems.md)
+  Známé problémy a možná řešení

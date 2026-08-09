@@ -5,7 +5,7 @@ sidebar_position: 7
 
 :::info
 
-This article covers AdGuard for Windows, a multifunctional ad blocker that protects your device at the system level. To see how it works, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+This article covers AdGuard for Windows, a multifunctional ad blocker that protects your device at the system level. For at se, hvordan den fungerer, [download AdGuard-appen](https://agrd.io/download-kb-adblock)
 
 :::
 
@@ -35,7 +35,7 @@ Every encrypted Internet connection has an unencrypted part. This is the very fi
 
 ### Check websites' certificate transparency
 
-Verifies the authenticity of all certificates for the domain based on Chrome Certificate Transparency Policy. If the certificate does not comply with the Chrome Certificate Transparency Policy, AdGuard will not filter the website. Chrome, in turn, will block it.
+Bekræfter ægtheden af alle certifikater for domænet baseret på Chrome Certificate Transparency Policy. If the certificate does not comply with the Chrome Certificate Transparency Policy, AdGuard will not filter the website. Chrome, in turn, will block it.
 
 ### Enable SSL/TLS certificate revocation checks
 
@@ -65,6 +65,12 @@ Enable this feature if you want AdGuard to automatically intercept filter subscr
 
 If this option is enabled, AdGuard will filter requests sent over HTTP/3 in addition to other request types.
 
+**Begrænsninger**:
+
+- Chrome-baserede webbrowsere accepterer ikke brugercertifikater og understøtter dermed ikke HTTP/3-filtrering.
+- Firefox-baserede webbrowsere opfører sig som standard tilsvarende, men `network.http.http3.disable_when_third_party_roots_found`-indstillingen kan i `about:config` sættes til `false` for at tillad brugercertifikater til HTTP/3.
+- Safari understøtter HTTP/3-filtrering uden yderligere opsætning.
+
 ### Use redirect driver mode
 
 If this option is enabled, AdGuard intercepts all the traffic and redirects it to the local proxy server for further filtering.
@@ -73,7 +79,7 @@ Otherwise, AdGuard will filter all the traffic on the fly, without redirection. 
 
 ### Open main window at system start-up
 
-Enable this option to make the main AdGuard window open after the system is loaded. Note that it doesn't affect whether the actual filtering service is launched or not, this setting is located in *Settings → General Settings*.
+Enable this option to make the main AdGuard window open after the system is loaded. This setting, which doesn't affect whether the actual filtering service is launched or not, is located in *Settings → General Settings*.
 
 ### Enable filtering at system start-up
 
@@ -101,13 +107,17 @@ This option should be enabled **only for debugging purposes**. Ticking the check
 
 Adds extra space between the HTTP method and the URL and removes space after the "Host:" field to avoid deep packet inspection. For instance, the request
 
-`GET /foo/bar/ HTTP/1.1
-Host: example.org`
+```text
+GET /foo/bar/ HTTP/1.1
+Host: example.org
+```
 
 will be converted to
 
-`GET /foo/bar/ HTTP/1.1
-Host: example.org`
+```text
+GET  /foo/bar/ HTTP/1.1
+Host:example.org
+```
 
 This option is only applied when the *Protect from DPI* Stealth mode option is enabled.
 
@@ -117,13 +127,13 @@ Specifies the size of the TCP packet fragmentation, avoiding deep packet inspect
 
 If this option is enabled, AdGuard splits the initial TLS packet (the Client Hello packet) into two parts: the first one has the specified length and the second one has the rest, up to the length of the whole initial TLS packet.
 
-Valid values: 1–1500. If invalid size is specified, the value selected by the system will be used. This option is only applied when the *Protect from DPI* Stealth mode option is enabled.
+Gyldige værdier: 1–1500. If invalid size is specified, the value selected by the system will be used. This option is only applied when the *Protect from DPI* Stealth mode option is enabled.
 
 ### Plain HTTP request fragment size
 
-Adjusts the size of the HTTP request fragmentation. This option only affects plain HTTP traffic. If this option is enabled, AdGuard splits the initial packet into two parts: the first one has the specified length and the second one has the rest, up to the length of the whole original packet.
+Justerer størrelsen af HTTP-forespørgselsfragmenteringen. This option only affects plain HTTP traffic. If this option is enabled, AdGuard splits the initial packet into two parts: the first one has the specified length and the second one has the rest, up to the length of the whole original packet.
 
-Valid values: 1–1500. If invalid size is specified, the value selected by the system will be used. This option is only applied when the *Protect from DPI* Stealth mode option is enabled.
+Gyldige værdier: 1–1500. If invalid size is specified, the value selected by the system will be used. This option is only applied when the *Protect from DPI* Stealth mode option is enabled.
 
 ### Show QUIC
 

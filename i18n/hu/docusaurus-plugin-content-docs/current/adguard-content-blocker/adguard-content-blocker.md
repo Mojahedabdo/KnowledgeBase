@@ -1,5 +1,5 @@
 ---
-title: AdGuard Content Blocker
+title: AdGuard Tartalomblokkoló
 sidebar_position: 1
 ---
 
@@ -9,10 +9,10 @@ This article is about AdGuard Content Blocker, which only safeguards the Samsung
 
 :::
 
-## Features overview
+- [Features overview](/adguard-content-blocker/overview.md)
 
-[Features overview](/adguard-content-blocker/overview.md)
+  Main features and settings available in AdGuard Content Blocker
 
-## Installation
+- [Installation](/adguard-content-blocker/installation.md)
 
-[Installation](/adguard-content-blocker/installation.md)
+  Installation, removal, and system requirements for AdGuard Content Blocker

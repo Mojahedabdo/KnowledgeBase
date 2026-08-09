@@ -23,13 +23,19 @@ sidebar_position: 1
 
 Внутри вы найдёте график, показывающий реальное потребление ресурса батареи AdGuard запоследние 24 часа, с возможностью получить более детальную информацию о почасовом расходе, нажав на график. Кроме того, там также есть числовая разбивка релевантных данных и краткое техническое пояснение.
 
+Под графиком есть ещё несколько параметров: *CPU в активном режиме*, *CPU в фоновом режиме*, *Использование мобильных данных* и *Использование данных Wi-Fi*.
+
+*CPU в активном режиме* и *CPU в фоновом режиме* показывают, сколько времени CPU использует AdGuard, когда приложение активно или работает в фоновом режиме.
+
+А в разделах *Использование мобильных данных* и *Использование данных Wi-Fi* вы можете посмотреть, сколько трафика потреблял AdGuard, когда ваш телефон использовал мобильный интернет или подключался к Wi-Fi.
+
 ### Сколько заряда батареи на самом деле потребляет AdGuard?
 
 Для начала приведём немного теории и ссылок с необходимыми данными.
 
-1. Android считает потребление трафика исходя из так называемого Power Profile, который предоставляется каждым производителем: <https://source.android.com/devices/tech/power/values.html>
+1. Android derives traffic consumption judging on so-called Power Profile, which is given by every manufacturer: [https://source.android.com/devices/tech/power/values.html](https://source.android.com/devices/tech/power/values.html)
 
-1. Главная часть Power Profile — это набор значений, выраженных в миллиамперах, которые определяют потребление батареи каждым компонентом устройства: <https://source.android.com/devices/tech/power/values.html>
+1. Main part of Power Profile is a set of values in mAh which define battery consumption for every component of the device: [https://source.android.com/devices/tech/power/values.html](https://source.android.com/devices/tech/power/values.html)
 
     Например, из таблицы выше:
 

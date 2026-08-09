@@ -57,6 +57,10 @@ sidebar_position: 9
 
 `true로` 설정하면 HTTPS 인증서 해지 확인을 사용하도록 설정합니다.
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 유휴 연결을 통해 주기적으로 TCP 패킷을 전송하여 연결이 활성 상태로 유지되도록 하고 NAT 시간 제한을 갱신합니다.
@@ -80,6 +84,12 @@ Chrome 인증서 투명성 정책에 따라 도메인의 모든 인증서를 확
 #### `network.https.filter.http3.enabled`
 
 `true`로 설정하면 AdGuard가 QUIC 기반의 최신 버전의 HTTP 프로토콜인 HTTP/3을 통해 전송되는 트래픽을 필터링할 수 있습니다.
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -165,15 +175,19 @@ DNS-over-HTTPS 업스트림에 HTTP/3을 활성화하여 연결을 가속화합�
 
 이 옵션을 활성화하는 것이 유용한 이유는 macOS 비공개 릴레이가 활성화되어 있으면 필터링이 제대로 작동하지 않으므로 비활성화해야 하기 때문입니다. macOS 14 이하 버전에서는 보호 기능이 활성화된 경우 AdGuard가 자동으로 비공개 릴레이를 비활성화할 수 있었습니다. 그러나 macOS 15부터는 방화벽이 활성화된 경우, 더 이상 이 기능을 사용할 수 없습니다. 이 설정을 켜면 방화벽이 활성화되어 있어도 비공개 릴레이를 비활성화할 수 있어 이전의 제한을 극복할 수 있습니다.
 
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Secures DNS proxy connections with a hybrid post-quantum key exchange, combining the classical X25519 algorithm with the ML-KEM-768 post-quantum KEM. Applies only to DoH, DoT, and DoQ upstreams.
+
 ### 스텔스 모드 설정
 
 #### `stealth.antidpi.http.split.fragment.size`
 
-HTTP 요청 조각화의 크기를 조정합니다. 유효한 값은 1~1500입니다. 잘못된 크기를 지정하면 시스템에서 기본값을 사용합니다.
+HTTP 요청 조각화의 크기를 조정합니다. Valid values: 1–1500. 잘못된 크기를 지정하면 시스템에서 기본값을 사용합니다.
 
 #### `stealth.antidpi.clienthello.split.fragment.size`
 
-이 옵션은 심층 패킷 검사를 피하는 데 도움이 되는 TCP 패킷 조각화 크기를 지정합니다. 유효한 값은 1~1500입니다. 잘못된 크기를 지정하면 시스템에서 기본값을 사용합니다.
+이 옵션은 심층 패킷 검사를 피하는 데 도움이 되는 TCP 패킷 조각화 크기를 지정합니다. Valid values: 1–1500. 잘못된 크기를 지정하면 시스템에서 기본값을 사용합니다.
 
 #### `stealth.antidpi.http.space.juggling`
 

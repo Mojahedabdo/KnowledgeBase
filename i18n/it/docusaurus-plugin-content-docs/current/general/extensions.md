@@ -7,79 +7,97 @@ sidebar_position: 6
 
 Gli userscript (li chiamiamo anche "estensioni") sono, di fatto, miniprogrammi scritti in JavaScript. Essi, modificano o estendono la funzionalità di uno o più siti web. Molti utenti di AdGuard potrebbero già essere a conoscenza di certi userscript, come AdGuard Assistant, Popup Blocker e AdGuard Extra.
 
-:::note Supported apps
+:::note App supportate
 
-AdGuard può ampliare significativamente la funzionalità del sito web, agendo da gestore di userscript. You can add your custom scripts or manage the existing ones in our three products: [AdGuard for Windows](/adguard-for-windows/features/extensions), [AdGuard for Android](/adguard-for-android/features/settings#userscripts), and [AdGuard for Mac](/adguard-for-mac/features/extensions).
+AdGuard può ampliare significativamente la funzionalità del sito web, agendo da gestore di userscript. Puoi aggiungere i tuoi script personali o gestire quelli esistenti nei nostri tre prodotti: [AdGuard per Windows](/adguard-for-windows/features/extensions), [AdGuard per Android](/adguard-for-android/features/settings#userscripts) e [AdGuard per Mac](/adguard-for-mac/features/extensions).
 
 :::
 
 ### Script di AdGuard consigliati
 
-Questi script utente provengono direttamente dagli sviluppatori di AdGuard e possiamo garantire che siano efficienti e sicuri. For some of the userscripts developed by others that we consider good and reliable, [scroll down to the next section](#top-picks). You can also find some of the [popular websites with scripts](#more-userscripts) below, but remember that whenever you download a userscript from an unknown source, you are exposing yourself to a certain risk, as some scripts may be harmful to your computer.
+Questi script utente provengono direttamente dagli sviluppatori di AdGuard e possiamo garantire che siano efficienti e sicuri. Per alcuni degli script utente sviluppati da altri che consideriamo buoni e affidabili, [scorri verso il basso fino alla sezione successiva](#top-picks). Di seguito puoi anche trovare alcuni dei [siti web popolari con script](#more-userscripts), ma ricorda che ogni volta che scarichi uno script utente da una fonte sconosciuta, ti esponi a un certo rischio, poiché alcuni script potrebbero essere dannosi al tuo computer.
 
 #### AdGuard Extra
 
-C'è un'estensione che blocca gli annunci in casi difficili, quando il solito approccio basato sui filtri non è sufficiente. AdGuard Extra comes pre-installed in AdGuard standalone apps, except for the one for iOS, so you don't need to do anything to enable it. Tuttavia, se desideri utilizzarla insieme all'Estensione di browser AdGuard o qualsiasi altro bloccatore di annunci, dovrai utilizzare un'ulteriore estensione. Learn more about this userscript and how to install it on [GitHub](https://github.com/AdguardTeam/AdGuardExtra).
+C'è un'estensione che blocca gli annunci in casi difficili, quando il solito approccio basato sui filtri non è sufficiente. AdGuard Extra è preinstallato nelle app autonome di AdGuard, tranne per quella per iOS, quindi, non devi fare nulla per abilitarla. Tuttavia, se desideri utilizzarla insieme all'Estensione di browser AdGuard o qualsiasi altro bloccatore di annunci, dovrai utilizzare un'ulteriore estensione. Scopri di più su questo script utente e su come installarlo su [GitHub](https://github.com/AdguardTeam/AdGuardExtra).
 
 ![AdGuard Extra](https://cdn.adtidy.org/content/kb/ad_blocker/general/adguard-extra.png)
 
 #### AdGuard Popup Blocker
 
-The name speaks for itself: it blocks popups — one of the most annoying types of ads on websites. Learn more about this userscript, its key features, and installation on [GitHub](https://github.com/AdguardTeam/PopupBlocker).
+Il nome dice tutto: blocca i popup, uno dei tipi più fastidiosi di inserzioni sui siti web. Scopri di più su questo script utente, le sue caratteristiche principali e l'installazione su [GitHub](https://github.com/AdguardTeam/PopupBlocker).
 
 ![AdGuard Popup Blocker](https://cdn.adtidy.org/content/kb/ad_blocker/general/popup-blocker-installation.png)
 
 #### AdGuard Assistant (versione ereditaria)
 
-This custom extension is designed to control filtering directly from the browser page (manual blocking, allowlisting, etc.).
+Questa estensione personalizzata è progettata per controllare il filtraggio direttamente dalla pagina web (blocco manuale, inserimento nella lista consentita, etc.).
 
 :::note
 
-This version of Assistant is legacy and there is no point in using it on new systems, as it has been replaced with the full-fledged [Browser Assistant](https://adguard.com/adguard-assistant/overview.html). However, the legacy Assistant may be useful if there is no Browser Assistant for your browser. If this is your case, you can learn how to install AdGuard Assistant on [GitHub](https://github.com/AdguardTeam/AdguardAssistant).
+Nota che questa versione di Assistant è ereditaria e non ha senso utilizzarla sui nuovi sistemi, poiché è stata sostituita dal [Browser Assistant](https://adguard.com/adguard-assistant/overview.html) completo. Ma l'Assistant ereditario potrebbe tornare utile se non esiste alcun Browser Assistant per il tuo browser. Se questo è il tuo caso, puoi scoprire come installare AdGuard Assistant su [GitHub](https://github.com/AdguardTeam/AdguardAssistant).
 
 :::
 
 #### Disable AMP
 
-Uno script preinstallato soltanto su AdGuard per Android. Disabilita AMP (Pagine Mobili Accelerate) sulla pagina dei risultati di ricerca di Google. Learn more about this userscript and how to install it on [GitHub](https://github.com/AdguardTeam/DisableAMP).
+Uno script preinstallato soltanto su AdGuard per Android. Disabilita AMP (Pagine Mobili Accelerate) sulla pagina dei risultati di ricerca di Google. Scopri di più su questo script utente e su come installarlo su [GitHub](https://github.com/AdguardTeam/DisableAMP).
 
-![Disable AMP](https://cdn.adtidy.org/content/kb/ad_blocker/general/disable-amp-installation.png)
+![Disabilita AMP](https://cdn.adtidy.org/content/kb/ad_blocker/general/disable-amp-installation.png)
 
 ### Le migliori scelte al di fuori di AdGuard{#top-picks}
 
-These userscripts are not developed by AdGuard, and therefore we can't give a 100% guarantee that they are safe and/or work at all times. However, in our experience they deserve a recommendation because they've all earned their good reputation.
+Questi script utente non sono sviluppati da AdGuard e quindi non possiamo garantire al 100% che siano al sicuro e/o funzionino sempre. Tuttavia, secondo la nostra esperienza, meritano una raccomandazione poiché si sono tutti guadagnati una buona reputazione.
 
 #### Don't track me Google
 
 Questo script rimuove la funzionalità di monitoraggio di Google dai collegamenti nei risultati di ricerca di Google. Accelera il caricamento dei risultati di ricerca e consente di fare clic con il pulsante destro del mouse o toccare per copiare l'URL del collegamento.
 
-Its source code is [available on GitHub](https://github.com/Rob--W/dont-track-me-google). This userscript can be downloaded from [GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) and installed in any AdGuard CoreLibs-based app.
+Il suo codice iniziale è [disponibile su GitHub](https://github.com/Rob--W/dont-track-me-google). Questo script utente può essere scaricato da [GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) e installato in qualsiasi app basata su AdGuard CoreLibs.
+
+#### SponsorBlock
+
+SponsorBlock skips sponsored segments in YouTube videos. It saves time by jumping straight to the main content and removes interruptions from ads and self-promotions.
+
+:::info
+
+Questo codice utente funziona esclusivamente nelle nostre applicazioni per sistemi non mobile, AdGuard per Windows e AdGuard per Mac.
+
+:::
+
+To try it out:
+
+1. Go to [https://mchangrh.github.io/sb.js/](https://mchangrh.github.io/sb.js/).
+2. Click **Generate link**.
+3. Copy the link that appears.
+4. Open AdGuard and go to **Extensions → Add extension → Import from file or URL**.
+5. Paste the copied link and confirm.
 
 #### tinyShield
 
-A userscript for people visiting Korean websites and some international websites. The tinyShield userscript blocks Ad-Shield ads and anti-adblocks. This userscript can be installed in AdGuard CoreLibs-based apps, Violentmonkey, Tampermonkey, and [quoid/userscripts](https://github.com/quoid/userscripts). Learn more about tinyShield and how to install it on [GitHub](https://github.com/List-KR/tinyShield).
+Uno script utente per coloro che visitano siti web coreani e alcuni siti web internazionali. Lo script utente tinyShield blocca le inserzioni di Ad-Shield e gli anti-adblock. Questo script utente si può installare nelle app basate su AdGuard CoreLibs, Violentmonkey, Tampermonkey e [quoid/userscripts](https://github.com/quoid/userscripts). Scopri di più su tinyShield e su come installarlo su [GitHub](https://github.com/List-KR/tinyShield).
 
-### Dove puoi ottenere altri userscript?{#more-userscripts}
+### Dove puoi ottenere altri script utente?{#more-userscripts}
 
-Since userscripts are mainly created by enthusiasts, you should be cautious when installing them. Qualsiasi script proveniente da una fonte sconosciuta comporta un potenziale rischio. Tuttavia, esiste una grande varietà di script interessanti che, se installati con attenzione e responsabilità, possono davvero rendere più conveniente l'utilizzo di alcuni siti web.
+Poiché gli script utente sono creati principalmente da appassionati, dovresti essere cauto quando li installi. Qualsiasi script proveniente da una fonte sconosciuta comporta un potenziale rischio. Tuttavia, esiste una grande varietà di script interessanti che, se installati con attenzione e responsabilità, possono davvero rendere più conveniente l'utilizzo di alcuni siti web.
 
 Qui, descriveremo alcuni dei cataloghi di userscript più popolari.
 
 #### Userscript.Zone
 
-[Userscript.Zone](https://www.userscript.zone) is a website that allows searching for userscripts by entering a matching URL or domain. The website is easy to use and has a high level of credibility as only scripts from moderated pages are displayed.
+[Userscript.Zone](https://www.userscript.zone) è un sito web che consente di cercare script utente immettendo un URL o un dominio corrispondente. Il sito web è facile da usare e ha un elevato livello di credibilità poiché vengono visualizzati solo i codici provenienti da pagine moderate.
 
 #### Greasy Fork
 
-[Greasy Fork](https://greasyfork.org/) is a userscript catalog of Stylish creators. The scripts in this catalog are moderated, so their credibility is much higher.
+[Greasy Fork](https://greasyfork.org/) è un catalogo di script utente dai creatori di Stylish. Gli codici in questo catalogo sono moderati, quindi, la loro credibilità è molto più elevata.
 
 #### OpenUserJS.org
 
-[OpenUserJS.org](https://openuserjs.org/) is an open-source userscript catalog written in nodeJS. It's not moderated, so keep an eye out for suspicious scripts.
+[OpenUserJS.org](https://openuserjs.org/) è un catalogo di script utente open source, scritto in nodeJS. Non è moderato, quindi fai attenzione a codici sospetti.
 
 #### Comunità
 
-If you like the idea of customizing your browser with userscripts and have questions, you can ask them on one of these websites:
+Se ti piace l'idea di personalizzare il tuo browser con script utente e hai più domande, puoi porle su uno di questi siti web:
 
 - [Stackoverflow](https://stackoverflow.com/questions/tagged/userscripts)
 - [FreeNode](https://webchat.freenode.net/#greasemonkey)
@@ -89,55 +107,42 @@ If you like the idea of customizing your browser with userscripts and have quest
 
 #### Richiedi la licenza
 
-If you are developing your own userscript and want to test how it works with AdGuard, you can request a license by filling in [the form](https://surveys.adguard.com/en/for_developers_request/form.html).
+Se stai sviluppando il tuo script utente e vuoi testare come funziona con AdGuard, puoi richiedere una licenza compilando [il modulo](https://surveys.adguard.com/en/for_developers_request/form.html).
 
 #### Compatibilità
 
-#### Blocco dei metadati
+##### Blocco dei metadati
 
-#### Proprietà supportate
+###### Proprietà supportate
 
-```text
-@name
-@namespace
-@description
-@version
-@match
-@include
-@exclude
-@grant
-@connect
-@require
-@resource
-@downloadURL
-@updateURL
-@supportURL
-@homepageURL
-@homepage
-@website
-@source
-@run-at
-@noframes
-@icon
-@iconURL
-@defaulticon
-@icon64
-@icon64URL
-```
+- [`@name`](https://wiki.greasespot.net/Metadata_Block#@name)
+- [`@namespace`](https://wiki.greasespot.net/Metadata_Block#@namespace)
+- [`@description`](https://wiki.greasespot.net/Metadata_Block#@description)
+- [`@version`](https://wiki.greasespot.net/Metadata_Block#@version)
+- [`@match`](https://wiki.greasespot.net/Metadata_Block#@match)
+- [`@include`](https://wiki.greasespot.net/Metadata_Block#@include)
+- [`@exclude`](https://wiki.greasespot.net/Metadata_Block#@exclude)
+- [`@grant`](https://wiki.greasespot.net/Metadata_Block#@grant)
+- [`@connect`](https://www.tampermonkey.net/documentation.php#meta:connect)
+- [`@require`](https://wiki.greasespot.net/Metadata_Block#@require)
+- [`@resource`](https://wiki.greasespot.net/Metadata_Block#@resource)
+- [`@downloadURL`](https://www.tampermonkey.net/documentation.php#meta:downloadURL)
+- [`@updateURL`](https://www.tampermonkey.net/documentation.php#meta:updateURL)
+- [`@homepage`, `@homepageURL`, `@source`, `@website`](https://www.tampermonkey.net/documentation.php#meta:homepage)
+- [`@run-at`](https://wiki.greasespot.net/Metadata_Block#@run-at)
+- [`@noframes`](https://wiki.greasespot.net/Metadata_Block#@noframes)
+- [`@icon`, `@iconURL`, `@defaulticon`](https://www.tampermonkey.net/documentation.php#meta:icon)
+- [`@icon64`, `@icon64URL`](https://www.tampermonkey.net/documentation.php#meta:icon64)
 
-#### Proprietà non supportate
+###### Proprietà non supportate
 
 Queste proprietà saranno semplicemente ignorate da AdGuard.
 
-```text
-@unwrap
-```
+- [`@unwrap`](https://www.tampermonkey.net/documentation.php#meta:unwrap)
 
-#### Funzioni GM supportate
+##### Funzioni GM supportate
 
 AdGuard supporta sia le vecchie funzionalità GM\_ che la nuova API GM4, che utilizza l'oggetto GM.
-
-#### Valori
 
 :::note
 
@@ -145,24 +150,24 @@ Tutte le funzionalità di Greasemonkey elencate sono deprecate, ma ancora suppor
 
 :::
 
-```text
-GM.info / GM_info
-GM.setValue / GM_setValue
-GM.getValue / GM_getValue
-GM.listValues / GM_listValues
-GM.deleteValue / GM_deleteValue
-GM.getResourceUrl / GM_getResourceURL
-GM.setClipboard / GM_setClipboard
-GM.xmlHttpRequest / GM_xmlhttpRequest
-GM.openInTab / GM_openInTab
-GM.notification
-unsafeWindow
-GM_getResourceText
-GM_addStyle
-GM_log
-```
+- [`GM.info`, `GM_info`](https://wiki.greasespot.net/GM.info)
+- [`GM.setValue`, `GM_setValue`](https://wiki.greasespot.net/GM.setValue)
+- [`GM.getValue`, `GM_getValue`](https://wiki.greasespot.net/GM.getValue)
+- [`GM.listValues`, `GM_listValues`](https://wiki.greasespot.net/GM.listValues)
+- [`GM.deleteValue`, `GM_deleteValue`](https://wiki.greasespot.net/GM.deleteValue)
+- [`GM.getResourceUrl`, `GM_getResourceURL`](https://wiki.greasespot.net/GM.getResourceUrl)
+- [`GM.setClipboard`, `GM_setClipboard`](https://wiki.greasespot.net/GM.setClipboard)
+- [`GM.xmlHttpRequest`, `GM_xmlhttpRequest`](https://wiki.greasespot.net/GM.xmlHttpRequest)
+- [`GM.openInTab`, `GM_openInTab`](https://wiki.greasespot.net/GM.openInTab)
+- [`GM.notification`](https://wiki.greasespot.net/GM.notification)
+- [`unsafeWindow`](https://wiki.greasespot.net/UnsafeWindow)
+- [`GM_getResourceText`](https://www.tampermonkey.net/documentation.php#api:GM_getResourceText)
+- [`GM_addStyle`](https://www.tampermonkey.net/documentation.php#api:GM_addStyle)
+- [`GM_log`](https://www.tampermonkey.net/documentation.php#api:GM_log)
+- [`GM.addElement`, `GM_addElement`](https://www.tampermonkey.net/documentation.php#api:GM_addElement)
+- [`window.onurlchange`](https://www.tampermonkey.net/documentation.php#api:window.onurlchange)
 
-[Here](https://wiki.greasespot.net/GM.info) you can find more information about Greasemonkey API.
+Puoi trovare ulteriori informazioni sull'API di Greasemonkey nel [suo manuale](https://wiki.greasespot.net/Greasemonkey_Manual:API).
 
 #### Esempio
 
@@ -196,26 +201,233 @@ GM_log
 // @grant           GM_info
 // @grant           GM_openInTab
 // @grant           GM_registerMenuCommand
-// @run-at document-start
+// @grant           GM_addElement
+// @grant           window.onurlchange
+// @run-at          document-start
 // ==/UserScript==
 !function(){(
     console.log("I am loaded!");
 )}();
 ```
 
-## Stili utente
+#### API Trusted Types
+
+AdGuard fornisce un'istanza della classe `PolicyApi` che consente di gestire i fiduciari nei tuoi script utente.
+
+Puoi accedere all'istanza di questa classe usando la variabile `ADG_policyApi` nel tuo script utente.
+
+##### Proprietà
+
+- `name: string` — un nome per la politica (Predefinito è `"AGPolicy"`).
+- `isSupported: boolean` — un flag che indica se l'API Trusted Types è supportata dal browser attuale.
+
+##### Metodi polifunzionali
+
+- [`ADG_policyApi.createHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createHTML). Se non supportato, restituisce `input: string`.
+- [`ADG_policyApi.createScript`](https://developer.mozilla.org/it/docs/Web/API/TrustedTypePolicy/createScript). Se non supportato, restituisce `input: string`.
+- [`ADG_policyApi.createScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicy/createScriptURL). Se non supportato, restituisce `input: string`.
+- [`ADG_policyApi.getAttributeType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType). Se non supportato, restituisce `null`.
+- [`ADG_policyApi.getPropertyType`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType). Se non supportato, restituisce `null`.
+- [`ADG_policyApi.isHTML`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isHTML). Se non supportato, restituisce `false`.
+- [`ADG_policyApi.isScript`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScript). Se non supportato, restituisce `false`.
+- [`ADG_policyApi.isScriptURL`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/isScriptURL). Se non supportato, restituisce `false`.
+
+##### Tipi aggiuntivi
+
+```typescript
+/**
+ * Rappresentazione Enum dei valori di ritorno dei metodi `getAttributeType` e
+ * `getPropertyType` dell'API Trusted Types nativa.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getAttributeType}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedTypePolicyFactory/getPropertyType}
+ */
+enum TrustedType {
+    HTML = 'TrustedHTML',
+    Script = 'TrustedScript',
+    ScriptURL = 'TrustedScriptURL',
+}
+
+// Puoi accedervi in questo modo all'interno del codice dell'utente
+ADG_TrustedType.HTML // "TrustedHTML"
+
+/**
+ * Tipo di valore attendibile isomorfo. Se un browser supporta l'API Trusted Types, sarà uno dei tipi enum Trusted
+ * (`TrustedHTML`, `TrustedScript` o `TrustedScriptURL`); altrimenti, sarà una stringa regolare.
+ *
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScript}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/TrustedScriptURL}
+ */
+type TrustedValue = string | TrustedHTML | TrustedScript | TrustedScriptURL;
+```
+
+##### Metodi aggiuntivi
+
+```typescript
+/**
+ * Crea un Trusted Type a seconda di `tipo`:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - oppure restituisce `valore` se nessuno di essi è applicabile.
+ *
+ * @param tipo          Trusted Type.
+ * @param valore        Valore da cui viene creato un Trusted Type.
+ * @param creaArgs      Argomenti aggiuntivi da passare alla funzione rappresentata da `TrustedTypePolicy`.
+ * @returns            Valore creato.
+ */
+function create(
+    type: TrustedType,
+    value: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+
+// Esempio: Crea TrustedHTML
+const trustedHTML = ADG_policyApi.create(ADG_TrustedType.HTML, '<div></div>');
+
+/**
+ * Converte `valore` di `attributo` in uno dei Tipi Affidabili:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - oppure restituisce `valore` se nessuno di essi è applicabile.
+ *
+ * @param tagName       Nome di un tag HTML.
+ * @param property     Attributo.
+ * @param value        Valore di un attributo da convertire.
+ * @param elementNS     Spazio dei nomi dell'elemento. Se vuoto, usa come predefinito lo spazio dei nomi HTML.
+ * @param attrNS        Spazio dei nomi dell'attributo. Se vuoto, predefinito a null.
+ * @param createArgs      Argomenti aggiuntivi da passare alla funzione rappresentata da `TrustedTypePolicy`.
+ * @returns            Valore convertito.
+ */
+function convertAttributeToTrusted(
+    tagName: string,
+    attribute: string,
+    value: string,
+    elementNS?: string,
+    attrNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Esempio: Converte in TrustedScriptURL
+const trustedScriptURL = ADG_policyApi.convertAttributeToTrusted("script", "src", 'SOME_URL');
+scriptElement.setAttribute("src", trustedScriptURL);
+
+/**
+ * Converte `valore` di `proprietà` in uno dei Tipi Affidabili:
+ * - `TrustedHTML`
+ * - `TrustedScript`
+ * - `TrustedScriptURL`
+ * - oppure restituisce `valore` se nessuno di essi è applicabile.
+ *
+ * @param tagName       Nome di un tag HTML.
+ * @param property     Proprietà.
+ * @param value        Valore di una proprietà da convertire.
+ * @param elementNS     Spazio dei nomi dell'elemento. Se vuoto, usa come predefinito lo spazio dei nomi HTML.
+ * @param createArgs      Argomenti aggiuntivi da passare alla funzione rappresentata da `TrustedTypePolicy`.
+ * @returns            Valore convertito.
+ */
+function convertPropertyToTrusted(
+    tagName: string,
+    property: string,
+    value: string,
+    elementNS?: string,
+    ...createArgs: unknown[]
+): TrustedValue
+
+// Esempio: Converte in TrustedHTML
+divElement.innerHTML = ADG_policyApi.convertPropertyToTrusted("div", "innerHTML", "<div></div>");
+```
+
+#### Matching SPA sites
+
+:::info Compatibilità
+
+This section only applies to AdGuard for Windows, AdGuard for Mac, AdGuard for Android, and AdGuard for Linux with [CoreLibs] v1.19 or later.
+
+:::
+
+Many modern websites, such as YouTube, utilize [Single Page Application (SPA)](https://en.wikipedia.org/wiki/Single-page_application) capabilities. Unlike traditional web applications, the page does not reload when navigating between pages. Instead, the content is updated dynamically using JavaScript, allowing for a smoother user experience.
+
+On such websites, a userscript is invoked only once when the `@match` or `@include` directives are matched (unless `@exclude` is matched). Due to the nature of SPAs, the userscript cannot be re-invoked on subsequent page changes because the global JavaScript context remains the same. To address this issue, userscripts can use the `@grant window.onurlchange` directive.
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @grant window.onurlchange
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onurlchange
+window.onurlchange = (event) => {
+    console.log('URL changed to:', event.url);
+};
+
+// via window.addEventListener('urlchange')
+window.addEventListener('urlchange', (event) => {
+    console.log('URL changed to:', event.url);
+});
+```
+
+This will allow userscripts to listen for URL changes and handle them accordingly.
+
+:::note
+
+The `urlchange` event is only triggered for full URL changes, such as a change in the path or query, but not for fragment (hash) changes.
+Examples:
+
+- Navigation from `https://example.com/page1` to `https://example.com/page2` will trigger the event.
+- Navigation from `https://example.com/page1?query=1` to `https://example.com/page1?query=2` will trigger the event.
+- Navigation from `https://example.com/page1#section1` to `https://example.com/page1#section2` will **NOT** trigger the event.
+
+:::
+
+:::note
+
+The `window.onurlchange` and `window.addEventListener('urlchange', ...)` APIs are non-standard. To use them, you must explicitly grant them in your userscript with `@grant window.onurlchange`.
+
+:::
+
+If a website uses hash routing, userscripts can use the native DOM [`hashchange` event](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event):
+
+```javascript
+// ==UserScript==
+// @name SPA
+// @namespace spa
+// @version 1.0.0
+// @match https://*/*
+// @run-at document-start
+// ==/UserScript==
+
+// via window.onhashchange
+window.onhashchange = (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+};
+
+// via window.addEventListener('hashchange')
+window.addEventListener('hashchange', (event) => {
+    console.log(`Hash changed from "${event.oldURL}" to "${event.newURL}"`);
+});
+```
+
+## Userstyles
 
 Userstyles allow users to change the appearance of popular websites.
 
 AdGuard has the option to upload or create your own userstyles. This is an advanced feature, so you will need some knowledge of HTML and CSS.
 
-:::info Supported apps
+:::info App supportate
 
-Currently, two AdGuard apps allow you to create and manage userstyles: AdGuard for Windows (v7.19 or later) and AdGuard for Mac (v2.16 or later). We also plan to implement this new feature in AdGuard v4.8 for Android in the nearest future.
+Currently, two AdGuard apps allow you to create and manage userstyles: AdGuard for Windows (v7.19 or later) and AdGuard for Mac (v2.16 or later). We also plan to implement this new feature in AdGuard for Android v4.8 in the nearest future.
 
 :::
 
-This is an experimental feature, so if you encounter any problems while adding or creating a userstyle, please contact our support team at <support@adguard.com>.
+This is an experimental feature, so if you encounter any problems while adding or creating a userstyle, please contact our support team at [support@adguard.com](mailto:support@adguard.com).
 
 ### How to set up a userstyle in AdGuard
 
@@ -252,7 +464,7 @@ We don’t support userstyles that contain `@var` or `@advanced` in the metadata
    ==/UserStyle== */
    ```
 
-4. Write the CSS part after the meta data. AdGuard supports website domain names matching (`@-moz-document domain(…), …`). For example:
+4. Write the CSS part after the meta data. AdGuard supports website domain names matching (`@-moz-document domain(…), …`). Ad esempio:
 
    ```CSS
    body {
@@ -291,3 +503,5 @@ We don’t support userstyles that contain `@var` or `@advanced` in the metadata
     }
 }
 ```
+
+[CoreLibs]: https://github.com/AdguardTeam/CoreLibs

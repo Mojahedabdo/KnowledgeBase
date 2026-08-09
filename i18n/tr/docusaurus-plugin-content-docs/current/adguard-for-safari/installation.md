@@ -27,7 +27,7 @@ Safari için AdGuard, App Store'da sunulan ücretsiz bir uygulamadır. Cihazın�
 
     ![Bildirim: Bazı uzantılar devre dışı bırakıldı](https://cdn.adtidy.org/content/Kb/ad_blocker/safari/adguard-for-safari-notification.png)
 
-    :::not
+    :::note
 
     Safari için AdGuard'ın düzgün çalışması için tüm uzantılar gerekli değildir. Örneğin, *Simge* uzantısını kontrol etmek, arama çubuğunun yanındaki simgeyi etkinleştirir. However, we recommend enabling all of them.
 
@@ -36,7 +36,7 @@ Safari için AdGuard, App Store'da sunulan ücretsiz bir uygulamadır. Cihazın�
 
     ![Extensions checked](https://cdn.adtidy.org/content/Kb/ad_blocker/safari/adguard-for-safari-extensions-checked.png)
 
-1. AdGuard'ın sitelerde çalışması için Safari'deki <em x-id=“3”>Uzantılar</em> ayarının etkinleştirilmesi gerekir. Safari → *Ayarlar* → *Siteler* → *Uzantılar* öğesini açın. AdGuard'ı her sitede etkinleştirmek istiyorsanız, <em x-id=“3”>Diğer siteler için</em> öğesini <em x-id=“3”>İzin ver</em> olarak ayarlayın.
+1. AdGuard'ın sitelerde çalışması için Safarideki *Uzantılar* ayarının etkinleştirilmesi gerekir. Safari → *Ayarlar* → *Siteler* → *Uzantılar* öğesini açın. AdGuard'ı her sitede etkinleştirmek istiyorsanız, *Diğer siteler için* öğesini *İzin ver* olarak ayarlayın.
 
 ![Mac Safari İçerik Engelleyici Ayarı](https://cdn.adtidy.org/content/Kb/ad_blocker/safari/macos_extensions.png)
 <!-- adguard-for-safari-content-blocker-setting-macos.png -->

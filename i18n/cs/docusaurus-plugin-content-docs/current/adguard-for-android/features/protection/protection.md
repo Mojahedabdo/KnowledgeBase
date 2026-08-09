@@ -5,44 +5,32 @@ sidebar_position: 1
 
 :::info
 
-Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
-Tento modul obsahuje následující nastavení:
+Karta _Ochrana_ obsahuje následující funkce nebo nastavení. Podrobný článek ke každému z nich najdete v této databázi znalostí.
 
-## Blokování reklam
+- [Blokování reklam](/adguard-for-android/features/protection/ad-blocking.md)
 
-Informace o přizpůsobení blokování reklam, filtrování reklam a slídičů v aplikacích a prohlížečích, s filtry a pokročilými možnostmi pro blokování reklam v celém systému.
+  Nastavení blokování reklam v prohlížečích a aplikacích
 
-[Blokování reklam](/adguard-for-android/features/protection/ad-blocking.md)
+- [Ochrana před sledováním](/adguard-for-android/features/protection/tracking-protection.md)
 
-## Ochrana před sledováním
+  Nastavení umožňující blokovat sledovací prvky, které shromažďují informace o uživateli
 
-Informace o tom, jak zablokovat slídiče třetích stran v aplikacích a na webových stránkách, abyste ochránili své soukromí a zabránili shromažďování údajů.
+- [Blokování obtěžování](/adguard-for-android/features/protection/annoyance-blocking.md)
 
-[Ochrana před sledováním](/adguard-for-android/features/protection/tracking-protection.md)
+  Nastavení pro blokování obtěžujících prvků, jako jsou vyskakovací okna se souhlasem se soubory cookies, widgety sociálních sítí a bannery vyzývající ke stažení mobilních aplikací
 
-## Blokování obtěžování
+- [DNS ochrana](/adguard-for-android/features/protection/dns-protection.md)
 
-Informace o tom, jak filtry AdGuard blokují obtěžující prvky, jako jsou vyskakovací okna se souhlasem se soubory cookies, bannery a další rušivé prvky.
+  DNS servery a DNS filtry, které umožňují blokovat reklamy, slídiče a nebezpečné webové stránky
 
-[Blokování obtěžování](/adguard-for-android/features/protection/annoyance-blocking.md)
+- [Firewall](/adguard-for-android/features/protection/firewall/firewall.md)
 
-## DNS ochrana
+  Funkce, která umožňuje řídit přístup k internetu pro jednotlivé aplikace
 
-Informace o konfiguraci zabezpečených serverů DNS, které pomáhají blokovat reklamy, slídiče a škodlivé webové stránky a zároveň chrání vaše soukromí.
+- [Bezpečné prohlížení](/adguard-for-android/features/protection/browsing-security.md)
 
-[DNS ochrana](/adguard-for-android/features/protection/dns-protection.md)
-
-## Firewall
-
-Funkce Firewall, která umožňuje uživatelům řídit přístup k internetu pro jednotlivé aplikace, blokovat data na pozadí a sledovat síťovou aktivitu pro lepší ochranu soukromí a správu dat.
-
-[Firewall](/adguard-for-android/features/protection/firewall/firewall.md)
-
-## Bezpečné prohlížení
-
-Funkce Bezpečné prohlížení pomáhá blokovat přístup ke škodlivým a phishingovým webovým stránkám a chrání vás tak před online hrozbami.
-
-[Bezpečné prohlížení](/adguard-for-android/features/protection/browsing-security.md)
+  Funkce, která blokuje přístup ke škodlivým a phishingovým webům a chrání vás před online hrozbami

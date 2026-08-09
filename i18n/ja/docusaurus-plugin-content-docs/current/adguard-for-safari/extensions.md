@@ -21,6 +21,7 @@ Safari拡張機能は、Safariウェブブラウザで機能を追加する小�
 - AdGuard プライバシー
 - AdGuard ソーシャル
 - AdGuard セキュリティ
+- AdGuard カスタム
 - AdGuard その他
 
 各コンテンツブロッカー拡張機能において、最大150,000の有効フィルタリングルールが許可されています。 ほとんどのフィルタグループのルール数は150,000を超えません。 ただし、言語特化フィルタやカスタムフィルタを有効にしすぎると、制限を超える可能性があります。 このような場合、制限を超えたルールの中から、ランダムには一部のルールが自動的に無効化されるため、誤った広告ブロックの可能性が出てきます。 **必要なフィルタ以外は有効にしないことを強くお勧めします。**
@@ -33,7 +34,7 @@ Safari拡張機能は、Safariウェブブラウザで機能を追加する小�
 
 ## 6個のコンテンツブロッカー拡張機能
 
-「*AdGuard 一般*」は、フィルタ<からのルールを適用します。これらのフィルタは、*フィルタ* → *広告ブロッキング* および *フィルタ* → *言語特化フィルタ* で見つけることができます。 この拡張機能は、効果的な広告ブロックに焦点を当て、特定の言語の広告のフィルタリング、お含みます。
+「*AdGuard 一般*」は、フィルタからのルールを適用します。これらのフィルタは、*フィルタ* → *広告ブロッキング* および *フィルタ* → *言語特化フィルタ* で見つけることができます。 この拡張機能は、効果的な広告ブロックに焦点を当て、特定の言語の広告のフィルタリング、お含みます。
 
 「*AdGuard プライバシー*」は、 *フィルタ* → *プライバシー*にあるフィルタのルールを適用します。 あらゆるトラッキング（個人情報追跡）メカニズムをブロックし、あなたのブラウジングアクティビティとオンラインプライバシーが保護されるようにします。
 
@@ -49,7 +50,7 @@ Safari拡張機能は、Safariウェブブラウザで機能を追加する小�
 
 ## 「AdGuard for Safari」拡張機能
 
-*AdGuard for Safari* activates the AdGuard icon next to the search bar. It's useful if you want to quickly set up protection for a specific website or block ads manually. It also contains advanced rules that aren't converted to the format supported by Safari. These include [CSS rules](/general/ad-filtering/create-own-filters#cosmetic-css-rules), [extended CSS selectors](/general/ad-filtering/create-own-filters#extended-css-selectors), and [scriptlets](/general/ad-filtering/create-own-filters#scriptlets), which allow AdGuard to block complex ads, such as those on YouTube.
+「*AdGuard for Safari*」という拡張機能は検索バーの横にあるAdGuardアイコンを有効にします。 特定のウェブサイトに対して広告ブロックを素早くオン・オフにしたい場合や、手動で広告をブロックしたい場合に便利です。 また、Safariがサポートするフォーマットに変換できない高度なルールもこの拡張機能に含まれています。 これらには、 [CSS ルール](/general/ad-filtering/create-own-filters#cosmetic-css-rules)、 [拡張 CSS セレクター](/general/ad-filtering/create-own-filters#extended-css-selectors)、および [スクリプトレット(Scriptlets)](/general/ad-filtering/create-own-filters#scriptlets)が含まれ、これにより AdGuard は YouTube などの複雑な広告をブロックできるようになります。
 
 ## Safariの拡張機能を管理する方法
 
@@ -57,7 +58,7 @@ Safari拡張機能は、Safariウェブブラウザで機能を追加する小�
 
     ![Safari設定 *mobile](https://cdn.adtidy.org/content/kb/ad_blocker/safari/adguard-for-safari-settings1.png)
 
-1. Click *Settings...*
+1. 「*設定...*」をクリックします。
 
 1. 🧩「*拡張機能*」タブを選択します。
 

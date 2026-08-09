@@ -9,14 +9,24 @@ sidebar_position: 3
 
 :::
 
-「隐身模式」旨在确保个人敏感数据免受在线跟踪器和欺诈者的侵害。
+「跟踪防护」的目的是保护您的敏感个人数据免受在线跟踪器和欺诈者的侵害。 基于 Chromium（支持 MV3）和非 Chromium（支持 MV2）的浏览器在跟踪防护功能上存在细微差异。
 
-![隐身模式 \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_stealth_mode.png)
+_Tracking protection_ in Chromium-based browsers
+![Tracking protection in Chromium-based browsers \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv3.png)
 
-在隐身模式下，用户可以阻止网站看到网络搜索记录，还可以自动删除第三方和网站自己的 Cookie 等。 我们有一篇[文章](/general/stealth-mode)专门介绍这些功能。
+_Tracking protection_ in non-Chromium browsers
+![Tracking protection in non-Chromium browsers \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv2.png)
+
+_Tracking protection_ features prevent websites from seeing the search query you used to find them on the Internet, automatically delete third-party and website cookies, and more. A [separate article](/general/stealth-mode) is devoted to all these features.
 
 :::note
 
-由于技术限制，部分的「隐身模式」选项可以在应用程序里使用，但无法在浏览器扩展中使用。
+Browser extensions are limited to a specific browser and are subject to its technical restrictions. Therefore, they cannot offer all the tracking protection features available in full-fledged ad-blocking apps.
+
+:::
+
+:::caution
+
+In AdGuard Browser Extension, the _Block WebRTC_ option works globally — it either blocks or allows WebRTC for all websites. It cannot be controlled on a per-site basis. Exception rules like `@@||example.com^$stealth=webrtc` have no effect in the browser extension because the `webrtc` option is not among the [supported `$stealth` modifier options](/general/ad-filtering/create-own-filters#stealth-modifier). If you need per-site WebRTC control, use the full-fledged AdGuard app for Windows, Mac, or Android.
 
 :::

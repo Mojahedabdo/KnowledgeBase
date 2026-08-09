@@ -20,12 +20,13 @@ sidebar_position: 2
 - **恼人广告过滤器**屏蔽网页上的恼人元素。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt)。 包括以下 AdGuard 过滤器（以下过滤器都可以与烦恼过滤器分开启用）：
 
     - **Cookie 通知**在网页上拦截 Cookie 通知。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt)
-    - **弹出窗口**拦截各种对网站运行没有必要的弹窗。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt)
+    - **Popups** blocks all kinds of popups that are not necessary for websites' operation. [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt)
     - **移动拦截程序横幅广告**阻止宣传网站移动应用的横幅。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt)
     - **小工具**阻止第三方小工具：在线助手、实时客服支持聊天等 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt)
     - **其他烦恼**阻止不属于流行的烦恼类别的元素。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt)
 
 - **解除搜索广告和自我推销过滤器**解除可能对用户有用的广告。 在[此页](../search-ads)上了解更多关于此过滤器的信息。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt)
+- **邮件跟踪保护**会拦截邮件中嵌入的跟踪像素，防止发件人监控邮件何时被打开，以及收集有关设备或活动的信息。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_25_Mail_Tracking_Protection/filter.txt)
 - **俄语过滤器**删除俄语网站上的广告。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt)
 - **德语过滤器**删除德语网站上的广告。 最初是基于 [EasyList Germany](https://easylist.to/) 过滤器，随后我们根据用户的反馈进行修改。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt)
 - **法语过滤器**删除法语网站上的广告。 最初是基于 [Liste FR](https://forums.lanik.us/viewforum.php?f=91) 过滤器，随后我们根据用户的反馈进行修改。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt)
@@ -38,7 +39,6 @@ sidebar_position: 2
 - **实验性过滤器**，此过滤器设计用于在将某些有风险的过滤规则添加到基本过滤器之前对其进行测试。 如果这些规则执行没有任何问题，它们会被添加到主过滤器中。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt)
 - **移动广告过滤器**拦截移动设备上的广告。 包含所有已知的移动广告网络。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt)
 - **DNS 过滤器** — 此过滤器由其他几个过滤器 (AdGuard 基础过滤器、社交媒体过滤器、防跟踪保护过滤器、移动广告过滤器、EasyList 和 EasyPrivacy) 组成，并经过简化，以便更好地与 DNS 级别的广告拦截兼容。 [AdGuard DNS](https://adguard-dns.io/kb) 服务器使用此过滤器来拦截广告和跟踪器。 [查看规则](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)
-- **快速修复的 AdGuard 过滤器**，无需更新 MV3 扩展即可快速解决网站过滤问题。 [查看规则](https://filters.adtidy.org/extension/chromium-mv3/filters/24.txt)
 
 ## AdGuard 过滤器政策
 

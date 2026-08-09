@@ -23,13 +23,19 @@ Přístup k ní získáte v sekci *Statistiky* → *Využití baterie*.
 
 Uvnitř najdete graf, který zobrazuje spotřebu zdrojů baterie AdGuard za posledních 24 hodin s možností získat podrobnější údaje po jednotlivých hodinách klepnutím v grafu. Kromě toho je zde také číselný rozpis příslušných údajů a krátké technické vysvětlení.
 
+Pod grafem je několik dalších parametrů: *CPU na popředí*, *CPU na pozadí*, *Použití mobilních dat* a *Použití Wi-Fi dat*.
+
+*CPU na popředí* a *CPU na pozadí* ukazují, jak dlouho CPU využívá AdGuard, když je aplikace aktivní nebo běží na pozadí.
+
+A s *využitím mobilních dat* a *využitím Wi-Fi dat* můžete vidět, kolik provozu AdGuard použil, když váš telefon používal mobilní internet nebo byl připojen k Wi-Fi.
+
 ### Kolik prostředků baterie AdGuard skutečně spotřebovává?
 
 Nejprve si řekneme něco málo z teorie a uvedeme si souvislosti s potřebnými údaji.
 
-1. Android odvozuje spotřebu baterie podle takzvaného "Profilu napájení", který udává každý výrobce: <https://source.android.com/devices/tech/power/values.html>
+1. Android odvozuje spotřebu baterie podle takzvaného "Profilu napájení", který udává každý výrobce: [https://source.android.com/devices/tech/power/values.html](https://source.android.com/devices/tech/power/values.html)
 
-1. Hlavní součástí tohoto profilu je soubor hodnot v mAh, které určují spotřebu baterie pro každou část zařízení: <https://source.android.com/devices/tech/power/values.html>
+1. Hlavní součástí tohoto profilu je soubor hodnot v mAh, které určují spotřebu baterie pro každou část zařízení: [https://source.android.com/devices/tech/power/values.html](https://source.android.com/devices/tech/power/values.html)
 
     Například podle výše uvedené tabulky:
 

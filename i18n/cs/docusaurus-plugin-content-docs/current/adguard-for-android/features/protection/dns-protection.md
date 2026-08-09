@@ -5,7 +5,7 @@ sidebar_position: 4
 
 :::info
 
-Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
@@ -25,7 +25,7 @@ _DNS ochrana_ umožňuje filtrovat DNS požadavky pomocí vybraného DNS serveru
 
 - Domény můžete také blokovat a odblokovat vytvořením uživatelských pravidel. Možná si budete muset přečíst náš článek o [syntaxi pravidel filtrování DNS] (https://adguard-dns.io/kb/general/dns-filtering-syntax/)
 
-![DNS protection \*mobile\_border](https://cdn.adtidy.org/blog/new/u8qtxdns_protection.png)
+![DNS protection \*mobile_border](https://cdn.adtidy.org/blog/new/u8qtxdns_protection.png)
 
 #### DNS server
 

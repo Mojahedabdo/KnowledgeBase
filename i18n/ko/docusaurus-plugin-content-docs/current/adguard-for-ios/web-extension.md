@@ -11,15 +11,15 @@ AdGuard의 Safari 웹 확장 프로그램은 iOS 15의 새로운 기능을 활�
 
 ## AdGuard Safari 웹 확장 프로그램의 기능
 
-By default, Safari provides only basic tools for content blockers. These tools don't offer the level of performance found in content blockers on other operating systems (Windows, Mac, Android). For example, AdGuard apps on other platforms can use such powerful anti-ad weapons as [CSS rules](/general/ad-filtering/create-own-filters#cosmetic-css-rules), [Extended CSS selectors](/general/ad-filtering/create-own-filters#extended-css-selectors), and [scriptlets](/general/ad-filtering/create-own-filters#scriptlets). Unfortunately, these utilities are absolutely irreplaceable when dealing with more complex cases, such as pre-roll ads on YouTube.
+기본적으로 Safari는 콘텐츠 차단기에게 기본 도구만 제공합니다. 이러한 도구는 다른 운영 체제(Windows, Mac, Android)의 콘텐츠 차단 프로그램에서 볼 수 있는 수준의 성능을 제공하지 않습니다. 예를 들어, 다른 플랫폼의 AdGuard 앱은 [CSS 규칙](/general/ad-filtering/create-own-filters#cosmetic-css-rules), [확장 CSS 선택기](/general/ad-filtering/create-own-filters#extended-css-selectors) 및 [스크립틀릿](/general/ad-filtering/create-own-filters#scriptlets)과 같은 강력한 광고 방지 도구를 사용할 수 있습니다. 이러한 도구는 YouTube 광고와 같은 복잡한 광고를 처리할 때 절대적으로 필요한 도구입니다.
 
 Safari용 AdGuard 웹 확장 프로그램은 이러한 모든 유형의 필터링 규칙을 적용할 수 있는 기능을 제공함으로써 AdGuard를 보완합니다.
 
 그 외에도 AdGuard의 Safari 웹 확장 프로그램을 사용하면 브라우저에서 바로 iOS용 AdGuard를 빠르게 관리할 수 있습니다. *확장 프로그램* 버튼(직소 아이콘이 있는 버튼)을 탭합니다. 기기 유형에 따라 주소창 왼쪽 또는 오른쪽에 위치할 수 있습니다. 목록에서 **AdGuard**를 찾아서 탭합니다.
 
-![웹 확장 프로그램 메뉴 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/ext_adguard_en.png?1)
+![웹 확장 프로그램 메뉴 *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/open-safari-assistant.jpg)
 
-> On iPads, AdGuard's Safari web extension can be accessed directly by tapping the AdGuard icon in the browser's address bar.
+> iPad의 경우, 브라우저 주소 표시줄에서 AdGuard 아이콘을 탭하여 AdGuard의 Safari 웹 확장 프로그램에 바로 액세스할 수 있습니다.
 
 다음과 같은 옵션 목록이 표시됩니다.
 
@@ -41,42 +41,48 @@ AdGuard의 Safari 웹 확장 프로그램은 작동을 위해 웹페이지의 �
 
 웹 확장 프로그램은 독립형 도구가 아니며 iOS용 AdGuard가 필요합니다. 기기에 iOS용 AdGuard가 설치되어 있지 않은 경우, [먼저 설치](../installation)한 후 온보딩 프로세스를 완료하세요.
 
-완료되면 *설정 → Safari → 확장 프로그램*을 엽니다.
+Once done, open the *Settings* app and scroll down to *Apps*.
 
-!["Safari" 선택 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings1_en.png)
+![Select Apps *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/apps.jpg)
 
-!["확장 프로그램" 선택 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings2_en.png)
+Then, open *Safari* → *Extensions*.
 
-**이 확장 프로그램 허용** 섹션을 찾은 다음 사용 가능한 확장 프로그램 중에서 **AdGuard**를 찾습니다.
+![Select Safari *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings1_en.png)
 
-![확장 프로그램 허용 섹션에서 "AdGuard"를 선택하기](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings3_en.png)
+![Select Extensions *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings2_en.png)
 
-탭한 다음 스위치를 전환합니다. 같은 화면에서 AdGard의 *모든 웹사이트* 권한을 *허용* 또는 *요청*으로 설정합니다. *허용*을 선택하면 새 웹사이트를 방문할 때마다 권한을 부여할 필요가 없습니다. 확실하지 않은 경우, 사이트별로 권한 부여 *요청*을 선택하세요.
+In the **ALLOW THESE EXTENSIONS** section find **AdGuard** among the available extensions.
 
-![확장 프로그램 설정 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings4_en.png)
+![Select AdGuard *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/select-ag.jpg)
+
+Tap it, then toggle the *Allow Extension* switch on.
+
+Lower on the same screen, make sure *All Websites* is set *Allow* or *Ask*. If you choose *Allow*, you won't have to give permission every time you visit a new website. If you are unsure, choose *Ask* to grant permissions on a per-site basis.
+
+![AdGuard extension in Settings *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/ag-webext-in-settings.png)
 
 ### Safari
 
-You can also enable the AdGuard extension from the Safari browser. To do it, tap *Extensions* (if you don't see it next to the address bar, tap the `aA` icon).
+To enable the AdGuard extension right from the Safari browser, tap the icon on the left side of the URL field:
 
-![Safari에서 aA 아이콘을 탭하기 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/safari1_en.png)
+![In Safari tap icon on the left of URL field *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/web-extension-on-1.jpg)
 
-그런 다음 목록에서 *확장 프로그램 관리* 옵션을 찾아 탭합니다. 열린 창에서 **AdGuard** 옆에 있는 스위치를 켭니다.
+Then, tap *Manage Extensions*.
 
-![확장 프로그램 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/safari2_en.png)
+![Extensions *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/web-extension-on-2.jpg)
 
-![확장 프로그램 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/safari3_en.png)
+In the opened window, turn on the AdGuard switches. The top one is the AdGuard Web extension; the other six are content blockers needed for filtering.
 
-이 방법을 사용하는 경우, Safari 설정으로 이동하여 AdGuard 확장 프로그램에 필요한 권한을 부여해야 할 수도 있습니다.
+![Extensions *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/web-extension-on-3.jpg)
 
-이제 사용 가능한 확장 프로그램에서 AdGuard를 볼 수 있을 것입니다. 탭한 다음 노란색 **i** 아이콘을 탭합니다. *켜기* 버튼을 탭하고 작업을 확인하여 **고급 보호**를 사용하도록 설정합니다.
+You should now be able to see AdGuard among the available extensions. To enable **Advanced protection**, open AdGuard extension, tap the yellow **i** icon, press *Enable*, and confirm the action.
 
 :::note
 
-프리미엄 구독 없이 iOS용 AdGuard를 사용하는 경우, **고급 보호** 기능을 사용할 수 없습니다.
+If you use AdGuard for iOS without Premium subscription, you won't be able to enable **Advanced protection**.
 
 :::
 
-또는 앱의 **보호** 탭(하단 아이콘 줄 왼쪽에서 두 번째)에서 직접 **고급 보호** 기능을 설정할 수 있습니다.
+Alternatively, you can enable **Advanced protection** directly from the app, in the **Protection** tab (second from the left in the bottom icon row).
 
-AdGuard의 Safari 웹 확장 프로그램은 iOS 버전 15 이상에서만 작동합니다.
+AdGuard's Safari Web extension only works on iOS versions 15 and later.

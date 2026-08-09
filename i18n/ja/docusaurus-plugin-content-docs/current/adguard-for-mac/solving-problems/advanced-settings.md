@@ -57,6 +57,10 @@ sidebar_position: 9
 
 `true`を設定すると、HTTPS 証明書の失効チェックが有効になります。
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 コネクションがアクティブであることを確認するためとNATタイムアウトを更新するために、アイドル状態のコネクションに定期的にTCPパケットを送信します。
@@ -80,6 +84,12 @@ Chrome Certificate Transparency Policy（証明書透過性ポリシー）に基
 #### `network.https.filter.http3.enabled`
 
 `true` を設定すると、AdGuardがHTTP/3（QUICに基づくHTTPプロトコルの最新バージョン）経由で送信されるトラフィックをフィルタリングできるようになります。
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -161,9 +171,13 @@ Chrome Certificate Transparency Policy（証明書透過性ポリシー）に基
 
 #### `dns.proxy.private.relay.sequoia.workaround.enabled`
 
-Blocks macOS Private Relay domains if the user has a firewall enabled, which in turn disables the *Private Relay* feature.
+ユーザーがファイアウォールを有効にしている場合、macOSプライベートリレードメインをブロックし、「*プライベートリレー*」機能を無効にします。
 
-Enabling this setting is useful in the following scenario: when macOS Private Relay is active, filtering cannot function properly and must be disabled. In macOS versions up to 14, AdGuard could automatically disable Private Relay when Protection was enabled. However, starting with macOS 15, this is no longer possible if a firewall is active. By turning on this setting, you can disable Private Relay even when the firewall is enabled, overcoming the previous limitation.
+この設定を有効にすると、次のような時に便利です：macOSプライベートリレーがアクティブだとフィルタリングは正しく機能しないため、無効にする必要があります。 macOSバージョン14まででは、保護機能が有効の際に、AdGuardはプライベートリレーを自動的に無効にすることができていました。 しかし、macOS 15 以降では、ファイアウォールがアクティブな場合、これを行うことはできません。 この設定をオンにすると、ファイアウォールが有効な場合でもプライベートリレーを無効にすることができ、以前の制限を克服することができます。
+
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Secures DNS proxy connections with a hybrid post-quantum key exchange, combining the classical X25519 algorithm with the ML-KEM-768 post-quantum KEM. Applies only to DoH, DoT, and DoQ upstreams.
 
 ### ステルスモード設定
 

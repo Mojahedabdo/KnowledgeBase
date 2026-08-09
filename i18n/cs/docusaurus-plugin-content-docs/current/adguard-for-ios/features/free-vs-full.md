@@ -5,7 +5,7 @@ sidebar_position: 9
 
 :::info
 
-Tento článek popisuje AdGuard pro iOS, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro iOS, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
@@ -27,6 +27,6 @@ Prémiový AdGuard pro iOS se od bezplatné verze liší několika funkcemi, vč
 
 2. **Pokročilá ochrana** vám umožňuje používat pokročilá pravidla filtrování k blokování složitějších reklam, které by jinak zůstaly nezablokované.
 
-3. **Další možnosti filtrování:** Při zakoupení AdGuard Premium získáte přístup k vlastním filtrům a kategorii bezpečnostních filtrů, kde si můžete vybrat z více než 50 filtrů, včetně filtrů AdGuard a dalších populárních seznamů.
+3. **Další možnosti filtrování:** Při zakoupení AdGuard Premium získáte přístup k vlastním filtrům a kategorii bezpečnostních filtrů.
 
 Přístup k těmto funkcím získáte [zakoupením licence](https://adguard.com/license.html).

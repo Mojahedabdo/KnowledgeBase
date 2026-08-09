@@ -9,40 +9,28 @@ Dieser Artikel behandelt AdGuard für Android, einem multifunktionalen Werbebloc
 
 :::
 
-Dieses Modul enthält die folgenden Einstellungen:
+Der Tab _Schutz_ umfasst die folgenden Funktionen oder Einstellungen. In dieser Wissensdatenbank finden Sie einen ausführlichen Artikel zu jedem dieser Themen.
 
-## Werbeblockierung
+- [Sperren von Werbung](/adguard-for-android/features/protection/ad-blocking.md)
 
-Informationen zur Anpassung der Werbeblockierung, zum Filtern von Werbung und Trackern in Anwendungen und Browsern, mit Filtern und erweiterten Optionen für die systemweite Werbeblockierung.
+  Einstellungen zum Blockieren von Werbung in Browsern und Apps
 
-[Sperren von Werbung](/adguard-for-android/features/protection/ad-blocking.md)
+- [Schutz vor Tracking](/adguard-for-android/features/protection/tracking-protection.md)
 
-## Tracking-Schutz
+  Einstellungen, mit denen Sie Tracking-Tools blockieren können, die Nutzerdaten sammeln
 
-Informationen darüber, wie Sie Tracker von Drittanbietern in Anwendungen und Websites sperren können, um Ihre Privatsphäre zu schützen und die Datenerfassung zu verhindern.
+- [Sperren von Belästigungen](/adguard-for-android/features/protection/annoyance-blocking.md)
 
-[Schutz vor Tracking](/adguard-for-android/features/protection/tracking-protection.md)
+  Einstellungen zum Blockieren von störenden Elementen wie Pop-ups mit Cookie-Zustimmung, sozialen Widgets und Bannern, die Sie zum Herunterladen von mobilen Apps auffordern
 
-## Belästigungsblockierung
+- [DNS-Schutz](/adguard-for-android/features/protection/dns-protection.md)
 
-Informationen darüber, wie AdGuard-Filter störende Elemente wie Pop-ups mit Cookie-Zustimmung, Banner und andere aufdringliche Elemente sperren.
+  DNS-Server und DNS-Filter, mit denen Sie Werbung, Tracker und gefährliche Websites blockieren können
 
-[Sperren von Belästigungen](/adguard-for-android/features/protection/annoyance-blocking.md)
+- [Firewall](/adguard-for-android/features/protection/firewall/firewall.md)
 
-## DNS-Schutz
+  Eine Funktion, mit der Sie den Internetzugriff für einzelne Apps steuern können
 
-Informationen zur Konfiguration von sicheren DNS-Servern, um Werbung, Tracker und bösartige Websites zu sperren und gleichzeitig Ihre Privatsphäre zu schützen.
+- [Internetsicherheit](/adguard-for-android/features/protection/browsing-security.md)
 
-[DNS-Schutz](/adguard-for-android/features/protection/dns-protection.md)
-
-## Firewall
-
-Die Firewall-Funktion, mit der Benutzer den Internetzugang für einzelne Anwendungen kontrollieren, Hintergrunddaten sperren und Netzwerkaktivitäten überwachen können, um den Datenschutz und die Datenverwaltung zu verbessern.
-
-[Firewall](/adguard-for-android/features/protection/firewall/firewall.md)
-
-## Internetsicherheit
-
-Internetsicherheitsfunktion sperrt den Zugang zu bösartigen und Phishing-Websites und schützt Sie so vor Online-Bedrohungen.
-
-[Internetsicherheit](/adguard-for-android/features/protection/browsing-security.md)
+  Eine Funktion, die den Zugriff auf bösartige und Phishing-Websites blockiert und Sie vor Online-Bedrohungen schützt

@@ -17,6 +17,8 @@ AdGuard придерживается строгой политики без ло
 
 :::
 
+## Основная инструкция
+
 1. На вашем Android-устройстве откройте приложение **Настройки**.
 2. Нажмите **Приложения**.
 3. Нажмите **AdGuard**
@@ -34,3 +36,25 @@ AdGuard придерживается строгой политики без ло
 Готово! Теперь функции _Фаервол_ и _Обнаружение Samsung Pay_ будут работать корректно.
 
 ![Ограниченные настройки разрешены для AdGuard \*mobile](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/problems-caused-by-extending-restricted-settings/restricted3.png)
+
+## Для пользователей OneUI 7.0
+
+Чтобы настроить разрешения приложений на устройствах Samsung с OneUI 7.0, нужно действовать иначе. Выполните следующие действия, чтобы настроить доступ к использованию приложений:
+
+1. Откройте _Системные настройки_ → _Приложения_
+
+![Настройки приложений \*mobile](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/problems-caused-by-extending-restricted-settings/apps.jpg)
+
+1. Коснитесь иконки меню (⋮) в правом верхнем углу, затем выберите _Специальный доступ_
+
+![Специальный доступ \*mobile](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/problems-caused-by-extending-restricted-settings/three-dots.jpg)
+
+1. Выберите _Доступ к данным об использовании_
+
+![Специальный доступ меню \*mobile](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/problems-caused-by-extending-restricted-settings/special.jpg)
+
+1. Найдите и включите _AdGuard_
+
+![Доступ к данным использования \*mobile](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/problems-caused-by-extending-restricted-settings/usage_data.jpg)
+
+Готово!

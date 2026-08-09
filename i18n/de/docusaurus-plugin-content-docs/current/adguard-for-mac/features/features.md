@@ -9,56 +9,38 @@ Dieser Artikel behandelt AdGuard für Mac, einem multifunktionalen Werbeblocker,
 
 :::
 
-## Hauptfenster
+- [Hauptfenster](/adguard-for-mac/features/main.md)
 
-Vom Hauptfenster aus können Sie den Schutz umschalten, Statistiken über gesperrte Werbung, Tracker und Bedrohungen einsehen und auf Einstellungen, Aktualisierungen, Support und Lizenzverwaltung zugreifen.
+  Hauptbildschirm mit Statistiken zu blockierten Anzeigen und Trackern sowie Zugriff auf die Haupteinstellungen
 
-[Hauptfenster](/adguard-for-mac/features/main.md)
+- [Allgemein](/adguard-for-mac/features/general.md)
 
-## Allgemein
+  Grundlegende Einstellungen zum Blockieren von Suchanzeigen und Eigenwerbung auf Websites, Aktivieren sprachspezifischer Filter und Verwalten der _Freigabeliste_
 
-Hier können Sie grundlegende Einstellungen vornehmen, wie z. B. _Suchanzeigen und Website-Eigenwerbung nicht sperren_, _Sprachspezifische Filter automatisch aktivieren_, _AdGuard bei Anmeldung starten_, _Menüleistensymbol ausblenden_ und _Positivliste_.
+- [Filter](/adguard-for-mac/features/filters.md)
 
-[Allgemein](/adguard-for-mac/features/general.md)
+  Filter und Benutzerregeln zur Feinabstimmung der Werbeblockierung
 
-## Filter
+- [DNS](/adguard-for-mac/features/dns.md)
 
-Hier erfahren Sie, wie Sie Ihre Werbeblockierung durch die Aktivierung verschiedener Filterlisten, einschließlich sprachspezifischer Filter, Drittanbieterfilter und Benutzerregeln, anpassen können.
+  DNS-Server und DNS-Filter, mit denen Sie Werbung, Tracker und gefährliche Websites blockieren können
 
-[Filter](/adguard-for-mac/features/filters.md)
+- [Privatsphäre](/adguard-for-mac/features/stealth.md)
 
-## DNS
+  Einstellungen zum Blockieren von Cookies, UTM-Tags und Analyse-Tools, die Nutzerdaten sammeln
 
-Hier finden Sie die Einstellungen für den DNS-Schutz: verfügbare Anbieter, Filter, Funktionen der Sperr- und die Positivliste.
+- [Sicherheit](/adguard-for-mac/features/security.md)
 
-[DNS](/adguard-for-mac/features/dns.md)
+  Eine Einstellung, die den Zugriff auf bösartige und Phishing-Websites blockiert und Sie vor Online-Bedrohungen schützt
 
-## Privatsphäre (Tracking-Schutz)
+- [Browser-Assistent](/adguard-for-mac/features/browser-assistant.md)
 
-[Privatsphäre](/adguard-for-mac/features/stealth.md)
+  Eine Erweiterung, die das Desktop-App ergänzt und es Ihnen ermöglicht, die Filterung von Ihrem Browser aus zu verwalten
 
-Informationen darüber, wie Sie einen erweiterten Schutz einrichten können, indem Sie Cookies, UTM-Tags, Online-Zähler und Analysesysteme löschen und es Websites nicht gestatten, Ihre IP-Adresse, Geräte- und Browserparameter, Suchanfragen und persönliche Daten zu erfassen.
+- [Erweiterungen](/adguard-for-mac/features/extensions.md)
 
-## Sicherheit
+  Eine Funktion, mit der Sie die Funktionalität von Websites durch Hinzufügen von Benutzerskripten und Benutzerstilen erweitern können
 
-Es sind Einstellungen enthalten, die Sie vor Phishing und Malware schützen. Sie können AdGuard auch dabei helfen, seine Datenbank mit bekannten Bedrohungen zu aktualisieren, indem Sie sich bereit erklären, anonyme sicherheitsrelevante Informationen zu senden.
+- [Netzwerk](/adguard-for-mac/features/network.md)
 
-[Sicherheit](/adguard-for-mac/features/security.md)
-
-## Browser-Assistent
-
-Informationen zur Verwaltung des AdGuard-Schutzes direkt über den Browser.
-
-[Browser-Assistent](/adguard-for-mac/features/browser-assistant.md)
-
-## Erweiterungen
-
-Hier erfahren Sie, wie Sie AdGuard als Benutzerskript-Verwaltung einsetzen können, um die Funktionalität von Websites zu erweitern. Sie können sowohl eigene Skripte hinzufügen als auch bestehende Skripte verwalten.
-
-[Erweiterungen](/adguard-for-mac/features/extensions.md)
-
-## Netzwerk
-
-Dieser Artikel beschreibt zusätzliche netzwerkbezogene Optionen und Proxy-Einstellungen, mit denen Sie festlegen können, welchen Proxy-Server AdGuard für die Aktualisierung von Filtern, das Herunterladen neuer Versionen usw. verwenden soll.
-
-[Netzwerk](/adguard-for-mac/features/network.md)
+  Zusätzliche netzwerkbezogene Optionen und Proxy-Einstellungen

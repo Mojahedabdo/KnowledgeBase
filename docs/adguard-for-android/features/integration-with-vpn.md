@@ -1,11 +1,17 @@
 ---
 title: Integration with AdGuard VPN
-sidebar_position: 6
+sidebar_position: 8
 ---
 
 :::info
 
 This article is about AdGuard for Android, a multifunctional ad blocker that protects your device at the system level. To see how it works, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+
+:::
+
+:::info
+
+To use *Integration with AdGuard VPN*, both apps — AdGuard for Android and AdGuard VPN for Android — must be updated to their latest versions. Otherwise, the Integration mode will not be available
 
 :::
 

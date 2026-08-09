@@ -5,36 +5,26 @@ sidebar_position: 1
 
 :::info
 
-Questo articolo riguarda AdGuard per Windows, un blocco annunci multifunzionale che protegge il tuo dispositivo a livello di sistema. Per vedere come funziona, [scarica l'app di AdGuard](https://agrd.io/download-kb-adblock)
+Questo articolo riguarda AdGuard per Windows, un blocca-inserzioni multifunzionale che protegge il tuo dispositivo a livello di sistema. Per vedere come funziona, [scarica l'app di AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
-## Features
+- [Funzioni](/adguard-for-windows/features/features.md)
 
-Here are outlined the main features and settings available in AdGuard for Windows.
+  Main features and settings available in AdGuard for Windows
 
-[Features](/adguard-for-windows/features/features.md)
+- [Installazione](/adguard-for-windows/installation.md)
 
-## Installazione
+  Installazione, rimozione e requisiti di sistema per AdGuard per Windows
 
-Here, you’ll find the system requirements along with instructions on how to install and uninstall AdGuard for Windows.
+- [Browser Assistant](/adguard-for-windows/browser-assistant.md)
 
-[Installation](/adguard-for-windows/installation.md)
+  Un'estensione che completa l'app per sistemi fissi e consente di gestire il filtraggio dal browser
 
-## Browser Assistant
+- [Risoluzione problemi](/adguard-for-windows/solving-problems/solving-problems.md)
 
-This article covers a browser extension that complements the desktop program, its installation, and its benefits.
+  Problemi noti e possibili soluzioni
 
-[Browser Assistant](/adguard-for-windows/browser-assistant.md)
+- [Documentazione per amministratori](/adguard-for-windows/admins-documentation.md)
 
-## Risoluzione problemi
-
-Questa sezione include vari articoli che affrontano problemi noti e le possibili soluzioni.
-
-[Solving problems](/adguard-for-windows/solving-problems/solving-problems.md)
-
-## Documentazione per admin
-
-This page provides details about AdGuard’s central management of policies and preferences.
-
-[Documentation for admins](/adguard-for-windows/admins-documentation.md)
+  Guida alla configurazione per gli amministratori di sistema

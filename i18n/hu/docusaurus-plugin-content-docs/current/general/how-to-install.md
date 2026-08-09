@@ -1,6 +1,6 @@
 ---
 title: How to install AdGuard
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 Depending on which AdGuard app or browser extension you want to install, follow one of these links to find the relevant article:
@@ -15,6 +15,6 @@ Depending on which AdGuard app or browser extension you want to install, follow 
 
 [AdGuard Browser Extension](/adguard-browser-extension/installation)
 
-[AdGuard for Safari](/adguard-for-safari/installation)
+[AdGuard for Safari](/archive/adguard-for-safari/installation)
 
-[AdGuard Content Blocker](/adguard-content-blocker/installation)
+[AdGuard Tartalomblokkoló](/adguard-content-blocker/installation)

@@ -1,6 +1,6 @@
 ---
 title: How to install AdGuard
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 În funcție de care aplicație AdGuard sau extensie de browser doriți să instalați, urmați unul dintre aceste linkuri pentru a găsi articolul relevant:
@@ -15,6 +15,6 @@ sidebar_position: 9
 
 [Extensia de browser AdGuard](/adguard-browser-extension/installation)
 
-[AdGuard for Safari](/adguard-for-safari/installation)
+[AdGuard for Safari](/archive/adguard-for-safari/installation)
 
 [AdGuard Content Blocker](/adguard-content-blocker/installation)

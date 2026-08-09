@@ -21,3 +21,4 @@ sidebar_position: 1
 - [Как создать файл дампа](/adguard-for-windows/solving-problems/dump-file/)
 - [Возможные утечки DNS](/adguard-for-windows/solving-problems/dns-leaks/)
 - [Известные проблемы AdGuard для Windows](/adguard-for-windows/solving-problems/known-issues/)
+- [Как исправить ошибку `MOZILLA_PKIX_ERROR_KEY_PINNING_FAILURE`](/adguard-for-windows/solving-problems/mozilla-error/)

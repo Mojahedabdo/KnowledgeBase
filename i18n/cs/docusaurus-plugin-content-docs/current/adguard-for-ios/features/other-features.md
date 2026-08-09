@@ -5,7 +5,7 @@ sidebar_position: 7
 
 :::info
 
-Tento článek popisuje AdGuard pro iOS, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro iOS, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
@@ -13,9 +13,9 @@ Blokování obsahu Safari a DNS ochrana jsou nesporně dva hlavní moduly AdGuar
 
 ### **Tmavý motiv**
 
-![Light theme \*mobile\_border](https://cdn.adtidy.org/blog/new/26vo4homelight.jpeg)
+![Light theme \*mobile_border](https://cdn.adtidy.org/blog/new/26vo4homelight.jpeg)
 
-![Dark theme \*mobile\_border](https://cdn.adtidy.org/blog/new/bgko8homedark.jpeg)
+![Dark theme \*mobile_border](https://cdn.adtidy.org/blog/new/bgko8homedark.jpeg)
 
 Toto nastavení, které se nachází přímo v horní části obrazovky **Nastavení** → **Obecné**, umožňuje přepínat mezi tmavým a světlým motivem.
 

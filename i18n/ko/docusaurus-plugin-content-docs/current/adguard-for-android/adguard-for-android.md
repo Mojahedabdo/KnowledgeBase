@@ -9,20 +9,14 @@ This article is about AdGuard for Android, a multifunctional ad blocker that pro
 
 :::
 
-## Features
+- [Features](/adguard-for-android/features/features.md)
 
-Here are outlined the main features and settings available in AdGuard for Android.
+  Main features and settings available in AdGuard for Android
 
-[Features](/adguard-for-android/features/features.md)
+- [Installation](/adguard-for-android/installation.md)
 
-## 설치 방법
+  Installation, removal, and system requirements for AdGuard for Android
 
-Here, you’ll find the system requirements along with instructions on how to install and uninstall AdGuard for Android.
+- [Solving problems](/adguard-for-android/solving-problems/solving-problems.md)
 
-[Installation](/adguard-for-android/installation.md)
-
-## 문제 해결
-
-이 섹션에는 알려진 문제와 가능한 해결책을 다루는 다양한 글이 포함되어 있습니다.
-
-[Solving problems](/adguard-for-android/solving-problems/solving-problems.md)
+  알려진 문제 및 해결 방법

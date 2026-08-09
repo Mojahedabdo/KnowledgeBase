@@ -57,6 +57,10 @@ Reindirizza le richieste DNS sicure verso un proxy DNS locale, se disponibile.
 
 Impostando `true`, abiliti il controllo della revoca del certificato HTTPS.
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 Invia periodicamente pacchetti TCP verso una connessione inattiva per assicurarsi che rimanga attiva e per rinnovare i timeout NAT.
@@ -80,6 +84,12 @@ Verifica l'autenticità di tutti i certificati per il dominio in base alla Polit
 #### `network.https.filter.http3.enabled`
 
 Impostandolo a `true`, consenti ad AdGuard di filtrare il traffico inviato via HTTP/3, l'ultima versione del protocollo HTTP, basata su QUIC.
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -165,15 +175,19 @@ Blocca i domini di macOS Private Relay se l'utente ha un Firewall abilitato, il 
 
 Abilitare questa impostazione è utile nel seguente scenario: quando il Relay Privato di macOS è attivo, il filtraggio non può funzionare correttamente e deve essere disattivato. Nelle versioni di macOS fino alla 14, AdGuard poteva disattivare Private Relay automaticamente se la protezione era abilitata. Tuttavia, a partire da macOS 15, non è più possibile se un firewall è attivo. Attivando questa impostazione, puoi disattivare il Private Relay anche quando il Firewall è abilitato, superando la limitazione precedente.
 
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Secures DNS proxy connections with a hybrid post-quantum key exchange, combining the classical X25519 algorithm with the ML-KEM-768 post-quantum KEM. Applies only to DoH, DoT, and DoQ upstreams.
+
 ### Impostazioni della modalità invisibile
 
 #### `stealth.antidpi.http.split.fragment.size`
 
-Regola la dimensione della frammentazione della richiesta HTTP. Valori validi: 1–1500. Se viene specificata una dimensione non valida, il sistema utilizzerà il valore predefinito.
+Regola la dimensione della frammentazione della richiesta HTTP. Valid values: 1–1500. Se viene specificata una dimensione non valida, il sistema utilizzerà il valore predefinito.
 
 #### `stealth.antidpi.clienthello.split.fragment.size`
 
-Questa opzione specifica la dimensione della frammentazione dei pacchetti TCP, che consente di evitare l'ispezione approfondita dei pacchetti. Valori validi: 1–1500. Se viene specificata una dimensione non valida, il sistema utilizzerà il valore predefinito.
+Questa opzione specifica la dimensione della frammentazione dei pacchetti TCP, che consente di evitare l'ispezione approfondita dei pacchetti. Valid values: 1–1500. Se viene specificata una dimensione non valida, il sistema utilizzerà il valore predefinito.
 
 #### `stealth.antidpi.http.space.juggling`
 

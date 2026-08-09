@@ -9,50 +9,34 @@ Acest articol se referă la extensia de browser AdGuard, care vă protejează do
 
 :::
 
-## Features
+- [Features](/adguard-browser-extension/features)
 
-Iată principalele caracteristici și setări disponibile în Extensia de browser AdGuard.
+  Main features and settings available in AdGuard Browser Extension
 
-[Features](/adguard-browser-extension/features)
+- [Availability](/adguard-browser-extension/availability)
 
-## Availability
+  Supported browsers and platforms where the extension can be installed
 
-În acest articol, veți învăța despre browserele și platformele suportate unde extensia poate fi instalată.
+- [Installation](/adguard-browser-extension/installation)
 
-[Availability](/adguard-browser-extension/availability)
+  Installation and removal
 
-## Instalare
+- [Compatibility with the standalone app](/adguard-browser-extension/compatibility)
 
-Articolul explică cum să instalați Extensia de browser AdGuard pe diferite browsere suportate.
+  Compatibility of AdGuard Browser Extension with the AdGuard desktop apps
 
-[Installation](/adguard-browser-extension/installation)
+- [Extensia de browser AdGuard pentru Chrome MV3](/adguard-browser-extension/mv3-version/)
 
-## Compatibility with the standalone app
+  A separate AdGuard Browser Extension compatible with the Manifest V3 API
 
-Articolul explică compatibilitatea Extensiei de browser AdGuard cu aplicațiile desktop AdGuard.
+- [Browser-protected pages](/adguard-browser-extension/protected-pages)
 
-[Compatibility with the standalone app](/adguard-browser-extension/compatibility)
+  Restricted domains whose content can’t be modified with ad blocking extensions
 
-## Extensie de browser AdGuard pentru Chrome MV3
+- [Solving problems](/adguard-browser-extension/solving-problems)
 
-Acest articol discută despre extensia de browser AdGuard pentru Chrome, care este compatibilă cu API-ul Manifest V3, și despre cum se diferențiază de extensia de browser bazată pe Manifest V2.
+  Known issues and possible solutions
 
-[Extensia de browser AdGuard pentru Chrome MV3](/adguard-browser-extension/mv3-version/)
+- [Comparison to standalone apps](/adguard-browser-extension/comparison-standalone)
 
-## Pagini protejate la nivel de browser
-
-Articolul descrie cum Extensia de browser AdGuard gestionează paginile protejate, restricționând blocarea reclamelor pe anumite site-uri web sensibile pentru a asigura funcționalitatea corectă.
-
-[Browser-protected pages](/adguard-browser-extension/protected-pages)
-
-## Solving problems
-
-Această secțiune include ghiduri care abordează problemele cunoscute și soluțiile posibile.
-
-[Solving problems](/adguard-browser-extension/solving-problems)
-
-## Comparison to standalone apps
-
-Articolul evidențiază diferențele de funcționalitate, acoperire și caracteristici între extensiile AdGuard și aplicațiile desktop.
-
-[Comparison to standalone apps](/adguard-browser-extension/comparison-standalone)
+  The differences in functionality and features between the AdGuard extensions and desktop apps

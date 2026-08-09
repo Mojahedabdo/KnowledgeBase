@@ -9,56 +9,38 @@ Questo articolo riguarda AdGuard per Mac, un blocco annunci multifunzionale che 
 
 :::
 
-## Schermo principale
+- [Finestra principale](/adguard-for-mac/features/main.md)
 
-Dalla finestra principale puoi attivare o disattivare la protezione, visualizzare statistiche su annunci pubblicitari, tracker e minacce bloccati e accedere a impostazioni, aggiornamenti, supporto e gestione delle licenze.
+  Main screen with statistics on blocked ads and trackers and access to main settings
 
-[Finestra principale](/adguard-for-mac/features/main.md)
+- [Generale](/adguard-for-mac/features/general.md)
 
-## Generali
+  Impostazioni di base per bloccare gli annunci di ricerca e gli annunci auto-promozionali del sito web, abilitare i filtri specifici per lingua e gestire la _Lista consentita_
 
-Qui puoi configurare impostazioni di base come _Non bloccare gli annunci di ricerca e gli annunci di auto-promozione del sito web_, _Attiva automaticamente i filtri specifici per lingua_, _Lancia AdGuard all'accesso_, _Nascondi l'icona della barra dei menu_, e _Lista consentita_.
+- [Filtri](/adguard-for-mac/features/filters.md)
 
-[Generale](/adguard-for-mac/features/general.md)
+  Filtri e regole utente per ottimizzare il blocco delle inserzioni
 
-## Filtri
+- [DNS](/adguard-for-mac/features/dns.md)
 
-Qui scoprirai come personalizzare il filtraggio degli annunci abilitando diversi elenchi di filtri, tra cui filtri specifici per lingua, filtri di terze parti e regole utente.
+  Server DNS e filtri DNS che consentono di bloccare inserzioni, tracciatori e siti web pericolosi
 
-[Filtri](/adguard-for-mac/features/filters.md)
+- [Modalità Invisibilità](/adguard-for-mac/features/stealth.md)
 
-## DNS
+  Impostazioni per bloccare cookie, tag UTM e le analisi in rete che raccolgono informazioni sugli utenti
 
-Qui puoi trovare le impostazioni di protezione DNS: fornitori disponibili, filtri, funzioni della lista bloccata e della lista consentita.
+- [Sicurezza](/adguard-for-mac/features/security.md)
 
-[DNS](/adguard-for-mac/features/dns.md)
+  Un'impostazione che blocca l'accesso a siti web dannosi e di phishing e ti protegge dalle minacce in rete
 
-## Modalità Invisibilità
+- [Browser Assistant](/adguard-for-mac/features/browser-assistant.md)
 
-[Modalità Invisibilità](/adguard-for-mac/features/stealth.md)
+  Un'estensione che completa l'app per sistemi fissi e consente di gestire il filtraggio dal browser
 
-Informazioni su come impostare protezioni avanzate eliminando i cookie, i tag UTM, i contatori online e i sistemi di analisi, e non consentendo ai siti web di raccogliere il tuo indirizzo IP, i parametri del dispositivo e del browser, le query di ricerca e le informazioni personali.
+- [Estensioni](/adguard-for-mac/features/extensions.md)
 
-## Sicurezza
+  Una funzione che consente di estendere le funzionalità dei siti web aggiungendo codici e stili personali
 
-Include impostazioni per proteggerti da phishing e malware. Puoi anche aiutare AdGuard ad aggiornare la sua banca dati delle minacce conosciute accettando di inviare informazioni anonime relative alla sicurezza.
+- [Rete](/adguard-for-mac/features/network.md)
 
-[Sicurezza](/adguard-for-mac/features/security.md)
-
-## Browser Assistant
-
-Informazioni su come gestire la protezione AdGuard direttamente dal browser.
-
-[Browser Assistant](/adguard-for-mac/features/browser-assistant.md)
-
-## Estensioni
-
-Qui scoprirai come utilizzare AdGuard come gestore di script utente per estendere le funzionalità dei siti web. Puoi aggiungere i tuoi script, nonché gestire quelli esistenti.
-
-[Estensioni](/adguard-for-mac/features/extensions.md)
-
-## Rete
-
-Questo articolo descrive opzioni aggiuntive relative alla rete e impostazioni del proxy in cui puoi specificare quale server proxy AdGuard dovrebbe utilizzare per aggiornare i filtri, scaricare nuove versioni e così via.
-
-[Rete](/adguard-for-mac/features/network.md)
+  Opzioni aggiuntive relative alla rete e impostazioni del proxy

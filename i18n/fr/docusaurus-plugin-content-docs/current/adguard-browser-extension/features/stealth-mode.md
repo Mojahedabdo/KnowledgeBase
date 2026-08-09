@@ -1,5 +1,5 @@
 ---
-title: Protection contre le suivi (Mode furtif)
+title: Protection contre le suivi (anciennement Mode furtif)
 sidebar_position: 3
 ---
 
@@ -9,14 +9,24 @@ Cet article concerne l'extension de navigateur AdGuard, qui protège uniquement 
 
 :::
 
-_Le mode furtif_ vise à assurer la protection des données personnelles sensibles contre les traqueurs en ligne et les fraudeurs.
+Le but de la _Protection contre le suivi_ est de protéger vos données personnelles sensibles contre les traqueurs en ligne et les fraudeurs. Il existe de légères différences dans les fonctionnalités de protection contre le suivi entre les navigateurs basés sur Chromium, qui prennent en charge MV3, et les navigateurs non basés sur Chromium, qui prennent en charge MV2.
 
-![Stealth Mode \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/ad_blocker_browser_extension_stealth_mode.png)
+_Tracking protection_ in Chromium-based browsers
+![Tracking protection in Chromium-based browsers \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv3.png)
 
-En mode furtif, vous pouvez empêcher un site web de voir les requêtes de recherche que vous avez utilisées pour le trouver sur Internet, supprimer automatiquement les cookies tiers et les cookies propres au site, etc. Un [article séparé](/general/stealth-mode) est consacré à toutes ces fonctionnalités.
+_Tracking protection_ in non-Chromium browsers
+![Tracking protection in non-Chromium browsers \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv2.png)
+
+_Tracking protection_ features prevent websites from seeing the search query you used to find them on the Internet, automatically delete third-party and website cookies, and more. A [separate article](/general/stealth-mode) is devoted to all these features.
 
 :::note
 
-Certaines des options du _Mode furtif_ disponibles dans les applications autonomes ne sont pas présentes dans les extensions de navigateur à cause de restrictions techniques.
+Browser extensions are limited to a specific browser and are subject to its technical restrictions. Therefore, they cannot offer all the tracking protection features available in full-fledged ad-blocking apps.
+
+:::
+
+:::caution
+
+In AdGuard Browser Extension, the _Block WebRTC_ option works globally — it either blocks or allows WebRTC for all websites. It cannot be controlled on a per-site basis. Exception rules like `@@||example.com^$stealth=webrtc` have no effect in the browser extension because the `webrtc` option is not among the [supported `$stealth` modifier options](/general/ad-filtering/create-own-filters#stealth-modifier). If you need per-site WebRTC control, use the full-fledged AdGuard app for Windows, Mac, or Android.
 
 :::

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 :::info
 
-この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for iOS」についてです。 実際どのように機能するのかを確認するには、[AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
+この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for iOS」についてです。 実際どのように機能するのかを確認するには、 [AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
 
 :::
 
@@ -19,17 +19,17 @@ DNS設定を管理するには、AdGuardアプリはローカルVPNの確立を�
 
 ### DNSの実装
 
-![DNS implementation screen \*mobile\_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/implementation_en.jpeg)
+![DNS implementation screen \*mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/implementation_en.jpeg)
 
 このセクションには「AdGuard」と「ネイティブ」という2つのオプションがあります。 基本的に、この二つは何かというと、二種類のDNS設定方法なのです。
 
-「ネイティブ」実装では、DNS はアプリではなくシステムによって処理されます。 つまりこの場合、AdGuard はローカルVPNを作成する必要がありません。 しかし残念ながら、この方法ですと、システムの制限を回避し、他のVPNベースアプリと一緒にAdGuardを使用することはできません。VPNが有効になっている場合、ネイティブDNSは無視されるからです。 その結果、トラフィックをローカルでフィルタリングしたり、新しい[DNS-over-QUICプロトコル(DoQ)](https://adguard.com/ja/blog/dns-over-quic.html)を使用することができなくなります。
+「ネイティブ」実装では、DNS はアプリではなくシステムによって処理されます。 つまりこの場合、AdGuard はローカルVPNを作成する必要がありません。 しかし残念ながら、この方法ですと、システムの制限を回避し、他のVPNベースアプリと一緒にAdGuardを使用することはできません。VPNが有効になっている場合、ネイティブDNSは無視されるからです。 その結果、トラフィックをローカルでフィルタリングしたり、新しい[DNS-over-QUICプロトコル(DoQ)](https://adguard-dns.io/blog/dns-over-quic.html)を使用することができなくなります。
 
 ### DNSサーバー
 
 DNS通信を保護画面で次に表示されるセクションは「DNS サーバー」です。 ここでは、現在選択されているDNSサーバーと暗号化タイプが表示されます。 これを変更するには、ボタンをタップしてDNSサーバー画面に入ります。
 
-![DNS servers \*mobile\_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/dns_server_en.jpeg)
+![DNS servers \*mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/dns_server_en.jpeg)
 
 DNSサーバーはいろいろあり、その速度、採用されているプロトコル、信頼性、ロギングポリシーなどによって異なります。 デフォルトでは、AdGuard は、最も一般的なDNSサーバー（AdGuard DNS を含む）の中から複数のDNSサーバーを一覧として提案します。 暗号化タイプを変更したり（変更できるオプションがサーバーの所有者によって提供されている場合）、サーバーのホームページを表示するには、それぞれのDNSサーバーをタップします。 選びやすいように、一覧にあるDNSサーバーに「ノーログポリシー」、「広告ブロック」、「セキュリティ」などのラベルを追加しております。
 
@@ -51,7 +51,7 @@ DNSサーバーはいろいろあり、その速度、採用されているプ�
 
 ### ネットワーク設定
 
-![Network settings screen \*mobile\_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/network_settings_en.jpeg)
+![Network settings screen \*mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/network_settings_en.jpeg)
 
 ネットワーク設で DNS セキュリティを管理することもできます。 [_モバイルデータをフィルタリング_]と[_Wi-Fiをフィルタリング_]という設定は、それぞれのネットワークタイプのDNS通信保護を有効・無効にします。 さらに下にある「_Wi-Fi除外_」では、特定のWi-FiネットワークをDNS通信保護から除外できます（たとえば、[AdGuard Home](https://adguard.com/adguard-home/overview.html)を使用している場合は、ホームネットワークを除外しておくことができます）。
 
@@ -63,11 +63,11 @@ DNSサーバーはいろいろあり、その速度、採用されているプ�
 
 _AdGuardによる保護_（画面下の左から2番目の盾アイコン） → _DNS通信を保護_ → _DNSフィルタリング_
 
-![DNS filtering screen \*mobile\_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/dns_filtering_en.jpeg)
+![DNS filtering screen \*mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/features/dns_filtering_en.jpeg)
 
 #### DNSフィルタ
 
-Safariで動作するフィルタと同様に、DNSフィルタは[特別な構文](https://adguard-dns.io/kb/general/dns-filtering-syntax/)に従って記述されたルールのセットです。 AdGuard は、DNSトラフィックを監視し、フィルタのルール1つ以上にマッチするDNSリクエストをブロックします。 [AdGuard DNS フィルタ](https://github.com/AdguardTeam/AdguardSDNSFilter)などのフィルターを使用したり、フィルタとしてhostsファイルを追加したりできます。 同時に複数のフィルタも追加できます。 その方法は、[こちらの詳しいマニュアル](adguard-for-ios/solving-problems/system-wide-filtering)をお読みください。
+Safariで動作するフィルタと同様に、DNSフィルタは[特別な構文](https://adguard-dns.io/kb/general/dns-filtering-syntax/)に従って記述されたルールのセットです。 AdGuard は、DNSトラフィックを監視し、フィルタのルール1つ以上にマッチするDNSリクエストをブロックします。 [AdGuard DNS フィルタ](https://github.com/AdguardTeam/AdguardSDNSFilter)などのフィルターを使用したり、フィルタとしてhostsファイルを追加したりできます。 同時に複数のフィルタも追加できます。 To know how to do it, get acquainted with [this exhaustive manual](/adguard-for-ios/solving-problems/system-wide-filtering).
 
 #### ホワイトリストとブラックリスト
 

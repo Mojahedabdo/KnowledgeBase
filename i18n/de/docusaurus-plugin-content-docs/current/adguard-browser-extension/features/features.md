@@ -9,26 +9,18 @@ In diesem Artikel geht es um die AdGuard Browsereweiterung, die nur Ihren Browse
 
 :::
 
-## Hauptmenü
+- [Hauptmenü](/adguard-browser-extension/features/main-menu.md)
 
-In diesem Artikel werden die wichtigsten Funktionen des Popup-Fensters erläutert, wie z. B. das Aktivieren oder Deaktivieren des Werbeblockers, der Zugriff auf die Einstellungen, die Verwaltung der Filter und die Anzeige der Schutzstatistiken.
+  Das Pop-up, von dem aus Sie auf Einstellungen, das Filterungsprotokoll und Statistiken zugreifen und Probleme melden können
 
-[Hauptmenü](/adguard-browser-extension/features/main-menu.md)
+- [Filter](/adguard-browser-extension/features/filters.md)
 
-## Filter
+  Filter und Benutzerregeln zur Feinabstimmung der Werbeblockierung
 
-Dieser Artikel beschreibt, wie Sie mit der AdGuard Browsererweiterung das Sperren von Werbung mit verschiedenen Filtern und benutzerdefinierten Regeln anpassen können.
+- [Tracking-Schutz (Privatsphäre)](/adguard-browser-extension/features/stealth-mode.md)
 
-[Filter](/adguard-browser-extension/features/filters.md)
+  Einstellungen zum Blockieren von Cookies, UTM-Tags und Analyse-Tools, die Nutzerdaten sammeln
 
-## Tracking-Schutz (Privatsphäre)
+- [Weitere Funktionen und Optionen](/adguard-browser-extension/features/other-features.md)
 
-Dieser Artikel erklärt, wie diese Funktion den Datenschutz verbessert, indem sie Online-Tracker sperrt, Benutzerinformationen verbirgt und die Datenerfassung durch Dritte verhindert.
-
-[Tracking-Schutz (Privatsphäre)](/adguard-browser-extension/features/stealth-mode.md)
-
-## Weitere Funktionen und Optionen
-
-Dieser Artikel beschreibt zusätzliche Funktionen und Informationen, z. B. Aktualisierungsbenachrichtigungen, Filterprotokolle, Statistiken über gesperrte Werbung und Tracker, Links zu Datenschutzdokumenten und das Repository.
-
-[Weitere Funktionen und Optionen](/adguard-browser-extension/features/other-features.md)
+  Allgemeine und zusätzliche Einstellungen, Links zu Datenschutzdokumenten und zum GitHub-Repository

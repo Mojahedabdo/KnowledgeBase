@@ -1,64 +1,46 @@
 ---
-title: Features
+title: 機能
 sidebar_position: 1
 ---
 
 :::info
 
-この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for Mac」についてです。 実際どのように機能するのかを確認するには、[AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
+この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for Mac」についてです。 実際どのように機能するのかを確認するには、 [AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
 
 :::
 
-## メインウィンドウ
+- [メインウィンドウ](/adguard-for-mac/features/main.md)
 
-From the main window, you can toggle protection, view statistics on blocked ads, trackers, and threats, and access settings, updates, support, and license management.
+  Main screen with statistics on blocked ads and trackers and access to main settings
 
-[Main window](/adguard-for-mac/features/main.md)
+- [一般設定](/adguard-for-mac/features/general.md)
 
-## 一般
+  言語特化フィルタ、ホワイトリスト、検索広告とウェブサイトの自己宣伝広告のブロックなどという基本設定です：
 
-Here you can configure basic settings such as _Do not block search ads and website self-promoting ads_, _Activate language-specific filters automatically_, _Launch AdGuard at login_, _Hide menu bar icon_, and _Allowlist_.
+- [フィルタ](/adguard-for-mac/features/filters.md)
 
-[General](/adguard-for-mac/features/general.md)
+  フィルターとユーザールールで広告ブロックの微調整が可能です：
 
-## フィルタ
+- [DNS](/adguard-for-mac/features/dns.md)
 
-Here you learn how you can customize your ad blocking by enabling different filter lists, including language-specific filters, third-party filters, and user rules.
+  DNSサーバーやDNSフィルタを設定することで、広告、トラッカー、および悪意のあるコンテンツをブロックする方法についての説明です：
 
-[Filters](/adguard-for-mac/features/filters.md)
+- [ステルスモード](/adguard-for-mac/features/stealth.md)
 
-## DNS
+  Settings to block cookies, UTM tags, and online analytics that collect user information
 
-Here you can find the DNS protection settings: available providers, filters, Blocklist and Allowlist functions.
+- [セキュリティ](/adguard-for-mac/features/security.md)
 
-[DNS](/adguard-for-mac/features/dns.md)
+  悪意のあるウェブサイトやフィッシングサイトへのアクセスをブロックし、オンラインの脅威から保護してくれる設定です：
 
-## ステルスモード
+- [ブラウザアシスタント](/adguard-for-mac/features/browser-assistant.md)
 
-[Stealth Mode](/adguard-for-mac/features/stealth.md)
+  An extension that complements the desktop app and allows you to manage filtering from your browser
 
-Information on how to set up advanced protection by deleting cookies, UTM tags, online counters, and analytics systems, and not allowing websites to collect your IP address, device and browser parameters, search queries, and personal information.
+- [拡張機能](/adguard-for-mac/features/extensions.md)
 
-## セキュリティ
+  ユーザースクリプトやユーザースタイルを追加することで、ウェブサイトの機能を拡張できる機能です：
 
-It includes settings to protect you from phishing and malware. You can also help AdGuard update its database of known threats by agreeing to send anonymous security-related information.
+- [ネットワーク](/adguard-for-mac/features/network.md)
 
-[Security](/adguard-for-mac/features/security.md)
-
-## ブラウザアシスタント
-
-Information on how to manage AdGuard protection directly from the browser.
-
-[Browser Assistant](/adguard-for-mac/features/browser-assistant.md)
-
-## 拡張機能
-
-Here you’ll how to use AdGuard as a userscript manager to extend the functionality of websites. You can add your own scripts as well as manage existing ones.
-
-[Extensions](/adguard-for-mac/features/extensions.md)
-
-## ネットワーク
-
-This article describes additional network-related options and proxy settings where you can specify which proxy server AdGuard should use to update filters, download new versions, and so on.
-
-[Network](/adguard-for-mac/features/network.md)
+  追加のネットワーク関連オプションとプロキシ設定についての説明です：

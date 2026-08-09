@@ -9,10 +9,10 @@ sidebar_position: 1
 
 :::
 
-## Обзор функций
+- [Обзор функций](/adguard-content-blocker/overview.md)
 
-[Обзор функций](/adguard-content-blocker/overview.md)
+  Main features and settings available in AdGuard Content Blocker
 
-## Установка
+- [Установка](/adguard-content-blocker/installation.md)
 
-[Установка](/adguard-content-blocker/installation.md)
+  Установка, удаление и системные требования для AdGuard Content Blocker

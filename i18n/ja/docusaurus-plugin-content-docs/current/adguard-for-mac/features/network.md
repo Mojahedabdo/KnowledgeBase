@@ -5,7 +5,7 @@ sidebar_position: 10
 
 :::info
 
-この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for Mac」についてです。 実際どのように機能するのかを確認するには、[AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
+この記事は、システムレベルでお使いのデバイスを保護する多機能な広告ブロッカー、「AdGuard for Mac」についてです。 実際どのように機能するのかを確認するには、 [AdGuard アプリ](https://agrd.io/download-kb-adblock)をダウンロードしてください。
 
 :::
 
@@ -33,4 +33,4 @@ sidebar_position: 10
 
 AdGuardをHTTPプロキシサーバーとして使用できます。 これにより、プロキシに接続されている他のデバイスのトラフィックをフィルタリングできるようになります。
 
-Macと他のデバイスが同じネットワークに接続されていることを確認し、プロキシサーバーを経由させたいデバイスのプロキシポートを入力します（ポートは通常、ネットワーク設定で確認できます）。 HTTPSトラフィックもフィルタリングするには、このデバイスに[AdGuardのプロキシ証明書を転送](http://local.adguard.org/cert)してください。 [プロキシ証明書のインストールについて詳しくはこちら](/guides/proxy-certificate)
+Macと他のデバイスが同じネットワークに接続されていることを確認し、プロキシサーバーを経由させたいデバイスのプロキシポートを入力します（ポートは通常、ネットワーク設定で確認できます）。 To filter HTTPS traffic as well, [transfer AdGuard’s proxy certificate](https://local.adguard.org/cert) to this device. [プロキシ証明書のインストールについて詳しくはこちら](/guides/proxy-certificate)

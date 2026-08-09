@@ -5,36 +5,26 @@ sidebar_position: 1
 
 :::info
 
-Tento článek popisuje AdGuard pro Windows, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro Windows, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
-## Funkce
+- [Funkce](/adguard-for-windows/features/features.md)
 
-Zde jsou popsány hlavní funkce a nastavení dostupné v aplikaci AdGuard pro Windows.
+  Hlavní funkce a nastavení dostupné v aplikaci AdGuard pro Windows
 
-[Funkce](/adguard-for-windows/features/features.md)
+- [Instalace](/adguard-for-windows/installation.md)
 
-## Instalace
+  Instalace, odstranění a systémové požadavky AdGuardu pro Windows
 
-Zde najdete systémové požadavky a pokyny k instalaci a odinstalaci aplikace AdGuard pro Windows.
+- [Asistent prohlížeče](/adguard-for-windows/browser-assistant.md)
 
-[Instalace](/adguard-for-windows/installation.md)
+  Rozšíření, které doplňuje program pro stolní počítače a umožňuje spravovat filtrování z prohlížeče
 
-## Asistent prohlížeče
+- [Řešení problémů](/adguard-for-windows/solving-problems/solving-problems.md)
 
-Tento článek se zabývá rozšířením prohlížeče, které doplňuje program pro stolní počítače, jeho instalací a výhodami.
+  Známé problémy a možná řešení
 
-[Asistent prohlížeče](/adguard-for-windows/browser-assistant.md)
+- [Dokumentace pro administrátory](/adguard-for-windows/admins-documentation.md)
 
-## Řešení problémů
-
-Tato sekce obsahuje různé články zabývající se známými problémy a možnými řešeními.
-
-[Řešení problémů](/adguard-for-windows/solving-problems/solving-problems.md)
-
-## Dokumentace pro administrátory
-
-Tato stránka obsahuje podrobnosti o centrální správě zásad a předvoleb AdGuardu.
-
-[Dokumentace pro administrátory](/adguard-for-windows/admins-documentation.md)
+  Průvodce konfigurací pro správce systému

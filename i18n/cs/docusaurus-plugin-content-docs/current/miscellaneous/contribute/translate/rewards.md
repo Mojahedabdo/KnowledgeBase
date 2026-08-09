@@ -37,7 +37,7 @@ Stačí poslat e-mail našemu týmu překladatelů na [translate@adguard.com](ma
 
 > Hi AdGuard team!
 > 
-> I’ve translated more than 5,000 words in AdGuard for Android in (*your language*) — you can find my stats attached. I would like to request an AdGuard VPN license and an Ad Blocker license for that. My email is (*your email address*). My Crowdin username is (*your username*).
+> I’ve translated more than 5,000 words in AdGuard for Android in (*your language*) — you can find my stats attached. Jako odměnu bych chtěl(a) požádat o licenci na AdGuard VPN a licenci na Blokátoru reklam AdGuard Moje e-mailová adresa je (např. *jan.novak@email. cz*). Moje uživatelské jméno na Crowdin je (*vaše uživatelské jméno*).
 
 ## Jak zkontrolovat průběh překladu
 
@@ -55,6 +55,6 @@ Vezměte prosím na vědomí, že korektoři nezískávají žádné další lic
 
 ## Dárky pro aktivní přispěvatele
 
-Nejlepším přispěvatelům každoročně posíláme dárky s propagačním materiálem AdGuard a děkujeme jim na našem [blogu](https://adguard.com/en/blog/best-contributors-2023.html).
+Nejlepším přispěvatelům každoročně posíláme dárky s propagačním materiálem AdGuard a děkujeme jim na našem [blogu](https://adguard.com/en/blog/best-contributors-2024.html).
 
 ![AdGuard merch *border](https://cdn.adguard.com/public/Adguard/Blog/presents.png)

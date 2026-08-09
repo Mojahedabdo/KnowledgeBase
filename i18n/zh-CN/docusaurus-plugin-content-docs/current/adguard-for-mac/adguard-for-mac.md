@@ -9,20 +9,14 @@ sidebar_position: 1
 
 :::
 
-## 功能
+- [功能](/adguard-for-mac/features/features.md)
 
-以下是 iOS 版 AdGuard 提供的主要功能和设置。
+  Main features and settings available in AdGuard for Mac
 
-[功能](/adguard-for-mac/features/features.md)
+- [安装](/adguard-for-mac/installation.md)
 
-## 安装
+  Mac 版 AdGuard 的安装、卸载和系统要求。
 
-点击以下链接，查看系统要求以及如何安装和卸载 iOS 版 AdGuard。
+- [解决问题](/adguard-for-mac/solving-problems/solving-problems.md)
 
-[安装](/adguard-for-mac/installation.md)
-
-### 解决问题
-
-此部分包括已知问题和可能解决方案的文章。
-
-[Solving problems](/adguard-for-mac/solving-problems/solving-problems.md)
+  已知问题和可能的解决方案。

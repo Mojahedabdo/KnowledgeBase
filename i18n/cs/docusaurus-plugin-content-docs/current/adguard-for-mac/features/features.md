@@ -5,60 +5,42 @@ sidebar_position: 1
 
 :::info
 
-Tento článek popisuje AdGuard pro macOS, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si AdGuard pro Android](https://agrd.io/download-kb-adblock)
+Tento článek popisuje AdGuard pro macOS, multifunkční blokátor reklam, který chrání vaše zařízení na úrovni systému. Chcete-li se podívat, jak to funguje, [stáhněte si aplikaci AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
-## Hlavní okno
+- [Hlavní okno](/adguard-for-mac/features/main.md)
 
-V hlavním okně můžete přepínat ochranu, zobrazovat statistiky blokovaných reklam, slídičů a hrozeb a přistupovat k nastavení, aktualizacím, podpoře a správě licencí.
+  Hlavní obrazovka se statistikami blokovaných reklam a slídičů a přístupem k hlavním nastavením
 
-[Hlavní okno](/adguard-for-mac/features/main.md)
+- [Obecné](/adguard-for-mac/features/general.md)
 
-## Obecné
+  Základní nastavení pro blokování reklam ve vyhledávání a sebepropagačních reklam na webových stránkách, povolení filtrů pro jednotlivé jazyky a správa _Seznamu povolených_
 
-Zde můžete nakonfigurovat základní nastavení, například _Neblokovat reklamy ve vyhledávání a reklamy propagující vlastní webové stránky_, _Aktivovat automaticky filtry pro jednotlivé jazyky_, _Spustit AdGuard při přihlášení_, _Skrýt ikonu na panelu nabídek_ a _Seznam povolených_.
+- [Filtry](/adguard-for-mac/features/filters.md)
 
-[Obecné](/adguard-for-mac/features/general.md)
+  Filtry a uživatelská pravidla pro přesné nastavení blokování reklam
 
-## Filtry
+- [DNS](/adguard-for-mac/features/dns.md)
 
-Zde se dozvíte, jak můžete přizpůsobit blokování reklam povolením různých seznamů filtrů, včetně filtrů pro konkrétní jazyk, filtrů třetích stran a uživatelských pravidel.
+  DNS servery a DNS filtry, které umožňují blokovat reklamy, slídiče a nebezpečné webové stránky
 
-[Filtry](/adguard-for-mac/features/filters.md)
+- [Režim utajení](/adguard-for-mac/features/stealth.md)
 
-## DNS
+  Nastavení pro blokování souborů cookies, značek UTM a online analýz, které shromažďují informace o uživateli
 
-Zde najdete nastavení DNS ochrany: dostupné poskytovatele, filtry, seznamy zakázaných a povolených.
+- [Zabezpečení](/adguard-for-mac/features/security.md)
 
-[DNS](/adguard-for-mac/features/dns.md)
+  Nastavení, které blokuje přístup ke škodlivým a phishingovým webům a chrání vás před online hrozbami
 
-## Režim utajení
+- [Asistent prohlížeče](/adguard-for-mac/features/browser-assistant.md)
 
-[Režim utajení](/adguard-for-mac/features/stealth.md)
+  Rozšíření, které doplňuje program pro stolní počítače a umožňuje spravovat filtrování z prohlížeče
 
-Informace o tom, jak nastavit pokročilou ochranu odstraněním souborů cookies, značek UTM, online čítačů a analytických systémů a jak webovým stránkám nedovolit sledovat vaši IP adresu, parametry zařízení a prohlížeče, vyhledávací dotazy a osobní údaje.
+- [Rozšíření](/adguard-for-mac/features/extensions.md)
 
-## Zabezpečení
+  Funkce, která umožňuje rozšířit funkčnost webových stránek přidáním uživatelských skriptů a uživatelských stylů
 
-Obsahuje nastavení na ochranu před phishingem a malwarem. Souhlasem se zasíláním anonymních informací týkajících se zabezpečení můžete také pomoci AdGuardu aktualizovat jeho databázi známých hrozeb.
+- [Síť](/adguard-for-mac/features/network.md)
 
-[Zabezpečení](/adguard-for-mac/features/security.md)
-
-## Asistent prohlížeče
-
-Informace o tom, jak spravovat ochranu AdGuard přímo z prohlížeče.
-
-[Asistent prohlížeče](/adguard-for-mac/features/browser-assistant.md)
-
-## Rozšíření
-
-Zde se dozvíte, jak používat AdGuard jako správce uživatelských skriptů k rozšíření funkčnosti webových stránek. Můžete přidávat vlastní skripty i spravovat stávající.
-
-[Rozšíření](/adguard-for-mac/features/extensions.md)
-
-## Síť
-
-Tento článek popisuje další možnosti související se sítí a nastavení proxy serveru, kde můžete určit, který proxy server má AdGuard používat k aktualizaci filtrů, stahování nových verzí apod.
-
-[Síť](/adguard-for-mac/features/network.md)
+  Další možnosti související se sítí a nastavením proxy

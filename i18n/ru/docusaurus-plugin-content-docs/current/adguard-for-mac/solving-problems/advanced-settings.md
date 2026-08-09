@@ -57,6 +57,10 @@ sidebar_position: 9
 
 Установив значение `true`, вы включите проверку отзыва HTTPS-сертификатов.
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 Периодически отправляет TCP-пакеты по неактивному соединению, чтобы убедиться в его работоспособности и продлить время ожидания NAT.
@@ -80,6 +84,12 @@ sidebar_position: 9
 #### `network.https.filter.http3.enabled`
 
 Установив значение `true`, вы разрешаете AdGuard фильтровать трафик, передаваемый по протоколу HTTP/3 — последней версии протокола HTTP на базе QUIC.
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -165,15 +175,19 @@ sidebar_position: 9
 
 Эта настройка полезна, если Частный узел препятствует фильтрации. В версиях macOS до 14 AdGuard мог автоматически отключать Частный узел при включённой защите. Но начиная с macOS 15 это больше невозможно, если у пользователя включён фаервол. Эта настройка помогает исправить проблему.
 
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Secures DNS proxy connections with a hybrid post-quantum key exchange, combining the classical X25519 algorithm with the ML-KEM-768 post-quantum KEM. Applies only to DoH, DoT, and DoQ upstreams.
+
 ### Настройки Защиты от трекинга
 
 #### `stealth.antidpi.http.split.fragment.size`
 
-Настраивает размер фрагментации HTTP-запроса. Допустимые значения: 1–1500. Если указан недопустимый размер, система будет использовать значение по умолчанию.
+Настраивает размер фрагментации HTTP-запроса. Valid values: 1–1500. Если указан недопустимый размер, система будет использовать значение по умолчанию.
 
 #### `stealth.antidpi.clienthello.split.fragment.size`
 
-Этот параметр определяет размер фрагментации пакетов TCP, что помогает избежать глубокой проверки пакетов (Deep Packet Inspection). Допустимые значения: 1–1500. Если указан недопустимый размер, система будет использовать значение по умолчанию.
+Этот параметр определяет размер фрагментации пакетов TCP, что помогает избежать глубокой проверки пакетов (Deep Packet Inspection). Valid values: 1–1500. Если указан недопустимый размер, система будет использовать значение по умолчанию.
 
 #### `stealth.antidpi.http.space.juggling`
 

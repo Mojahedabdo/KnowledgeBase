@@ -9,10 +9,10 @@ Tento článek je o Blokátoru obsahu AdGuard, který chrání pouze internetov�
 
 :::
 
-## Přehled funkcí
+- [Přehled funkcí](/adguard-content-blocker/overview.md)
 
-[Přehled funkcí](/adguard-content-blocker/overview.md)
+  Hlavní funkce a nastavení dostupné v Blokátoru obsahu AdGuard
 
-## Instalace
+- [Instalace](/adguard-content-blocker/installation.md)
 
-[Instalace](/adguard-content-blocker/installation.md)
+  Instalace, odstranění a systémové požadavky Blokátoru obsahu AdGuard

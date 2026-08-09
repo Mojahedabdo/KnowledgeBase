@@ -57,6 +57,10 @@ Redireciona as solicitações de DNS seguro para um proxy de DNS local, se houve
 
 Ao definir `true`, você habilita a verificação de revogação de certificado HTTPS.
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 Envia periodicamente pacotes TCP através de uma conexão inativa para garantir que ela permaneça ativa e para renovar os tempos limite do NAT.
@@ -80,6 +84,12 @@ Verifica a autenticidade de todos os certificados do domínio com base na polít
 #### `network.https.filter.http3.enabled`
 
 Ao definir `true`, você permite que o AdGuard filtre o tráfego enviado por HTTP/3, a versão mais recente do protocolo HTTP baseado em QUIC.
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -164,6 +174,10 @@ Remove os parâmetros Encrypted Client Hello das respostas.
 Bloqueia domínios do Private Relay do macOS se o usuário tiver um firewall ativado, o que por sua vez desativa o recurso *Private Relay*.
 
 Ativar esta configuração é útil no seguinte cenário: quando o Private Relay do macOS está ativo, a filtragem não pode funcionar corretamente e deve ser desativada. Nas versões do macOS até 14, o AdGuard podia desativar automaticamente o Private Relay quando a proteção estava ativada. No entanto, a partir do macOS 15, isso não é mais possível se um Firewall estiver ativo. Ao ativar esta configuração, você pode desativar o Firewall mesmo quando está ativado, superando a limitação anterior.
+
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Secures DNS proxy connections with a hybrid post-quantum key exchange, combining the classical X25519 algorithm with the ML-KEM-768 post-quantum KEM. Applies only to DoH, DoT, and DoQ upstreams.
 
 ### Configurações do Modo Furtivo
 

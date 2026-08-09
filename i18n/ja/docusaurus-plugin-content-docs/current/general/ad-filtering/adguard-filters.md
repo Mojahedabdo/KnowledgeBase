@@ -26,6 +26,7 @@ sidebar_position: 2
     - **その他の迷惑要素フィルタ**は、一般的な迷惑要素に該当しない迷惑な要素をWebページ上でブロックします。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt)
 
 - **検索広告と自己宣伝のブロック解除フィルタ**は、ユーザーにとって有益と思われる広告のブロックを解除します。 このフィルタの詳細については、 [このページ](../search-ads)をご覧ください。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt)
+- **AdGuard メール追跡防止フィルタ**は、メールに埋め込まれたトラッキングピクセルをブロックし、送信者がメール開封のタイミングを監視したり、受信者のデバイスやアクティビティに関する情報を収集したりするのを防ぎます。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_25_Mail_Tracking_Protection/filter.txt)
 - **AdGuard ロシア語フィルタ**は、ロシア語のウェブサイトから広告を削除します。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt)
 - **AdGuard ドイツ語フィルタ**は、ドイツ語のウェブサイトから広告を削除します。 元々は[EasyList Germany](https://easylist.to/)フィルタがベースになっており、その後ユーザーからのクレームを元に当社で修正しているものです。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt)
 - **AdGuard フランス語フィルタ**は、フランス語のウェブサイトから広告を削除します。 元々は[Liste FR](https://forums.lanik.us/viewforum.php?f=91)フィルタがベースになっており、その後ユーザーからのクレームを元に当社で修正しているものです。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt)
@@ -38,7 +39,6 @@ sidebar_position: 2
 - **実験的フィルタ**は、潜在的に競合を引き起こし、ウェブサイトの作業を混乱させる可能性のある新しいフィルタリングルールをテストするために使用されています。 これらのルールが問題なく動けば、メインフィルタに追加されます。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt)
 - **AdGuard モバイル広告フィルタ**は、モバイルデバイス上の広告をブロックします。 すべての既知のモバイル広告ネットワークが含まれています。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt)
 - **AdGuard DNSフィルタ**は、数フィルタ（AdGuardベースフィルタ、SNS用フィルタ、スパイウェアフィルタ、モバイル広告フィルタ、EasyList、EasyPrivacy）で構成され、DNSレベルの広告ブロックとの互換性が向上するように簡素化されたフィルタです。 このフィルタは[AdGuard DNS](https://adguard-dns.io/kb)サーバーでも使用され、広告やトラッキングをブロックします。 [含まれているルールを見る](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)
-- **AdGuard 臨時修正フィルタ**は、MV3対応版 AdGuard ブラウザ拡張機能をアップデートする必要なく、人気Webサイトでのコンテンツフィルタリング問題をすばやく解決するためのフィルタです。 [含まれているルールを見る](https://filters.adtidy.org/extension/chromium-mv3/filters/24.txt)
 
 ## AdGuard フィルタポリシー
 

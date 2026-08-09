@@ -1,6 +1,6 @@
 ---
 title: Cómo configurar un proxy saliente
-sidebar_position: 8
+sidebar_position: 7
 ---
 
 :::info
@@ -154,6 +154,28 @@ Debes eliminar la aplicación Shadowsocks del filtrado antes de configurar el pr
     | Tipo de proxy    | *SOCKS5*    |
     | Host del proxy   | *127.0.0.1* |
     | Puerto del proxy | *7891*      |
+
+### How to use AdGuard with WG Tunnel
+
+*The proxy mode was added in version 4.0. We presume that you already have WG Tunnel installed on your device and have added the WireGuard configuration.*
+
+1. Open WG Tunnel and go to **Settings** (the cog wheel at the bottom) → **App Mode** → **Proxy (experimental)**. This will set WG Tunnel to proxy mode.
+
+1. Abre AdGuard y ve a **Administración de aplicaciones**. Choose **WG Tunnel** and disable **Route traffic through AdGuard**. Esto eliminará los loopings de tráfico.
+
+1. Luego ve a **Configuración** → **Filtrado** → **Red** → **Proxy** → **Servidor proxy**.
+
+1. Toca **Agregar servidor proxy** y completa los campos:
+
+    | Campo            | Valor       |
+    | ---------------- | ----------- |
+    | Tipo de proxy    | *SOCKS5*    |
+    | Host del proxy   | *127.0.0.1* |
+    | Puerto del proxy | *25344*     |
+
+1. Toca **Guardar y seleccionar**.
+
+1. Enable the main proxy switch and AdGuard protection to route your device’s traffic through the proxy.
 
 ## Limitaciones
 

@@ -57,6 +57,10 @@ sidebar_position: 9
 
 设置为 `true`，将启用 HTTPS 证书吊销检查。
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 定期在空闲连接上发送 TCP 数据包，以确保连接保持活动状态，并更新 NAT 超时。
@@ -80,6 +84,12 @@ sidebar_position: 9
 #### `network.https.filter.http3.enabled`
 
 如果设置为 `true`，允许 AdGuard 过滤通过 HTTP/3 发送的流量，HTTP/3 是基于 QUIC 的 HTTP 协议的最新版本。
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -165,15 +175,19 @@ sidebar_position: 9
 
 启用此设置在一些情况下很有用，比如，当 macOS 私有代理被启动时，过滤无法正常工作，必须禁用。 在 macOS 14 及以前的版本中，当启用保护时，AdGuard 将自动禁用私有代理。 但从 macOS 15 开始，如果用户启用防火墙，就不能再这样做了。 启用此设置，即使防火墙已启用，用户也可以禁用私有代理，从而克服先前的限制。
 
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Secures DNS proxy connections with a hybrid post-quantum key exchange, combining the classical X25519 algorithm with the ML-KEM-768 post-quantum KEM. Applies only to DoH, DoT, and DoQ upstreams.
+
 ### 隐身模式设置
 
 #### `stealth.antidpi.http.split.fragment.size`
 
-调整 HTTP 请求片段大小。 有效值：1–1500。 如果指定的大小无效，系统将使用默认值。
+调整 HTTP 请求片段大小。 Valid values: 1–1500. 如果指定的大小无效，系统将使用默认值。
 
 #### `stealth.antidpi.clienthello.split.fragment.size`
 
-该设置指定 TCP 数据包碎片的大小，有助于避免深度包检测。 有效值：1–1500。 如果指定的大小无效，系统将使用默认值。
+该设置指定 TCP 数据包碎片的大小，有助于避免深度包检测。 Valid values: 1–1500. 如果指定的大小无效，系统将使用默认值。
 
 #### `stealth.antidpi.http.space.juggling`
 

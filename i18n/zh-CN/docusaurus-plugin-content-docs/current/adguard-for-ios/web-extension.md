@@ -11,15 +11,15 @@ AdGuard Safari Web 扩展是一款让用户利用 iOS 15 新功能的工具。 �
 
 ## 工作原理
 
-By default, Safari provides only basic tools for content blockers. These tools don't offer the level of performance found in content blockers on other operating systems (Windows, Mac, Android). For example, AdGuard apps on other platforms can use such powerful anti-ad weapons as [CSS rules](/general/ad-filtering/create-own-filters#cosmetic-css-rules), [Extended CSS selectors](/general/ad-filtering/create-own-filters#extended-css-selectors), and [scriptlets](/general/ad-filtering/create-own-filters#scriptlets). Unfortunately, these utilities are absolutely irreplaceable when dealing with more complex cases, such as pre-roll ads on YouTube.
+默认情况下，Safari 仅提供基本的内容拦截工具。 这些工具无法提供与其他操作系统（如 Windows、Mac、Android）上的内容拦截器相同水平的性能。 例如，其他平台上的 AdGuard 应用程序可以使用诸如 [CSS 规则](/general/ad-filtering/create-own-filters#cosmetic-css-rules)、[扩展 CSS 选择器](/general/ad-filtering/create-own-filters#extended-css-selectors)和[脚本](/general/ad-filtering/create-own-filters#scriptlets)等强大的反广告工具。 遗憾的是，在处理更复杂的案例（如 YouTube 上的前置广告）时，这些工具绝对是无可替代的。
 
 AdGuard Safari Web 扩展应用这些过滤规则增加 iOS 版 AdGuard 能力。
 
 此外，AdGuard Safari Web 扩展让用户在浏览器快速管理 iOS 版 AdGuard。 点击「*扩展*」按钮，这是一个带拼图图标的按钮，根据设备类型，它可能位于地址栏的左侧或右侧。 在列表中点击「**AdGuard**」。
 
-![Web 扩展菜单 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/ext_adguard_en.png?1)
+![Web 扩展菜单 *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/open-safari-assistant.jpg)
 
-> On iPads, AdGuard's Safari web extension can be accessed directly by tapping the AdGuard icon in the browser's address bar.
+> 在 iPad 上，可以通过点击浏览器地址栏中的 AdGuard 图标直接访问 AdGuard 的 Safari 网页扩展。
 
 用户将看到以下列表：
 
@@ -41,42 +41,48 @@ AdGuard Safari Web 扩展需要访问网页内容才能运行，但不会将此�
 
 Web 扩展不是独立工具，需要 iOS 版 AdGuard。 如果设备上未安装 iOS 版 AdGuard，用户必须首先[安装](../installation)它并完成初始设置。
 
-完成后，打开*「设置」→「Safari」→「扩展」*。
+Once done, open the *Settings* app and scroll down to *Apps*.
 
-![选择 "Safari" *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings1_en.png)
+![Select Apps *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/apps.jpg)
 
-![选择 "扩展" *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings2_en.png)
+Then, open *Safari* → *Extensions*.
 
-前往「**允许这些扩展**」部分，然后在可用扩展列表中找到「**AdGuard**」。
+![Select Safari *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings1_en.png)
 
-![在「允许这些扩展」部分中选择 "AdGuard" *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings3_en.png)
+![Select Extensions *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings2_en.png)
 
-点击它，然后切换开关。 确保同一屏幕底部的「*所有网站*」设置为「*允许*」或「*询问*」。 选择「*允许*」，无需在每次访问新网站时授予权限。 如果要按站点授予权限，请选择「*询问*」。
+In the **ALLOW THESE EXTENSIONS** section find **AdGuard** among the available extensions.
 
-![扩展设置 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/settings4_en.png)
+![Select AdGuard *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/select-ag.jpg)
+
+Tap it, then toggle the *Allow Extension* switch on.
+
+Lower on the same screen, make sure *All Websites* is set *Allow* or *Ask*. If you choose *Allow*, you won't have to give permission every time you visit a new website. If you are unsure, choose *Ask* to grant permissions on a per-site basis.
+
+![AdGuard extension in Settings *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/ag-webext-in-settings.png)
 
 ### Safari 浏览器
 
-You can also enable the AdGuard extension from the Safari browser. To do it, tap *Extensions* (if you don't see it next to the address bar, tap the `aA` icon).
+To enable the AdGuard extension right from the Safari browser, tap the icon on the left side of the URL field:
 
-![在 Safari 中点击「大小」图标 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/safari1_en.png)
+![In Safari tap icon on the left of URL field *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/web-extension-on-1.jpg)
 
-打开「*管理扩展*」部分。 打开「**AdGuard**」。
+Then, tap *Manage Extensions*.
 
-![扩展 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/safari2_en.png)
+![Extensions *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/web-extension-on-2.jpg)
 
-![扩展 *mobile_border](https://cdn.adtidy.org/public/Adguard/kb/iOS/webext/safari3_en.png)
+In the opened window, turn on the AdGuard switches. The top one is the AdGuard Web extension; the other six are content blockers needed for filtering.
 
-使用这种方法，可能仍需要进入 Safari 设置，并向 AdGuard 扩展授予必要的权限。
+![Extensions *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/iOS/web-extension-on-3.jpg)
 
-现在，用户应该能在可用的 Web 扩展中看到 AdGuard。 点击它，然后点击黄色的「**i**」图标。 点击「*打开*」并确认操作以启用「**高级保护**」。
+You should now be able to see AdGuard among the available extensions. To enable **Advanced protection**, open AdGuard extension, tap the yellow **i** icon, press *Enable*, and confirm the action.
 
 :::note
 
-「**高级保护**」仅在 AdGuard 高级版中可用。
+If you use AdGuard for iOS without Premium subscription, you won't be able to enable **Advanced protection**.
 
 :::
 
-或者，用户可以在应用程序中启用「**高级保护**」，在「**保护**」选项卡（底部图标行左数第二个图标）。
+Alternatively, you can enable **Advanced protection** directly from the app, in the **Protection** tab (second from the left in the bottom icon row).
 
-AdGuard Safari Web 扩展仅适用于 iOS 15 及更高版本。
+AdGuard's Safari Web extension only works on iOS versions 15 and later.

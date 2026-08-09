@@ -5,30 +5,22 @@ sidebar_position: 1
 
 :::info
 
-Cet article concerne l'extension de navigateur AdGuard, qui protège uniquement votre navigateur. Pour protéger l'ensemble de votre appareil, [téléchargez l'application AdGuard](https://agrd.io/download-kb-adblock)
+Cet article concerne l'Extension de navigateur AdGuard, qui protège uniquement votre navigateur. Pour protéger l'ensemble de votre appareil, [téléchargez l'application AdGuard](https://agrd.io/download-kb-adblock)
 
 :::
 
-## Menu principal
+- [Menu principal](/adguard-browser-extension/features/main-menu.md)
 
-L'article explique les fonctions principales du menu contextuel, telles que l'activation ou la désactivation du blocage des publicités, l'accès aux paramètres, la gestion des filtres et la visualisation des statistiques de protection.
+  La fenêtre contextuelle principale à partir de laquelle vous pouvez accéder aux paramètres, au journal de filtrage et aux statistiques et signaler les problèmes
 
-[Menu principal](/adguard-browser-extension/features/main-menu.md)
+- [Filtres](/adguard-browser-extension/features/filters.md)
 
-## Filtres
+  Les filtres et les règles utilisateur pour personnaliser le blocage d'annonces
 
-L'article décrit comment l'extension de navigateur AdGuard vous permet de personnaliser le blocage des publicités avec des filtres différents et des règles utilisateur personnalisées.
+- [Protection contre le suivi (Mode furtif)](/adguard-browser-extension/features/stealth-mode.md)
 
-[Filtres](/adguard-browser-extension/features/filters.md)
+  Paramètres permettant de bloquer les cookies, les balises UTM et les outils d'analyse en ligne qui collectent des informations sur l'utilisateur
 
-## Protection contre le suivi (Mode furtif)
+- [Autres fonctionnalités et options](/adguard-browser-extension/features/other-features.md)
 
-L'article explique comment cette fonctionnalité renforce la confidentialité en bloquant les traqueurs en ligne, en masquant les informations de l'utilisateur et en empêchant la collecte de données par des tiers.
-
-[Protection contre le suivi (Mode furtif)](/adguard-browser-extension/features/stealth-mode.md)
-
-## Autres fonctionnalités et options
-
-L'article décrit des fonctionnalités et options supplémentaires, telles que les notifications de mise à jour, le journal de filtrage, les statistiques sur les publicités et traqueurs bloqués, ainsi que les liens vers les documents de confidentialité et le dépôt.
-
-[Autres fonctionnalités et options](/adguard-browser-extension/features/other-features.md)
+  Mode général et paramètres supplémentaires, liens vers les documents de confidentialité et le dépôt GitHub

@@ -9,20 +9,14 @@ sidebar_position: 1
 
 :::
 
-## Функции
+- [Функции](/adguard-for-android/features/features.md)
 
-Здесь описаны основные функции и настройки, доступные в AdGuard для Android.
+  Main features and settings available in AdGuard for Android
 
-[Функции](/adguard-for-android/features/features.md)
+- [Установка](/adguard-for-android/installation.md)
 
-## Установка
+  Установка, удаление и системные требования для AdGuard для Android
 
-Здесь вы найдёте системные требования, а также инструкции по установке и удалению AdGuard для Android.
+- [Решение проблем](/adguard-for-android/solving-problems/solving-problems.md)
 
-[Установка](/adguard-for-android/installation.md)
-
-## Решение проблем
-
-Этот раздел включает в себя статьи, посвящённые известным проблемам и возможным решениям.
-
-[Решение проблем](/adguard-for-android/solving-problems/solving-problems.md)
+  Известные проблемы и возможные решения

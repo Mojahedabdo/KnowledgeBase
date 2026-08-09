@@ -3,32 +3,22 @@ title: iOS용 AdGuard
 sidebar_position: 1
 ---
 
-## Features
+- [기능](/adguard-for-ios/features/features.md)
 
-Here are outlined the main features and settings available in AdGuard for iOS.
+  Main features and settings available in AdGuard for iOS
 
-[Features](/adguard-for-ios/features/features.md)
+- [설치](/adguard-for-ios/installation.md)
 
-## 설치 방법
+  iOS용 AdGuard의 설치, 제거 방법 및 시스템 요구 사항
 
-Here, you’ll find the system requirements along with instructions on how to install and uninstall AdGuard for iOS.
+- [Safari 확장 프로그램](/adguard-for-ios/web-extension.md)
 
-[Installation](/adguard-for-ios/installation.md)
+  iOS용 AdGuard의 기능을 확장하고 브라우저에서 AdGuard를 관리할 수 있는 웹 확장 프로그램입니다.
 
-## Safari 웹 확장 프로그램
+- [문제 해결](/adguard-for-ios/solving-problems/solving-problems.md)
 
-AdGuard for iOS includes a web extension that integrates with Safari to provide efficient ad blocking, privacy protection, and customizable filters directly within the browser.
+  알려진 문제 및 해결 방법
 
-[Safari Web extension](/adguard-for-ios/web-extension.md)
+- [AdGuard 및 AdGuard Pro](/adguard-for-ios/adguard-and-adguard-pro.md)
 
-## 문제 해결
-
-이 섹션에는 알려진 문제와 가능한 해결책을 다루는 다양한 글이 포함되어 있습니다.
-
-[Solving problems](/adguard-for-ios/solving-problems/solving-problems.md)
-
-## AdGuard 및 AdGuard Pro
-
-Here we explain why there are two AdGuard apps in the App Store and what the difference is between them.
-
-[AdGuard and AdGuard Pro](/adguard-for-ios/adguard-and-adguard-pro.md)
+  App Store에 두 개의 AdGuard 앱이 있는 이유와 차이점

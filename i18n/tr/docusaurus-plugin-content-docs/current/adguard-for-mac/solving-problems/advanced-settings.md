@@ -57,6 +57,10 @@ Redirects secure DNS requests to a local DNS proxy, if there is one available.
 
 `true` ayarını yaparak HTTPS sertifika iptal kontrolünü etkinleştirirsiniz.
 
+#### `network.http.compress.body`
+
+Enables HTTP body compression after processing. CoreLibs, AdGuard’s filtering engine, will compress the HTTP response body before sending it with the original response algorithm (if supported) or with the default fallback algorithm (GZip). Responses from BrowserApi will also be encoded if this option is enabled.
+
 #### `network.tcp.keepalive.enabled`
 
 Etkin kalmasını sağlamak ve NAT zaman aşımlarını yenilemek için boşta olan bir bağlantı üzerinden periyodik olarak TCP paketleri gönderir.
@@ -80,6 +84,12 @@ Verifies the authenticity of all certificates for the domain based on Chrome Cer
 #### `network.https.filter.http3.enabled`
 
 By setting `true`, you allow AdGuard to filter traffic sent over HTTP/3, the latest version of the HTTP protocol based on QUIC.
+
+**Limitations**:
+
+- Chrome-based browsers do not accept user certificates, so HTTP/3 filtering is not supported in them.
+- Firefox-based browsers behave similarly by default, but you can set the `network.http.http3.disable_when_third_party_roots_found` option in `about:config` to `false` to allow user certificates for HTTP/3.
+- Safari supports HTTP/3 filtering without additional configuration.
 
 #### `network.filtering.localnetwork`
 
@@ -165,15 +175,19 @@ Kullanıcının bir güvenlik duvarı etkinse macOS Özel Geçişi alan adların
 
 Enabling this setting is useful in the following scenario: when macOS Private Relay is active, filtering cannot function properly and must be disabled. macOS 14'e kadar olan sürümlerde, Koruma etkinleştirildiğinde AdGuard Özel Geçişi otomatik olarak devre dışı bırakabiliyordu. Ancak, macOS 15 ile birlikte, eğer bir güvenlik duvarı etkinse bu artık mümkün değil. Bu ayarı açarak, güvenlik duvarı etkinleştirildiğinde bile Özel Geçişi devre dışı bırakabilir ve önceki kısıtlamanın üstesinden gelebilirsiniz.
 
+#### `dns.proxy.postquantum.cryptography.enabled`
+
+Klasik X25519 algoritmasını ML-KEM-768 kuantum sonrası KEM ile birleştiren hibrit bir kuantum sonrası anahtar değişimiyle DNS proxy bağlantılarını güvence altına alır. Applies only to DoH, DoT, and DoQ upstreams.
+
 ### Gizlilik Modu ayarları
 
 #### `stealth.antidpi.http.split.fragment.size`
 
-HTTP istek parçalanmasının boyutunu ayarlar. Geçerli değerler: 1–1500. Geçersiz bir boyut belirtilirse, sistem varsayılan değeri kullanır.
+HTTP istek parçalanmasının boyutunu ayarlar. Valid values: 1–1500. Geçersiz bir boyut belirtilirse, sistem varsayılan değeri kullanır.
 
 #### `stealth.antidpi.clienthello.split.fragment.size`
 
-Bu seçenek, derin paket incelemesinden kaçınmaya yardımcı olan TCP paket parçalama boyutunu belirtir. Geçerli değerler: 1–1500. Geçersiz bir boyut belirtilirse, sistem varsayılan değeri kullanır.
+Bu seçenek, derin paket incelemesinden kaçınmaya yardımcı olan TCP paket parçalama boyutunu belirtir. Valid values: 1–1500. Geçersiz bir boyut belirtilirse, sistem varsayılan değeri kullanır.
 
 #### `stealth.antidpi.http.space.juggling`
 

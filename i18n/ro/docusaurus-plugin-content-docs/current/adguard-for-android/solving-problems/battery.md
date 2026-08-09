@@ -23,13 +23,19 @@ Cu toate acestea, utilizatorii AdGuard pot obține întotdeauna o imagine clară
 
 În interior vei găsi un grafic care arată consumul de resurse al bateriei AdGuard în ultimele 24 de ore, cu o opțiune de a obține date mai detaliate oră de oră atingând graficul. În plus, există o defalcare numerică a datelor relevante și o scurtă explicație tehnică.
 
+There are several other parameters below the chart: *CPU foreground*, *CPU background*, *Mobile data usage*, and *Wi-Fi data usage*.
+
+*CPU foreground* and *CPU background* show how much CPU time is used by AdGuard when the app is active or running in the background.
+
+And with *Mobile data usage* and *Wi-Fi data usage*, you can see how much traffic AdGuard consumed when your phone was using mobile Internet or connected to Wi-Fi.
+
 ### Cât de multă resursă de baterie consumă de fapt AdGuard?
 
 În primul rând, să stabilim câteva teorii și legături cu datele necesare.
 
-1. Android derivă consumul de trafic pe baza așa-numitului Profil de putere, care este oferit de fiecare fabricant: <https://source.android.com/devices/tech/power/values.html>
+1. Android derives traffic consumption judging on so-called Power Profile, which is given by every manufacturer: [https://source.android.com/devices/tech/power/values.html](https://source.android.com/devices/tech/power/values.html)
 
-1. Partea principală a Profilului de putere este un set de valori în mAh care definesc consumul de baterie pentru fiecare componentă a dispozitivului: <https://source.android.com/devices/tech/power/values.html>
+1. Main part of Power Profile is a set of values in mAh which define battery consumption for every component of the device: [https://source.android.com/devices/tech/power/values.html](https://source.android.com/devices/tech/power/values.html)
 
     De exemplu, din tabelul de mai sus:
 

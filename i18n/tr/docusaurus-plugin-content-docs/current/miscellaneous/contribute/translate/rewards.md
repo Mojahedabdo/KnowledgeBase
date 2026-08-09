@@ -37,7 +37,7 @@ Katkıda bulunmanın karşılığı olarak, en fazla 5 yıl geçerli olan lisans
 
 > Merhaba, AdGuard ekibi!
 > 
-> Android için AdGuard'da 5.000'den fazla kelimeyi (*sizin dilinizde*) çevirdim — istatistiklerimi ekte bulabilirsiniz. Bunun için bir AdGuard VPN lisansı ve bir Reklam Engelleyici lisansı talep etmek istiyorum. E-postam (*e-posta adresiniz*). Crowdin kullanıcı adım (*kullanıcı adınız*).
+> Android için AdGuard'da 5.000'den fazla kelimeyi (*sizin dilinizde*) çevirdim — istatistiklerimi ekte bulabilirsiniz. As a reward, I’d like to request an AdGuard VPN license and an Ad Blocker license My email is (*your email address*). My Crowdin username is (*your username*).
 
 ## Çeviri ilerlemenizi nasıl kontrol edebilirsiniz
 
@@ -55,6 +55,6 @@ Düzeltmenlerin, daha fazla kişinin kendi dillerinde AdGuard ürünlerine eriş
 
 ## Aktif katkıda bulunanlar için hediyeler
 
-En iyi katkıda bulunanlara, her yıl AdGuard ürünlerinden oluşan hediyeler gönderir ve [blogumuzda](https://adguard.com/en/blog/best-contributors-2023.html) onları öne çıkarırız.
+To the best contributors, every year we send gifts with the AdGuard merch and give a shout out on our [blog](https://adguard.com/en/blog/best-contributors-2024.html).
 
 ![AdGuard ürünleri *kenar](https://cdn.adguard.com/public/Adguard/Blog/presents.png)

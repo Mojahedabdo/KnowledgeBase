@@ -31,7 +31,7 @@ Zum besseren Verständnis haben wir diesen Prozess abgebildet:
 
 ### Ist mein Datenverkehr weiterhin verschlüsselt und sicher?
 
-Ja, natürlich! Ihre Verbindung mit einem Remote-Server bleibt verschlüsselt und sicher. AdGuard prüft, genau wie Ihr Browser, das Zertifikat des Servers, bevor er entscheidet, ob er ihn filtert oder nicht.
+Ja, natürlich! Ihre Verbindung mit einem Remote-Server bleibt verschlüsselt und sicher. AdGuard prüft, genau wie ein Browser, das Zertifikat des Servers, bevor es entscheidet, ob die Verbindung gefiltert werden soll oder nicht.
 
 Die HTTPS-Filterung hat jedoch ihre Nachteile. Die wichtigste ist, dass sie das eigentliche Zertifikat der Website vor dem Browser verbirgt. Stattdessen sieht der Browser das von AdGuard ausgestellte Zertifikat.
 
@@ -51,7 +51,7 @@ Ein EV-Zertifikat bietet ein höheres Sicherheitsniveau und mehr Garantien als e
 
 ### Probleme im Zusammenhang mit der HTTPS-Filterung
 
-Eine [Studie aus dem Jahr 2017](https://cdn.adtidy.org/public/Adguard/Blog/https/interception-ndss17.pdf) zeigt, dass 5 bis 10 % der HTTPS-Verbindungen von Anwendungen mit HTTPS-Filterung hergestellt werden. Dies geschieht in der Regel durch verschiedene Arten von Antiviren-Software. Die schlechte Nachricht ist, dass 24 von 26 getesteten Antivirenprogrammen das Sicherheitsniveau der Verbindungen auf unterschiedliche Weise herabsetzen, während zwei Drittel der Verbindungen anfällig für Hackerangriffe sind.
+Eine [Studie aus dem Jahr 2017](https://cdn.adtidy.org/public/Adguard/Blog/https/interception-ndss17.pdf) zeigt, dass 5 bis 10% der HTTPS-Verbindungen von Anwendungen mit HTTPS-Filterung hergestellt werden. Dies geschieht in der Regel durch verschiedene Arten von Antiviren-Software. Die schlechte Nachricht ist, dass 24 von 26 getesteten Antivirenprogrammen das Sicherheitsniveau der Verbindungen auf unterschiedliche Weise herabsetzen, während zwei Drittel der Verbindungen anfällig für Hackerangriffe sind.
 
 Die Forscher kamen zu einem einfachen Schluss: Die Internet-Sicherheitsgemeinschaft sollte Anwendungen, die sichere Verbindungen filtern, besondere Aufmerksamkeit schenken. Und die Entwickler solcher Software müssen der Qualität der Filterimplementierung große Aufmerksamkeit schenken.
 
